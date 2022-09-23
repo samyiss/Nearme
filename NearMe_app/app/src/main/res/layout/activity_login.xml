@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5DB075"
+    android:background="@drawable/gradient_background"
     android:textAlignment="center">
 
     <TextView
@@ -15,7 +15,7 @@
         android:text="@string/se_connecter"
         android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/ignorer"
-        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toEndOf="@+id/X_Button"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,8 +49,9 @@
         android:layout_height="60dp"
         android:layout_marginTop="28dp"
         app:layout_constraintTop_toBottomOf="@+id/connexion"
-        app:srcCompat="?android:attr/fingerprintAuthDrawable"
-        tools:layout_editor_absoluteX="175dp" />
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="175dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/logo_name"
@@ -67,7 +68,7 @@
         android:layout_width="369dp"
         android:layout_height="56dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="15dp"
         android:text="@string/veuillez_saisir_votre_email_d_inscription_et_votre_mot_de_passe"
         android:textColor="#FFFFFF"
@@ -80,7 +81,7 @@
         android:id="@+id/Log_InputContainer"
         android:layout_width="380dp"
         android:layout_height="47dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="26dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,7 +125,7 @@
         android:id="@+id/Connexion"
         android:layout_width="380dp"
         android:layout_height="47dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:background="#FF000000"
         android:text="@string/continuer"
         app:layout_constraintEnd_toEndOf="parent"
@@ -135,8 +136,9 @@
         android:id="@+id/introduction_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="17dp"
         android:text="@string/ou_via_les_r_seaux_sociaux"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Connexion" />
@@ -146,7 +148,7 @@
         android:layout_width="380dp"
         android:layout_height="35dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="15dp"
         android:background="#FFFFFF"
         android:text="@string/connection_avec_apple"
