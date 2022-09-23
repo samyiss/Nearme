@@ -1,13 +1,13 @@
 module.exports = {
     // method of operation
     put: {
-      tags: ["utilisateurs"], // operation's tag.
+      tags: ["utilisateurs client/employé"], // operation's tag.
       security: [
         {
           bearerAuth: []
         }
       ],
-      summary: "Modifie les informations de l'utilisateur dont le IdUser est donné", // operation's desc.
+      summary: "Modifie les informations de l'utilisateur dont le IdUser est donné client/employé", // operation's desc.
       operationId: "updateUser", // unique operation id.
       parameters: [
         // expected params.
@@ -27,6 +27,11 @@ module.exports = {
           "application/json": {
             schema: {
               $ref: "#/components/schemas/UserPayload", // user data model            
+            },
+          }, 
+          "application/json2": {
+            schema: {
+              $ref: "#/components/schemas/SellerPayload", // user data model   
             },
           }, 
         },

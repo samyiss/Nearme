@@ -23,7 +23,6 @@ exports.registerUser = async (req, res) => {
             });
         });
     });
-
 }
 
 const createUser = (user, cb) => {

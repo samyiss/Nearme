@@ -1,9 +1,9 @@
 module.exports = {
     // method of operation
     post: {
-      tags: ["utilisateurs"], // operation's tag.
-      description: "Obtenir un jeton d'authentification", // operation's desc.
-      operationId: "getUsers", // unique operation id.
+      tags: ["utilisateurs client/employé"], // operation's tag.
+      summary: "Obtenir un jeton d'authentification", // operation's desc.
+      operationId: "loginUser", // unique operation id.
       parameters: [], // expected params.
       requestBody:  {
         required: true, // Mandatory param

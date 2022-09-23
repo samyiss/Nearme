@@ -12,10 +12,10 @@ module.exports = {
       '/auth/token':{
         ...loginUser,
       },
-        '/user/:idUser':{
-              ...getUser,
-              ...updateUser,
-              ...deleteUser,
-        }
+      '/user/:idUser':{
+        ...getUser,
+        ...updateUser,
+        ...deleteUser,
+      },
   }
 }

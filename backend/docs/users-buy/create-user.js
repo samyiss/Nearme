@@ -1,16 +1,21 @@
 module.exports = {
     // method of operation
     post: {
-      tags: ["utilisateurs"], // operation's tag.
-      summary: "Route pour créer un utilisateur", // operation's desc.
-      operationId: "loginUsers", // unique operation id.
+      tags: ["utilisateurs client/employé"], // operation's tag.
+      summary: "Route pour créer un utilisateur client/employé", // operation's desc.
+      operationId: "createUser", // unique operation id.
       parameters: [], // expected params.
-      requestBody:  {
+      requestBody:{
         required: true, // Mandatory param
         content: {
           "application/json": {
             schema: {
-              $ref: "#/components/schemas/UserPayload", // user data model            
+              $ref: "#/components/schemas/UserPayload", // user data model   
+            },
+          }, 
+          "application/json2": {
+            schema: {
+              $ref: "#/components/schemas/SellerPayload", // user data model   
             },
           }, 
         },

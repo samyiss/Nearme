@@ -162,7 +162,7 @@ module.exports = {
         // modele de input pour le user
         UserPayload: {
           type: "object", // data-type
-          required: ["id_user", "nom_user", "prenom_user", "email_user", "password", "pays", "prevince", "codePostal", "photoProfil"], // required fields
+          required: ["id_user", "nom_user", "prenom_user", "email_user", "typeUser", "pays", "prevince", "codePostal", "photoProfil"], // required fields
           properties: {
             nom_user: {
               type: "string", // data-type
@@ -174,6 +174,9 @@ module.exports = {
               type: "string", // data-type
             },
             password: {
+              type: "string", // data-type
+            },
+            typeUser: {
               type: "string", // data-type
             },
             pays: {
@@ -193,6 +196,58 @@ module.exports = {
                 nom_user: "issiakhem", 
                 prenom_user: "samy", 
                 email_user: "e1234567@site.com", 
+                password: "123456",
+                typeUser: "client",
+                pays: "CANADA",
+                province: "QUEBEC",
+                codePostal: "H1S1B4", 
+                photoProfil: "https://pokemonsapi.herokuapp.com/img/1.png", 
+            },
+        },
+
+        // modele de input pour le user
+        SellerPayload: {
+          type: "object", // data-type
+          required: ["nom_user", "prenom_user", "email_user", "typeUser", "rue", "pays", "prevince", "codePostal", "photoProfil"], // required fields
+          properties: {
+            nom_user: {
+              type: "string", // data-type
+            },
+            prenom_user: {
+              type: "string", // data-type
+            },
+            email_user: {
+              type: "string", // data-type
+            },
+            password: {
+              type: "string", // data-type
+            },
+            typeUser: {
+              type: "string", // data-type
+            },
+            rue: {
+              type: "string", // data-type
+            },
+            pays: {
+              type: "string", // data-type
+            },
+            province: {
+              type: "string", // data-type
+            },
+            codePostal: {
+              type: "string", // data-type
+            },
+            photoProfil: {
+              type: "string", // data-type
+            },
+          },
+          example: { 
+                nom_user: "issiakhem", 
+                prenom_user: "samy", 
+                email_user: "e1234567@site.com", 
+                password: "123456",
+                typeUser: "employées/magasin",
+                rue: "123 rue de la paix",
                 pays: "CANADA",
                 province: "QUEBEC",
                 codePostal: "H1S1B4", 
@@ -227,9 +282,9 @@ module.exports = {
         },
 
         // modele de client
-        UserResponse: {
+        SellerResponse: {
           type: "object", // data-type
-          required: ["id_user", "nom_user", "prenom_user", "email_user", "password", "pays", "prevince", "codePostal", "photoProfil"], // required fields
+          required: ["id_user", "nom_user", "prenom_user", "email_user", "typeUser", "rue", "pays", "province", "codePostal", "photoProfil"], // required fields
           properties: {
             id_user: {
               type: "string", // data-type
@@ -243,7 +298,10 @@ module.exports = {
             email_user: {
               type: "string", // data-type
             },
-            password: {
+            typeUser: {
+              type: "string", // data-type
+            },
+            rue: {
               type: "string", // data-type
             },
             pays: {
@@ -263,7 +321,55 @@ module.exports = {
                 Id_user: "rM6hQMDHP9nACbds1XjV", 
                 nom_user: "issiakhem", 
                 prenom_user: "samy", 
-                email_user: "e1234567@site.com", 
+                email_user: "e1234567@site.com",
+                typeUser: "employées/magasin",
+                rue: "123 rue de la paix",
+                pays: "CANADA",
+                province: "QUEBEC",
+                codePostal: "H1S1B4", 
+                photoProfil: "https://pokemonsapi.herokuapp.com/img/1.png", 
+            },
+        },
+
+        // modele de client
+        UserResponse: {
+          type: "object", // data-type
+          required: ["id_user", "nom_user", "prenom_user", "email_user", "typeUser", "pays", "prevince", "codePostal", "photoProfil"], // required fields
+          properties: {
+            id_user: {
+              type: "string", // data-type
+            },
+            nom_user: {
+              type: "string", // data-type
+            },
+            prenom_user: {
+              type: "string", // data-type
+            },
+            email_user: {
+              type: "string", // data-type
+            },
+            typeUser: {
+              type: "string", // data-type
+            },
+            pays: {
+              type: "string", // data-type
+            },
+            province: {
+              type: "string", // data-type
+            },
+            codePostal: {
+              type: "string", // data-type
+            },
+            photoProfil: {
+              type: "string", // data-type
+            },
+          },
+          example: { 
+                Id_user: "rM6hQMDHP9nACbds1XjV", 
+                nom_user: "issiakhem", 
+                prenom_user: "samy", 
+                email_user: "e1234567@site.com",
+                typeUser: "client",
                 pays: "CANADA",
                 province: "QUEBEC",
                 codePostal: "H1S1B4", 

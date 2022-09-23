@@ -1,14 +1,14 @@
 module.exports = {
-    // method of operation
-    delete: {
-      tags: ["utilisateurs"], // operation's tag.
+    // operation's method
+    get: {
+      tags: ["utilisateurs client/employé"], // operation's tag.
       security: [
         {
           bearerAuth: []
         }
       ],
-      summary: "Supprime le compte d'un utilisateur", // operation's desc.
-      operationId: "deleteUser", // unique operation id.
+      summary: "Utilisateur dont le IdUser est envoyé en paramétre client/employé", // operation's desc.
+      operationId: "getUser", // unique operation email
       parameters: [
         // expected params.
         {
@@ -20,48 +20,53 @@ module.exports = {
           required: true, // Mandatory param
           description: "le IdUser de l'utilisateur", // param desc.
         },
-      ], // expected params.
+      ],
       // expected responses
       responses: {
         // response code
-        201: {
-          description: "Le compte de l'utilisateur a été supprimé", // response desc.
+        200: {
+          description: "les données de l'utilisateur sont retournées", // response desc.
           content: {
             // content-type
             "application/json": {
               schema: {
-                $ref: "#/components/schemas/SuccessMessage", // User model
+                $ref: "#/components/schemas/UserResponse", // user data model
+              },
+            },
+            "application/json2": {
+              schema: {
+                $ref: "#/components/schemas/SellerResponse", // user data model   
+              },
+            }, 
+          },
+        },
+        // response code
+        401: {
+          description: "réponse si l'utilisateur n'est pas connecteé", // response desc.
+          content: {
+            // content-type
+            "application/json": {
+              schema: {
+                $ref: "#/components/schemas/ErrorMessage", // user data model
               },
             },
           },
         },
         // response code
-        401: {
-            description: "réponse si l'utilisateur n'est pas connecteé", // response desc.
-            content: {
-              // content-type
-              "application/json": {
-                schema: {
-                  $ref: "#/components/schemas/ErrorMessage", // user data model
-                },
+        404: {
+          description: "réponse si l'utilisateur n'est pas trouvé", // response desc.
+          content: {
+            // content-type
+            "application/json": {
+              schema: {
+                $ref: "#/components/schemas/ErrorMessage", // error data model
               },
             },
           },
-          // response code
-          404: {
-            description: "réponse si l'utilisateur n'est pas trouvé", // response desc.
-            content: {
-              // content-type
-              "application/json": {
-                schema: {
-                  $ref: "#/components/schemas/ErrorMessage", // error data model
-                },
-              },
-            },
-          },
+        },
         // response code
         400: {
-          description: "Une erreur est survenue lors de la suppression des informations de l'utilisateur ou Id pas donnée", // response desc.
+          description: "réponse si le paramétre est invalide ou manque de données", // response desc.
           content: {
             // content-type
             "application/json": {
