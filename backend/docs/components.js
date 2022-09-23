@@ -271,12 +271,32 @@ module.exports = {
             message: {
               type: "string", // data-type
             },
+            success: {
+              type: "boolean", // data-type
+            },
           },
           example: {
-            message: "Un message d'erreur descriptif.",
+            message: "Un message d'erreur descriptif",
+            success: true,
           },
         },
-        // message de succes
+        // message d'erreur
+        ErrorMessage: {
+          type: "object",
+          required: ["message"],
+          properties: {
+            message: {
+              type: "string", // data-type
+            },
+            success: {
+              type: "boolean", // data-type
+            },
+          },
+          example: {
+            message: "Un message d'erreur descriptif",
+            success: false,
+          },
+        },
         cartegorieResponse: {
           type: "object",
           required: ["idCategorie", "nomCategorie"],

@@ -1,19 +1,21 @@
-const getUsers = require('./get-users');
- const getUser = require('./get-user');
-// const createUser = require('./create-user');
-// const updateUser = require('./update-user');
-// const deleteUser = require('./delete-user');
+const createUser = require('./create-user');
+const getUser = require('./get-user');
+const loginUser = require('./login-user');
+const updateUser = require('./update-user');
+const deleteUser = require('./delete-user');
 
 module.exports = {
-    paths:{
-        '/users':{
-            ...getUsers,
-          //  ...createUser
-        },
-         '/user/{email}':{
-               ...getUser,
-        //     ...updateUser,
-        //     ...deleteUser
-         }
-    }
+  paths:{
+      '/auth/register':{
+          ...createUser,
+      },
+      '/auth/token':{
+        ...loginUser,
+      },
+        '/user/:idUser':{
+              ...getUser,
+              ...updateUser,
+              ...deleteUser,
+        }
+  }
 }

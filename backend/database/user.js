@@ -1,6 +1,9 @@
-const sqlite3 = require('sqlite3').verbose();
-const database = new sqlite3.Database("./school.db");
-const bcrypt = require('bcryptjs');
+const knexModule = require('knex');
+const chaineConnexion = require('../constantes');
+
+const knex = knexModule(chaineConnexion);
+
+
 
 exports.registerUser = async (req, res) => {
     const name = req.body.name;
