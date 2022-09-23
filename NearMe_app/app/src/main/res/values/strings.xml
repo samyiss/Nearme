@@ -13,4 +13,8 @@
     <string name="veuillez_saisir_votre_email_d_inscription_et_votre_mot_de_passe">Veuillez saisir votre email d’inscription et votre mot de passe.</string>
     <string name="near_me">NEAR ME</string>
     <string name="x_logo">X logo</string>
+    <string name="categorie">Categorie</string>
+    <string name="logo">Logo</string>
+    <string name="explorer_les_nombreux_services_qu_on_vous_offres">Explorer les nombreux services qu’on vous offres</string>
+    <string name="trouver_des_services">Trouver des services</string>
 </resources>
