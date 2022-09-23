@@ -2,7 +2,12 @@ module.exports = {
     // operation's method
     get: {
       tags: ["utilisateurs"], // operation's tag.
-      description: "Utilisateur dont le IdUser est envoyé en paramétre", // operation's desc.
+      security: [
+        {
+          bearerAuth: []
+        }
+      ],
+      summary: "Utilisateur dont le IdUser est envoyé en paramétre", // operation's desc.
       operationId: "getUserByEmail", // unique operation email
       parameters: [
         // expected params.

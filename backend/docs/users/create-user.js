@@ -2,7 +2,7 @@ module.exports = {
     // method of operation
     post: {
       tags: ["utilisateurs"], // operation's tag.
-      description: "Route pour créer un utilisateur", // operation's desc.
+      summary: "Route pour créer un utilisateur", // operation's desc.
       operationId: "loginUsers", // unique operation id.
       parameters: [], // expected params.
       requestBody:  {

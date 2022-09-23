@@ -2,7 +2,12 @@ module.exports = {
     // method of operation
     put: {
       tags: ["utilisateurs"], // operation's tag.
-      description: "Modifie les informations de l'utilisateur dont le IdUser est donné", // operation's desc.
+      security: [
+        {
+          bearerAuth: []
+        }
+      ],
+      summary: "Modifie les informations de l'utilisateur dont le IdUser est donné", // operation's desc.
       operationId: "updateUser", // unique operation id.
       parameters: [
         // expected params.

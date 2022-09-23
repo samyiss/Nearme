@@ -2,7 +2,12 @@ module.exports = {
     // method of operation
     delete: {
       tags: ["utilisateurs"], // operation's tag.
-      description: "Supprime le compte d'un utilisateur", // operation's desc.
+      security: [
+        {
+          bearerAuth: []
+        }
+      ],
+      summary: "Supprime le compte d'un utilisateur", // operation's desc.
       operationId: "deleteUser", // unique operation id.
       parameters: [
         // expected params.
