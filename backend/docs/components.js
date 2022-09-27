@@ -26,6 +26,18 @@ module.exports = {
             },
         },
 
+        // modele pour connexion
+        EmailPayload: {
+          type: "parameter", // type of the object
+          required: ["email"],
+          properties: {
+            email: {
+              type: "string",
+            },
+          },
+          example: 'e2072931@site.com',
+        },
+
         // modele pour service
         ServiceResponse: {
           type: "object", // type of the object

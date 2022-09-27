@@ -30,8 +30,8 @@ module.exports = {
           },
         },
         // response code
-        401: {
-          description: "réponse si l'utilisateur n'est pas connecteé", // response desc.
+        403: {
+          description: "réponse si le mot de passe fourni n'est pas correct", // response desc.
           content: {
             // content-type
             "application/json": {
