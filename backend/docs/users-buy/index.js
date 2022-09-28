@@ -13,7 +13,7 @@ module.exports = {
       '/auth/token':{
         ...loginUser,
       },
-      '/validate/:email':{
+      '/validate':{
         ...validation,
       },
       '/user/:idUser':{

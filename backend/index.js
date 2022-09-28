@@ -22,7 +22,7 @@ app.use('/',swaggerUi.serve, swaggerUi.setup(docs));
 
 
 router.post('/auth/token', loginUsers);
-router.post('/validate/:email', validate);
+router.post('/validate', validate);
 
 
 
