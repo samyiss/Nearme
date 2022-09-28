@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const docs = require('./docs');
 const swaggerUi = require('swagger-ui-express');
-const { loginUsers, validate } = require('./database/user');
+const { loginUsers, validate, getUser } = require('./database/user');
 
 
 
@@ -23,6 +23,7 @@ app.use('/',swaggerUi.serve, swaggerUi.setup(docs));
 
 router.post('/auth/token', loginUsers);
 router.post('/validate', validate);
+router.get('/user', getUser);
 
 
 

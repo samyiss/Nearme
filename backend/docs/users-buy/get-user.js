@@ -9,18 +9,6 @@ module.exports = {
       ],
       summary: "Utilisateur dont le IdUser est envoyé en paramétre client/employé", // operation's desc.
       operationId: "getUser", // unique operation email
-      parameters: [
-        // expected params.
-        {
-          name: "idUser", // name of the param
-          in: "query", // location of the param
-          schema :{
-            type: "integer", // type of the param
-          }, 
-          required: true, // Mandatory param
-          description: "le IdUser de l'utilisateur", // param desc.
-        },
-      ],
       // expected responses
       responses: {
         // response code
@@ -55,18 +43,6 @@ module.exports = {
         // response code
         404: {
           description: "réponse si l'utilisateur n'est pas trouvé", // response desc.
-          content: {
-            // content-type
-            "application/json": {
-              schema: {
-                $ref: "#/components/schemas/ErrorMessage", // error data model
-              },
-            },
-          },
-        },
-        // response code
-        400: {
-          description: "réponse si le paramétre est invalide ou manque de données", // response desc.
           content: {
             // content-type
             "application/json": {
