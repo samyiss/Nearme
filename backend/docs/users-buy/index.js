@@ -16,7 +16,7 @@ module.exports = {
       '/validate':{
         ...validation,
       },
-      '/user/:idUser':{
+      '/user':{
         ...getUser,
         ...updateUser,
         ...deleteUser,

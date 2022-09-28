@@ -9,18 +9,6 @@ module.exports = {
       ],
       summary: "Modifie les informations de l'utilisateur dont le IdUser est donné client/employé", // operation's desc.
       operationId: "updateUser", // unique operation id.
-      parameters: [
-        // expected params.
-        {
-          name: "idUser", // name of the param
-          in: "query", // location of the param
-          schema :{
-            type: "integer", // type of the param
-          }, 
-          required: true, // Mandatory param
-          description: "le IdUser de l'utilisateur", // param desc.
-        },
-      ], // expected params.
       requestBody:  {
         required: true, // Mandatory param
         content: {

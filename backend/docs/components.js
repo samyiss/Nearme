@@ -174,7 +174,7 @@ module.exports = {
         // modele de input pour le user
         UserPayload: {
           type: "object", // data-type
-          required: ["id_user", "nom_user", "prenom_user", "email_user", "typeUser", "pays", "prevince", "codePostal", "photoProfil"], // required fields
+          required: ["id_user", "nom_user", "prenom_user", "email_user", "employe", "pays", "prevince", "codePostal", "photoProfil"], // required fields
           properties: {
             nom_user: {
               type: "string", // data-type
@@ -188,7 +188,7 @@ module.exports = {
             password: {
               type: "string", // data-type
             },
-            typeUser: {
+            employe: {
               type: "string", // data-type
             },
             pays: {
@@ -209,7 +209,7 @@ module.exports = {
                 prenom_user: "samy", 
                 email_user: "e1234567@site.com", 
                 password: "123456",
-                typeUser: "client",
+                employe: false,
                 pays: "CANADA",
                 province: "QUEBEC",
                 codePostal: "H1S1B4", 
@@ -220,7 +220,7 @@ module.exports = {
         // modele de input pour le user
         SellerPayload: {
           type: "object", // data-type
-          required: ["nom_user", "prenom_user", "email_user", "typeUser", "rue", "pays", "prevince", "codePostal", "photoProfil"], // required fields
+          required: ["nom_user", "prenom_user", "email_user", "employe", "rue", "pays", "prevince", "codePostal", "photoProfil"], // required fields
           properties: {
             nom_user: {
               type: "string", // data-type
@@ -234,7 +234,7 @@ module.exports = {
             password: {
               type: "string", // data-type
             },
-            typeUser: {
+            employe: {
               type: "string", // data-type
             },
             rue: {
@@ -258,7 +258,7 @@ module.exports = {
                 prenom_user: "samy", 
                 email_user: "e1234567@site.com", 
                 password: "123456",
-                typeUser: "employées/magasin",
+                employe: true,
                 rue: "123 rue de la paix",
                 pays: "CANADA",
                 province: "QUEBEC",
@@ -296,7 +296,7 @@ module.exports = {
         // modele de client
         SellerResponse: {
           type: "object", // data-type
-          required: ["id_user", "nom_user", "prenom_user", "email_user", "typeUser", "rue", "pays", "province", "codePostal", "photoProfil"], // required fields
+          required: ["id_user", "nom_user", "prenom_user", "email_user", "employe", "rue", "pays", "province", "codePostal", "photoProfil"], // required fields
           properties: {
             id_user: {
               type: "string", // data-type
@@ -310,7 +310,7 @@ module.exports = {
             email_user: {
               type: "string", // data-type
             },
-            typeUser: {
+            employe: {
               type: "string", // data-type
             },
             rue: {
@@ -334,7 +334,7 @@ module.exports = {
                 nom_user: "issiakhem", 
                 prenom_user: "samy", 
                 email_user: "e1234567@site.com",
-                typeUser: "employées/magasin",
+                employe: true,
                 rue: "123 rue de la paix",
                 pays: "CANADA",
                 province: "QUEBEC",
@@ -346,7 +346,7 @@ module.exports = {
         // modele de client
         UserResponse: {
           type: "object", // data-type
-          required: ["id_user", "nom_user", "prenom_user", "email_user", "typeUser", "pays", "prevince", "codePostal", "photoProfil"], // required fields
+          required: ["id_user", "nom_user", "prenom_user", "email_user", "employe", "pays", "prevince", "codePostal", "photoProfil"], // required fields
           properties: {
             id_user: {
               type: "string", // data-type
@@ -360,7 +360,7 @@ module.exports = {
             email_user: {
               type: "string", // data-type
             },
-            typeUser: {
+            employe: {
               type: "string", // data-type
             },
             pays: {
@@ -381,7 +381,7 @@ module.exports = {
                 nom_user: "issiakhem", 
                 prenom_user: "samy", 
                 email_user: "e1234567@site.com",
-                typeUser: "client",
+                employe: false,
                 pays: "CANADA",
                 province: "QUEBEC",
                 codePostal: "H1S1B4", 
