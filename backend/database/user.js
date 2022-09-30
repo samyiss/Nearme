@@ -1,4 +1,3 @@
-const { isEmpty } = require("@firebase/util");
 const { getAuth, signInWithEmailAndPassword, sendEmailVerification, createUserWithEmailAndPassword, deleteUser } = require("firebase/auth");
 const { getDatabase, ref, set, get, child, update } = require("firebase/database");
 
@@ -28,70 +27,58 @@ function validate_password(password){
 
 exports.registerUser = async(req,res) =>{
 
-    const database = getDatabase();
+    const database = ref(getDatabase());
     const auth = getAuth(fapp);
-    const user = auth.currentUser;
-
 
     const nom_user = req.body.nom_user
     const prenom_user = req.body.prenom_user
     const email_user = req.body.email_user
     const date_naissance = req.body.date_naissance
     const pays = req.body.pays
+    const employe = req.body.employe
     const province = req.body.province
     const codePostal = req.body.codePostal
     const photoProfil = req.body.photoProfil
     const password = req.body.password
     const Tel = req.body.telephone
     
-    if(!email_user =='' || !password ==''){
+    if(email_user !=='' && password !==''){
         await createUserWithEmailAndPassword(auth, email_user,password)
-            .then(() =>{
-                var user_data =  {
-                    nom_user :nom_user,
-                    prenom_user :prenom_user,
-                    email_user:email_user
-                } 
-                set(ref(database, 'users/'+ user.uid),user_data).then(
-                    res.status(201).send({
-                        success:true,
-                        message: `Utilisateur crée`,
-                    })
-                )
-                
-        
-                /*
-                sendEmailVerification(auth.currentUser)
-                .then(() => {
-                    if (auth.currentUser.emailVerified){
-                        database.child(database, `users/${user.uid}`).set(user_data)
-                        res.status(200).send({
-                            success:true,
-                            message: `Utilisateur crée`,
-                        });
-                    }
-                    else{
-                        deleteUser(user)
-                        res.status(404).send({
-                            success:false,
-                            message:`Un email de vérification a été envoyé à l'adresse ${auth.currentUser.email}`
-                        })
-                    }
+        .then(() => {
+            const user = auth.currentUser;
+            const user_data =  {
+                nom_user: nom_user,
+                prenom_user: prenom_user,
+                email_user: email_user,
+                date_naissance: date_naissance,
+                telephone: Tel,
+                pays: pays,
+                employe: employe,
+                province: province,
+                codePostal: codePostal,
+                photoProfil: photoProfil,
+                password: password
+            } 
+            console.log(user_data)
+            set(child(database, `users/${user.uid}`), user_data).then(
+                res.status(201).send({
+                    success:true,
+                    message: `Utilisateur crée`,
                 })
-                .catch((error) => {
-                    res.status(500).send({
-                        message: error,
-                    });
-                });
-                */
-            })
-            .catch((error) => {
+            )
+            .catch(() => {
                 res.status(500).send({
                     success:false,
-                    message: error,
-                });
+                    message: `Erreur lors de la création de l'utilisateur`,
+                })
             })
-            
+        })
+        .catch((error) => {
+            res.status(500).send({
+                success:false,
+                message: error,
+            });
+        })  
     }
     else{
         res.status(401).send({

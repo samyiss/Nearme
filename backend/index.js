@@ -20,7 +20,7 @@ app.use(router);
 //router.use('/api-docs',swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 app.use('/',swaggerUi.serve, swaggerUi.setup(docs));
 
-router.post('/register', registerUser);
+router.post('/auth/register', registerUser);
 router.post('/auth/token', loginUsers);
 router.post('/validate', validate);
 router.get('/user', getUser);
