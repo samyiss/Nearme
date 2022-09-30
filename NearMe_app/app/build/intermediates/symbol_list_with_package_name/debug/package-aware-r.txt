@@ -255,6 +255,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_fill_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -2442,6 +2446,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable apple_logo
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -2457,6 +2462,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dwayne_the_rock_
+drawable facebook
+drawable google
 drawable gradient_background
 drawable gradient_loading_background
 drawable ic_clock_black_24dp
@@ -2521,6 +2529,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id Connexion
+id Deconnexion
 id FUNCTION
 id Log_InputContainer
 id Logo1
@@ -2528,6 +2537,7 @@ id Logo2
 id META
 id Mot_de_passe_oublie
 id NO_DEBUG
+id Profile
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2606,6 +2616,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appleLogo
 id apple_button
 id arc
 id asConfigured
@@ -2631,6 +2642,7 @@ id btn_agenda
 id btn_message
 id btn_profil
 id btn_recherche
+id buttonExit
 id buttonPanel
 id buying
 id cache_measures
@@ -2646,6 +2658,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id checkBox
 id checkbox
 id checked
 id chip
@@ -2663,10 +2676,12 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id connecteViaReseau
 id connexion
 id constraint
 id constraintLayout
 id constraintLayout2
+id constraintLayout3
 id container
 id content
 id contentPanel
@@ -2725,6 +2740,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id facebookLogo
 id facebook_button
 id fade
 id fill
@@ -2747,6 +2763,7 @@ id general
 id ghost_view
 id ghost_view_holder
 id gone
+id googleLogo
 id google_button
 id graph
 id graph_wrap
@@ -2783,6 +2800,7 @@ id immediateStop
 id included
 id info
 id information_general
+id inscrire
 id instruction_1
 id introduction_2
 id invisible
@@ -2808,6 +2826,7 @@ id linearLayout5
 id linearLayout6
 id listMode
 id list_item
+id logo_loading
 id logo_name
 id masked
 id match_constraint
@@ -2836,6 +2855,7 @@ id me
 id message
 id middle
 id mini
+id modeVendeur
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -2943,6 +2963,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settings
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3004,6 +3025,8 @@ id text
 id text2
 id textEnd
 id textInputLayout
+id textInputLayout2
+id textInputLayout3
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3011,6 +3034,7 @@ id textTop
 id textView
 id textView2
 id textView3
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3025,6 +3049,8 @@ id title
 id titleDividerNoCustom
 id title_template
 id titre_profile_guest
+id titre_profile_guest2
+id titre_profile_guest3
 id toggle
 id top
 id topPanel
@@ -3152,6 +3178,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_inscription
 layout activity_loading
 layout activity_login
 layout activity_main
@@ -4494,6 +4521,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_fill_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize
