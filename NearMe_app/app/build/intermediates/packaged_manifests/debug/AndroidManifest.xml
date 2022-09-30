@@ -8,6 +8,8 @@
         android:minSdkVersion="23"
         android:targetSdkVersion="32" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -22,10 +24,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.NearMe_app" >
         <activity
-            android:name="com.example.nearme_app.ProfileGuestActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.nearme_app.loginActivity"
+            android:name="com.example.nearme_app.InscriptionActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,17 +32,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+            android:name=".ProfileGuestActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nearme_app.loginActivity"
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.example.nearme_app.LoadingActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.example.nearme_app.profileloggedinActivity"
             android:exported="false" />
         <activity
             android:name="com.example.nearme_app.MainActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
