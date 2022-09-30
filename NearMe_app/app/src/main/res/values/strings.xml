@@ -17,4 +17,15 @@
     <string name="logo">Logo</string>
     <string name="explorer_les_nombreux_services_qu_on_vous_offres">Explorer les nombreux services qu’on vous offres</string>
     <string name="trouver_des_services">Trouver des services</string>
+    <string name="my_interests">My Interests</string>
+    <string name="saved_gigs">Saved Gigs</string>
+    <string name="get_inspared">Get Inspared</string>
+    <string name="manage_request">Manage Request</string>
+    <string name="post_request">Post Request</string>
+    <string name="setting">Setting</string>
+    <string name="show_online_status">Show online status</string>
+    <string name="payement">Payement</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="become_a_seller">Become a seller</string>
+    <string name="support">Support</string>
 </resources>
