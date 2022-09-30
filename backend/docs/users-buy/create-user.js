@@ -1,7 +1,7 @@
 module.exports = {
     // method of operation
     post: {
-      tags: ["utilisateurs client/employé"], // operation's tag.
+      tags: ["Utilisateurs client/employé"], // operation's tag.
       summary: "Route pour créer un utilisateur client/employé", // operation's desc.
       operationId: "createUser", // unique operation id.
       parameters: [], // expected params.

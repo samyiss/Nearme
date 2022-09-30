@@ -1,7 +1,7 @@
 module.exports = {
     // operation's method
     get: {
-      tags: ["utilisateurs client/employé"], // operation's tag.
+      tags: ["Utilisateurs client/employé"], // operation's tag.
       security: [
         {
           bearerAuth: []

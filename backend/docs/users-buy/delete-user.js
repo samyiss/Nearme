@@ -1,7 +1,7 @@
 module.exports = {
     // method of operation
     delete: {
-      tags: ["utilisateurs client/employé"], // operation's tag.
+      tags: ["Utilisateurs client/employé"], // operation's tag.
       security: [
         {
           bearerAuth: []

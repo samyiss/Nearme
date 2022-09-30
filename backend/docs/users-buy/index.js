@@ -7,7 +7,7 @@ const validation = require('./validation-email');
 
 module.exports = {
   paths:{
-      '/auth/register':{
+      '/register':{
           ...createUser,
       },
       '/auth/token':{
