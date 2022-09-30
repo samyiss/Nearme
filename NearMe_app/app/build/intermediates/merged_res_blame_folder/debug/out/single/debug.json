@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.nearme_app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.nearme_app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.nearme_app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/drawable_logo.png.flat",
+        "source": "com.example.nearme_app-main-31:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_activity_login.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_logo.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/logo.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_loading.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/loading.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_info_general.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/info_general.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_navigateur.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/navigateur.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_activity_loading.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/activity_loading.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_carte_categorie.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/carte_categorie.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_profileloggedin.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/profileloggedin.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/drawable_gradient_background.xml.flat",
+        "source": "com.example.nearme_app-main-31:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/drawable_gradient_loading_background.xml.flat",
+        "source": "com.example.nearme_app-main-31:/drawable/gradient_loading_background.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_info_me.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/info_me.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_activity_profile_guest.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/activity_profile_guest.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_logo_2.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/logo_2.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "com.example.nearme_app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-29:/layout_info_buying.xml.flat",
+        "source": "com.example.nearme_app-main-31:/layout/info_buying.xml"
+    }
+]
