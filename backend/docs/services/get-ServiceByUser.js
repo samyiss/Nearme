@@ -2,11 +2,6 @@ module.exports = {
     // operation's method
     get: {
       tags: ["Services"], // operation's tag.
-      security: [
-        {
-          bearerAuth: []
-        }
-      ],
       summary: "liste de services d'une personne", // operation's desc.
       operationId: "getServiceByuser", // unique operation email
       // expected responses

@@ -2,11 +2,6 @@ module.exports = {
     // operation's method
     get: {
       tags: ["Services"], // operation's tag.
-      security: [
-        {
-          bearerAuth: []
-        }
-      ],
       summary: "Le service dont le IdService est envoyé en paramétre", // operation's desc.
       operationId: "getService", // unique operation email
       // expected responses
