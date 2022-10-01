@@ -22,15 +22,15 @@ module.exports = {
     '/validate':{
       ...validation,
     },
+    '/users':{
+      ...getAllUsers,
+    },
     '/user/:id':{
       ...getUser,
     },
     '/user':{
       ...updateUser,
       ...deleteUser,
-    },
-    '/users':{
-      ...getAllUsers,
     },
     '/service':{
       ...createService,

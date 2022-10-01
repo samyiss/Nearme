@@ -1,4 +1,5 @@
-const { getAuth, signInWithEmailAndPassword, sendEmailVerification, createUserWithEmailAndPassword, deleteUser } = require("firebase/auth");
+const { FirebaseError } = require("firebase/app");
+const { getAuth, signInWithEmailAndPassword, sendEmailVerification, createUserWithEmailAndPassword, deleteUser} = require("firebase/auth");
 const { getDatabase, ref, set, get, child, update } = require("firebase/database");
 
 const { fapp } = require('./firebaseconf');
@@ -47,6 +48,7 @@ exports.registerUser = async(req,res) =>{
         .then(() => {
             const user = auth.currentUser;
             const user_data =  {
+                Id_user:auth.currentUser.uid,
                 nom_user: nom_user,
                 prenom_user: prenom_user,
                 email_user: email_user,
@@ -60,23 +62,24 @@ exports.registerUser = async(req,res) =>{
                 password: password
             } 
             console.log(user_data)
-            set(child(database, `users/${user.uid}`), user_data).then(
-                res.status(201).send({
-                    success:true,
-                    message: `Utilisateur crée`,
-                })
-            )
-            .catch(() => {
-                res.status(500).send({
-                    success:false,
-                    message: `Erreur lors de la création de l'utilisateur`,
-                })
-            })
+            set(child(database, `users/${user.uid}`), user_data)
+                    .then(
+                        res.status(201).send({
+                            success:true,
+                            message: `Utilisateur crée`,
+                        })
+                    )
+                    .catch(() => {
+                        res.status(500).send({
+                            success:false,
+                            message: `Erreur lors de la création de l'utilisateur`,
+                        })
+                    })
         })
-        .catch((error) => {
+        .catch(() => {
             res.status(500).send({
                 success:false,
-                message: error,
+                message: FirebaseError.error,
             });
         })  
     }
@@ -99,7 +102,6 @@ exports.updateProfile = async(req,res) =>{
     const user = auth.currentUser;
 }
 
-exports.u
 
 exports.deleteUser = async(req,res) =>{
     const database = ref(getDatabase());

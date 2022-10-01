@@ -2,6 +2,11 @@ module.exports = {
     // method of operation
     post: {
       tags: ["Services"], // operation's tag.
+      security: [
+        {
+          bearerAuth: []
+        }
+      ],
       summary: "Route pour créer un service", // operation's desc.
       operationId: "createService", // unique operation id.
       parameters: [], // expected params.

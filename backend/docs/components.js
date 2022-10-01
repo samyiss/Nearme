@@ -141,7 +141,7 @@ module.exports = {
         // modele pour service
         ServicePayload: {
           type: "object", // type of the object
-          required: ["id_vendeur", "id_categorie", "nomService", "description", "prix", "datePublication", "photoCouverture"],
+          required: ["id_vendeur", "id_categorie", "nomService", "description", "prix", "photoCouverture"],
           properties: {
             id_vendeur: {
               type: "string",
@@ -158,9 +158,6 @@ module.exports = {
             prix: {
               type: "double",
             },
-            datePublication: {
-              type: "date-time",
-            },
             photoCouverture: {
               type: "string",
             },
@@ -172,7 +169,6 @@ module.exports = {
             description: ". . .", 
             prix : "10.99", 
             photoCouverture: "https://pokemonsapi.herokuapp.com/sprites/1.png",
-            datePublication : "2017-07-21T17:32:28Z" 
           } ,
         },
 

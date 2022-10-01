@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const docs = require('./docs');
 const swaggerUi = require('swagger-ui-express');
 const { registerUser, loginUsers, validate, getUser, getUsers } = require('./database/user');
+const { createService } = require('./database/service');
 
 
 
@@ -25,6 +26,7 @@ router.post('/auth/token', loginUsers);
 router.post('/validate', validate);
 router.get('/user/:id', getUser);
 router.get('/users', getUsers);
+router.get('/service', createService);
 
 
 
