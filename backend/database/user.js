@@ -145,11 +145,41 @@ exports.validate = async (req, res) => {
     
 }
 
+
+exports.getUsers = async (req, res) => {
+    const database = ref(getDatabase());
+    const listesUsers = []
+    get(child(database, `users`)).then((snapshot) => {
+        if (snapshot.exists()) {
+            snapshot.forEach((childSnapshot) => {
+                listesUsers.push({
+                    Id_user: childSnapshot.key,
+                    nom_user: childSnapshot.val().nom_user,
+                    prenom_user: childSnapshot.val().prenom_user,
+                    photoProfil: childSnapshot.val().photoProfil,
+                })  
+            });
+            res.status(200).send(listesUsers)
+        } else{
+                res.status(404).send({
+                    success: false,
+                    message: "l'utilisateur n'existe pas",
+                });
+            }
+    }).catch((error) => {
+        res.status(500).send({
+            success: false,
+            message: error,
+        });
+    });
+}
+
+
 exports.getUser = async (req, res) => {
     const database = ref(getDatabase());
     const user = getAuth(fapp).currentUser;
     const idUser = req.params.id
-    
+
     if(user !== null){
         get(child(database, `users/${idUser}`)).then((data) => {
             if (data.exists()) {
@@ -157,36 +187,30 @@ exports.getUser = async (req, res) => {
                 switch (snapshot.employe) {
                     case false:
                         res.status(200).send({
-                            success: true,
-                            data: {
-                                Id_user: snapshot.Id_user,
-                                nom_user: snapshot.nom_user,
-                                prenom_user: snapshot.prenom_user,
-                                date_naissance:snapshot.date_naissance,
-                                email_user: snapshot.email_user,
-                                employe: snapshot.employe,
-                                pays: snapshot.pays,
-                                province: snapshot.province,
-                                codePostal: snapshot.codePostal,
-                                photoProfil: snapshot.photoProfil
-                            }
+                            Id_user: snapshot.Id_user,
+                            nom_user: snapshot.nom_user,
+                            prenom_user: snapshot.prenom_user,
+                            date_naissance:snapshot.date_naissance,
+                            email_user: snapshot.email_user,
+                            employe: snapshot.employe,
+                            pays: snapshot.pays,
+                            province: snapshot.province,
+                            codePostal: snapshot.codePostal,
+                            photoProfil: snapshot.photoProfil
                         });
                         break;
                     case true:
                         res.status(200).send({
-                            success: true,
-                            data: {
-                                Id_user: snapshot.Id_user,
-                                nom_user: snapshot.nom_user,
-                                prenom_user: snapshot.prenom_user,
-                                email_user: snapshot.email_user,
-                                employe: snapshot.employe,
-                                rue: snapshot.rue,
-                                pays: snapshot.pays,
-                                province: snapshot.province,
-                                codePostal: snapshot.codePostal,
-                                photoProfil: snapshot.photoProfil
-                            }
+                            Id_user: snapshot.Id_user,
+                            nom_user: snapshot.nom_user,
+                            prenom_user: snapshot.prenom_user,
+                            email_user: snapshot.email_user,
+                            employe: snapshot.employe,
+                            rue: snapshot.rue,
+                            pays: snapshot.pays,
+                            province: snapshot.province,
+                            codePostal: snapshot.codePostal,
+                            photoProfil: snapshot.photoProfil
                         });
                         break;
                 };

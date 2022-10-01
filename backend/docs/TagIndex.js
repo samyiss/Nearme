@@ -26,9 +26,11 @@ module.exports = {
       ...getUser,
     },
     '/user':{
-      ...getAllUsers,
       ...updateUser,
       ...deleteUser,
+    },
+    '/users':{
+      ...getAllUsers,
     },
     '/service':{
       ...createService,
