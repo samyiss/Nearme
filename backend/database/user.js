@@ -147,10 +147,11 @@ exports.validate = async (req, res) => {
 
 exports.getUser = async (req, res) => {
     const database = ref(getDatabase());
-    const auth = getAuth(fapp);
-    const user = auth.currentUser;
+    const user = getAuth(fapp).currentUser;
+    const idUser = req.params.id
+    
     if(user !== null){
-        get(child(database, `users/${user.uid}`)).then((data) => {
+        get(child(database, `users/${idUser}`)).then((data) => {
             if (data.exists()) {
                 const snapshot = data.val();
                 switch (snapshot.employe) {
@@ -220,7 +221,7 @@ exports.loginUsers = async (req, res) => {
     if(email !== "" && password !== ""){
         await signInWithEmailAndPassword(auth, email, password).then((userCredential) => {
             const user = userCredential.user;
-            res.status(200).json({ token: user });
+            res.status(200).json({ token: user.stsTokenManager.accessToken });
         }).catch((error) => {
             switch(error.code) {
                 case "auth/user-not-found":

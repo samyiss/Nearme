@@ -1,48 +1,31 @@
 module.exports = {
     // operation's method
     get: {
-      tags: ["Utilisateurs client/employé"], // operation's tag.
+      tags: ["Services"], // operation's tag.
       security: [
         {
           bearerAuth: []
         }
       ],
-      summary: "Utilisateur dont le IdUser est envoyé en paramétre client/employé", // operation's desc.
-      operationId: "getUser", // unique operation email
+      summary: "liste de services d'une personne", // operation's desc.
+      operationId: "getServiceByuser", // unique operation email
       // expected responses
       responses: {
         // response code
         200: {
-          description: "les données de l'utilisateur sont retournées", // response desc.
+          description: "les données des services sont retournées", // response desc.
           content: {
             // content-type
             "application/json": {
               schema: {
-                $ref: "#/components/schemas/UserResponse", // user data model
-              },
-            },
-            "application/json2": {
-              schema: {
-                $ref: "#/components/schemas/SellerResponse", // user data model   
-              },
-            }, 
-          },
-        },
-        // response code
-        401: {
-          description: "réponse si l'utilisateur n'est pas connecteé", // response desc.
-          content: {
-            // content-type
-            "application/json": {
-              schema: {
-                $ref: "#/components/schemas/ErrorMessage", // user data model
+                $ref: "#/components/schemas/ServiceLink", // user data model
               },
             },
           },
         },
         // response code
         404: {
-          description: "réponse si l'utilisateur n'est pas trouvé", // response desc.
+          description: "réponse si aucun service n'est trouvé", // response desc.
           content: {
             // content-type
             "application/json": {

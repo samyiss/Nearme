@@ -23,8 +23,7 @@ app.use('/',swaggerUi.serve, swaggerUi.setup(docs));
 router.post('/auth/register', registerUser);
 router.post('/auth/token', loginUsers);
 router.post('/validate', validate);
-router.get('/user', getUser);
-
+router.get('/user/:id', getUser);
 
 
 
