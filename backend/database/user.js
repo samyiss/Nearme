@@ -1,5 +1,5 @@
 const { FirebaseError } = require("firebase/app");
-const { getAuth, signInWithEmailAndPassword, sendEmailVerification, createUserWithEmailAndPassword, deleteUser} = require("firebase/auth");
+const { getAuth, signInWithEmailAndPassword, sendEmailVerification, createUserWithEmailAndPassword, deleteUser, sendPasswordResetEmail} = require("firebase/auth");
 const { getDatabase, ref, set, get, child, update } = require("firebase/database");
 
 const { fapp } = require('./firebaseconf');
@@ -48,7 +48,7 @@ exports.registerUser = async(req,res) =>{
         .then(() => {
             const user = auth.currentUser;
             const user_data =  {
-                Id_user:auth.currentUser.uid,
+                id_user:user.uid,
                 nom_user: nom_user,
                 prenom_user: prenom_user,
                 email_user: email_user,
@@ -63,23 +63,23 @@ exports.registerUser = async(req,res) =>{
             } 
             console.log(user_data)
             set(child(database, `users/${user.uid}`), user_data)
-                    .then(
+                    .then(()=>{
                         res.status(201).send({
                             success:true,
                             message: `Utilisateur crée`,
                         })
-                    )
+                    })
                     .catch(() => {
                         res.status(500).send({
                             success:false,
                             message: `Erreur lors de la création de l'utilisateur`,
                         })
-                    })
+                   })
         })
-        .catch(() => {
+        .catch((error) => {
             res.status(500).send({
                 success:false,
-                message: FirebaseError.error,
+                message: error,
             });
         })  
     }
@@ -102,6 +102,32 @@ exports.updateProfile = async(req,res) =>{
     const user = auth.currentUser;
 }
 
+exports.resetPassword = async(req,res) =>{
+    const auth = getAuth(fapp);
+    const email = req.body.email
+
+    if(user !==""){
+        sendPasswordResetEmail(auth,email)
+            .then(()=>{
+                res.status(200).send({
+                    success:true,
+                    message: `Utilisateur Supprimé`,
+                });
+            })
+            .catch(() => {
+                res.status(500).send({
+                    message: 'Une erreur est survenue',
+                });
+            })
+    }
+    else{
+        res.status(401).send({
+            success:false,
+            message:'veuillez remplir tous le champ'
+        })
+    }
+}
+
 
 exports.deleteUser = async(req,res) =>{
     const database = ref(getDatabase());
@@ -111,7 +137,7 @@ exports.deleteUser = async(req,res) =>{
     update(child(database, `users/${user.uid}`),null)
     .then(()=>{
         deleteUser(user)
-        .then((data)=>{
+        .then(()=>{
             res.status(200).send({
                 success:true,
                 message: `Utilisateur Supprimé`,
@@ -134,16 +160,22 @@ exports.deleteUser = async(req,res) =>{
 
 exports.validate = async (req, res) => {
     const auth = getAuth(fapp);
-    sendEmailVerification(auth.currentUser).then(() => {
-        res.status(200).send({
-            success:true,
-            message: `Un email de vérification a été envoyé à l'adresse ${auth.currentUser.email}`,
+    const user = auth.currentUser
+    if(user !== null && !user.emailVerified){
+        sendEmailVerification(user).then(() => {
+            res.status(200).send({
+                success:true,
+                message: `Un email de vérification a été envoyé à l'adresse ${user}`,
+            });
+        }).catch((error) => {
+            res.status(500).send({
+                message: error,
+            });
         });
-    }).catch((error) => {
-        res.status(500).send({
-            message: error,
-        });
-    });
+    }
+    else{
+        auth.signOut()
+    }
     
 }
 
