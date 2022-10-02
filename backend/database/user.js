@@ -5,26 +5,14 @@ const { getDatabase, ref, set, get, child, update } = require("firebase/database
 const { fapp } = require('./firebaseconf');
 
 function validate_email(email){
-    expression = /^[^@]+@\W+(\. \W+)+\W$/
-    if (expression.test(email)==true){
-        return true
-    }
-    else{
-       return false 
-    }
+    const expression = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/
+    expression.test(email) ? true : false
 }
 
 function validate_password(password){
-    if (password > 6 && password < 12){
-        return true
-    }
-    else{
-        return false 
-    }
+    const regex = /^[a-zA-Z0-9!@#\$%\^\&*\)\(+=._-]{6,}$/g
+    regex.test(password) ? true : false
 }
-
-
-
 
 exports.registerUser = async(req,res) =>{
 
@@ -35,6 +23,7 @@ exports.registerUser = async(req,res) =>{
     const prenom_user = req.body.prenom_user
     const email_user = req.body.email_user
     const date_naissance = req.body.date_naissance
+    const rue = req.body.rue
     const pays = req.body.pays
     const employe = req.body.employe
     const province = req.body.province
@@ -43,7 +32,8 @@ exports.registerUser = async(req,res) =>{
     const password = req.body.password
     const Tel = req.body.telephone
     
-    if(email_user !=='' && password !==''){
+    if(nom_user !== "" && prenom_user !=="" && validate_email(email_user) && date_naissance !=="" || rue !== "" && pays !=="" && employe !=="" && 
+            province !=="" && codePostal !=="" || photoProfil !=="" && validate_password(password) || Tel !==""){
         await createUserWithEmailAndPassword(auth, email_user,password)
         .then(() => {
             const user = auth.currentUser;
@@ -53,46 +43,51 @@ exports.registerUser = async(req,res) =>{
                 prenom_user: prenom_user,
                 email_user: email_user,
                 date_naissance: date_naissance,
-                telephone: Tel,
+                telephone: Tel ? Tel : null,
+                rue: rue ? rue : null,
                 pays: pays,
                 employe: employe,
                 province: province,
                 codePostal: codePostal,
-                photoProfil: photoProfil,
+                photoProfil: photoProfil? photoProfil : null,
                 password: password
             } 
-            console.log(user_data)
             set(child(database, `users/${user.uid}`), user_data)
-                    .then(()=>{
-                        res.status(201).send({
-                            success:true,
-                            message: `Utilisateur crée`,
-                        })
-                    })
-                    .catch(() => {
-                        res.status(500).send({
-                            success:false,
-                            message: `Erreur lors de la création de l'utilisateur`,
-                        })
-                   })
+            .then(()=>{
+                res.status(201).send({
+                    success:true,
+                    message: `Utilisateur créé`,
+                })
+            })
+            .catch(() => {
+                res.status(500).send({
+                    success:false,
+                    message: `Erreur lors de la création de l'utilisateur`,
+                })
+            })
         })
         .catch((error) => {
-            res.status(500).send({
-                success:false,
-                message: error,
-            });
+            switch(error.code) {
+                case "auth/email-already-in-use":
+                    res.status(409).json({ 
+                                            success: false,
+                                            message: "L'utilisateur existe déjà"
+                                        });
+                    break;
+                default:
+                    res.status(500).json({ 
+                        success: false,
+                        message: "Erreur lors de la création de l'utilisateur"
+                     });
+            }   
         })  
     }
     else{
-        res.status(401).send({
+        res.status(400).send({
             success:false,
             message:'veuillez remplir tous les champs'
         })
-
     }
-
-        
-
 }
 
 exports.updateProfile = async(req,res) =>{
@@ -104,26 +99,43 @@ exports.updateProfile = async(req,res) =>{
 
 exports.resetPassword = async(req,res) =>{
     const auth = getAuth(fapp);
-    const email = req.body.email
+    const email = req.params.email
+    const user = auth.currentUser
 
-    if(user !==""){
-        sendPasswordResetEmail(auth,email)
+    if(user !== null){
+        sendPasswordResetEmail(auth, user.email)
             .then(()=>{
                 res.status(200).send({
                     success:true,
-                    message: `Utilisateur Supprimé`,
+                    message: `le mot de passe a été réinitialisé`,
                 });
             })
             .catch(() => {
                 res.status(500).send({
+                    success: false,
                     message: 'Une erreur est survenue',
                 });
             })
     }
-    else{
-        res.status(401).send({
+    else if(email !==""){
+        sendPasswordResetEmail(email)
+            .then(()=>{
+                res.status(200).send({
+                    success:true,
+                    message: `le mot de passe a été réinitialisé`,
+                });
+            })
+            .catch(() => {
+                res.status(500).send({
+                    success: false,
+                    message: 'Une erreur est survenue',
+                });
+            })
+    }
+    else {
+        res.status(400).send({
             success:false,
-            message:'veuillez remplir tous le champ'
+            message:'veuillez remplir tous les champs'
         })
     }
 }
@@ -211,62 +223,54 @@ exports.getUsers = async (req, res) => {
 
 exports.getUser = async (req, res) => {
     const database = ref(getDatabase());
-    const user = getAuth(fapp).currentUser;
     const idUser = req.params.id
 
-    if(user !== null){
-        get(child(database, `users/${idUser}`)).then((data) => {
-            if (data.exists()) {
-                const snapshot = data.val();
-                switch (snapshot.employe) {
-                    case false:
-                        res.status(200).send({
-                            Id_user: snapshot.Id_user,
-                            nom_user: snapshot.nom_user,
-                            prenom_user: snapshot.prenom_user,
-                            date_naissance:snapshot.date_naissance,
-                            email_user: snapshot.email_user,
-                            employe: snapshot.employe,
-                            pays: snapshot.pays,
-                            province: snapshot.province,
-                            codePostal: snapshot.codePostal,
-                            photoProfil: snapshot.photoProfil
-                        });
-                        break;
-                    case true:
-                        res.status(200).send({
-                            Id_user: snapshot.Id_user,
-                            nom_user: snapshot.nom_user,
-                            prenom_user: snapshot.prenom_user,
-                            email_user: snapshot.email_user,
-                            employe: snapshot.employe,
-                            rue: snapshot.rue,
-                            pays: snapshot.pays,
-                            province: snapshot.province,
-                            codePostal: snapshot.codePostal,
-                            photoProfil: snapshot.photoProfil
-                        });
-                        break;
-                };
-            }
-            else{
-                res.status(404).send({
-                    success: false,
-                    message: "l'utilisateur n'existe pas",
-                });
-            }
-        }).catch((error) => {
-            res.status(500).send({
+    get(child(database, `users/${idUser}`)).then((data) => {
+        if (data.exists()) {
+            const snapshot = data.val();
+            switch (snapshot.employe) {
+                case false:
+                    res.status(200).send({
+                        Id_user: snapshot.Id_user,
+                        nom_user: snapshot.nom_user,
+                        prenom_user: snapshot.prenom_user,
+                        date_naissance:snapshot.date_naissance,
+                        email_user: snapshot.email_user,
+                        employe: snapshot.employe,
+                        pays: snapshot.pays,
+                        province: snapshot.province,
+                        codePostal: snapshot.codePostal,
+                        photoProfil: snapshot.photoProfil
+                    });
+                    break;
+                case true:
+                    res.status(200).send({
+                        Id_user: snapshot.Id_user,
+                        nom_user: snapshot.nom_user,
+                        prenom_user: snapshot.prenom_user,
+                        email_user: snapshot.email_user,
+                        employe: snapshot.employe,
+                        rue: snapshot.rue,
+                        pays: snapshot.pays,
+                        province: snapshot.province,
+                        codePostal: snapshot.codePostal,
+                        photoProfil: snapshot.photoProfil
+                    });
+                    break;
+            };
+        }
+        else{
+            res.status(404).send({
                 success: false,
-                message: error,
+                message: "l'utilisateur n'existe pas",
             });
-        });
-    } else {
-        res.status(401).send({
+        }
+    }).catch((error) => {
+        res.status(500).send({
             success: false,
-            message: "l'utilisateur n'est pas connecté",
+            message: error,
         });
-    }
+    });
 }
 
 
@@ -302,6 +306,6 @@ exports.loginUsers = async (req, res) => {
                 }   
         });
     }else{
-        res.status(400).json({ message: "Email ou mot de passe manquant" });
+        res.status(400).json({ success:false, message: "Email ou mot de passe manquant" });
     }
 }

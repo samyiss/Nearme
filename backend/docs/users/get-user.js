@@ -33,7 +33,7 @@ module.exports = {
             }, 
           },
         },
-        // response code
+        /*// response code
         401: {
           description: "réponse si l'utilisateur n'est pas connecteé", // response desc.
           content: {
@@ -44,7 +44,7 @@ module.exports = {
               },
             },
           },
-        },
+        },*/
         // response code
         404: {
           description: "réponse si l'utilisateur n'est pas trouvé", // response desc.

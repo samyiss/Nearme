@@ -9,6 +9,7 @@ const createService = require('./services/create-service');
 const getService = require('./services/get-service');
 const getAllService = require('./services/get-Allservice');
 const getServiceByuser = require('./services/get-ServiceByUser');
+const ForgetPassword = require('./users/ForgetPassword');
 
 
 module.exports = {
@@ -21,6 +22,9 @@ module.exports = {
     },
     '/validate':{
       ...validation,
+    },
+    '/forget-password/:email':{
+      ...ForgetPassword,
     },
     '/users':{
       ...getAllUsers,

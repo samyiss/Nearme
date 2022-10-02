@@ -7,13 +7,18 @@ module.exports = {
           bearerAuth: []
         }
       ],
-      summary: "valider le courriel du user", // operation's desc.
-      operationId: "validation", // unique operation id.
+      parameters: [
+        {
+            $ref: '#/components/parameters/EmailPayload' // data model of the param
+        },
+      ], // expected params.
+      summary: "mot de passe oublié", // operation's desc.
+      operationId: "forgetPassword", // unique operation id.
       // expected responses
       responses: {
         // response code
-        200: {
-          description: "verification réussite", // response desc.
+        201: {
+          description: "mot de passe réinitialisé", // response desc.
           content: {
             // content-type
             "application/json": {
@@ -25,7 +30,7 @@ module.exports = {
         },
         // response code
         404: {
-          description: "réponse si l'utilisateur n'est pas trouvé", // response desc.
+          description: "réponse si l'email de l'utilisateur n'est pas trouvé", // response desc.
           content: {
             // content-type
             "application/json": {
