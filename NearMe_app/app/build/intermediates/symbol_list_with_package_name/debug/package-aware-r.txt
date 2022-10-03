@@ -2539,18 +2539,15 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id AllerConnexion
-id AllerInscription
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id Connexion
 id Deconnexion
 id FUNCTION
-id Log_InputContainer
 id Logo1
 id Logo2
 id META
-id Mot_de_passe_oublie
+id MotDePasseOublié
 id NO_DEBUG
 id Profile
 id SHIFT
@@ -2560,7 +2557,6 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-id X_Button
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2626,12 +2622,12 @@ id alertTitle
 id aligned
 id all
 id allStates
+id allerInscription
 id always
 id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
-id apple_button
 id arc
 id asConfigured
 id async
@@ -2651,7 +2647,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnRegister
+id btnConnexion
 id btn_accueil
 id btn_agenda
 id btn_message
@@ -2690,7 +2686,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
-id connexion
+id connexion2
 id constraint
 id constraintLayout
 id constraintLayout2
@@ -2746,7 +2742,6 @@ id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
 id elastic
-id email
 id end
 id endToStart
 id enterAlways
@@ -2754,7 +2749,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id facebook_button
+id facebook
 id fade
 id fill
 id fill_horizontal
@@ -2776,7 +2771,7 @@ id general
 id ghost_view
 id ghost_view_holder
 id gone
-id google_button
+id google
 id graph
 id graph_wrap
 id group_divider
@@ -2799,7 +2794,6 @@ id image
 id imageCategorie
 id imageView
 id imageView10
-id imageView11
 id imageView13
 id imageView2
 id imageView3
@@ -2818,8 +2812,7 @@ id inputEmail
 id inputPassword
 id inputPhone
 id inputUsername
-id instruction_1
-id introduction_2
+id instruction_
 id invisible
 id inward
 id italic
@@ -2935,8 +2928,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id password
-id password_InputContainer
+id passer
 id password_toggle
 id path
 id pathRelative
@@ -3049,7 +3041,7 @@ id textStart
 id textTop
 id textView
 id textView2
-id textView3
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3196,7 +3188,6 @@ layout abc_tooltip
 layout activity_inscription
 layout activity_loading
 layout activity_login
-layout activity_login2
 layout activity_main
 layout activity_profile_guest
 layout carte_categorie
@@ -3433,6 +3424,7 @@ string mtrl_picker_toggle_to_year_selection
 string mtrl_timepicker_confirm
 string my_interests
 string near_me
+string ou_s_inscrire_avec
 string ou_via_les_r_seaux_sociaux
 string passer
 string password_toggle_content_description

@@ -17,7 +17,8 @@
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintTop_toBottomOf="@+id/btnConnexion"
-        tools:layout_editor_absoluteX="32dp" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/connexion2"
@@ -43,7 +44,8 @@
         android:textSize="30sp"
         android:textStyle="normal|italic"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        tools:layout_editor_absoluteX="150dp" />
+        tools:layout_editor_absoluteX="150dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/allerInscription"
