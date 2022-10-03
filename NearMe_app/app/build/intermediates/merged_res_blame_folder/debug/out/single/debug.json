@@ -1,154 +1,154 @@
 [
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-pngs-25:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_carte_categorie.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\carte_categorie.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_info_general.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\info_general.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_facebook.png.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_loading.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\loading.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_inscription.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_inscription.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_logo_2.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\logo_2.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_apple_logo.png.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\apple_logo.png"
+        "merged": "com.example.nearme_app-merged_res-30:/layout_activity_login.xml.flat",
+        "source": "com.example.nearme_app-main-32:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_profile_guest.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_profile_guest.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_loading.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_loading.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_info_buying.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\info_buying.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_navigateur.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\navigateur.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_loading.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_loading.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_inscription.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_inscription.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_gradient_loading_background.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\gradient_loading_background.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_gradient_background.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\gradient_background.xml"
     },
     {
-        "merged": "com.example.nearme_app-merged_res-30:/layout_activity_inscription.xml.flat",
-        "source": "com.example.nearme_app-main-32:/layout/activity_inscription.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_profile_guest.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_profile_guest.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_logo.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\logo.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_google.png.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\google.png"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_apple_logo.png.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\apple_logo.png"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_info_general.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\info_general.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_facebook.png.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\facebook.png"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_gradient_background.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\gradient_background.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_logo.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\logo.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_info_buying.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\info_buying.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\logo.png"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_dwayne_the_rock_.jpg.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\dwayne_the_rock_.jpg"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_navigateur.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\navigateur.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_info_me.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\info_me.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_gradient_loading_background.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\gradient_loading_background.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_google.png.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\google.png"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_info_me.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\info_me.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable_dwayne_the_rock_.jpg.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\drawable\\dwayne_the_rock_.jpg"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_logo_2.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\logo_2.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_loading.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\loading.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_profileloggedin.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\profileloggedin.xml"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-pngs-25:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_profileloggedin.xml.flat",
-        "source": "C:\\Users\\imran\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\profileloggedin.xml"
+        "merged": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-merged_res-30:\\layout_carte_categorie.xml.flat",
+        "source": "C:\\Users\\Nibba\\.gradle\\daemon\\7.3.3\\com.example.nearme_app-main-32:\\layout\\carte_categorie.xml"
     }
 ]
