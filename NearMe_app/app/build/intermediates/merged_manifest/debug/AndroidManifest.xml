@@ -24,6 +24,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.NearMe_app" >
         <activity
+            android:name="com.example.nearme_app.Login2"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.nearme_app.InscriptionActivity"
             android:exported="true" >
             <intent-filter>
@@ -32,12 +39,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-            android:name=".ProfileGuestActivity"
-            android:exported="false" />
         <activity
             android:name="com.example.nearme_app.loginActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.nearme_app.LoadingActivity"
             android:exported="false" />

@@ -13,14 +13,14 @@ class loginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val AllerInscription = findViewById<TextView>(R.id.AllerInscription)
+        val AllerInscription = findViewById<TextView>(R.id.allerInscription)
 
         AllerInscription.setOnClickListener {
             startActivity(Intent(this@loginActivity, InscriptionActivity::class.java))
 
         }
 
-        val AllerMain = findViewById<Button>(R.id.Connexion)
+        val AllerMain = findViewById<Button>(R.id.btnConnexion)
 
         AllerMain.setOnClickListener {
             startActivity(Intent(this@loginActivity, MainActivity::class.java))

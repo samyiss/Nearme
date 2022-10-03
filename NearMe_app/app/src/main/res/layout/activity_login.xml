@@ -5,193 +5,160 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
-    android:textAlignment="center"
-    tools:context=".loginActivity">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    tools:context=".InscriptionActivity">
 
     <TextView
-        android:id="@+id/connexion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:id="@+id/instruction_"
+        android:layout_width="148dp"
+        android:layout_height="20dp"
+        android:text="ou s'inscrire avec"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <TextView
+        android:id="@+id/MotDePasseOublié"
+        android:layout_width="148dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/mot_de_passe_oubli"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
+
+    <TextView
+        android:id="@+id/connexion2"
+        android:layout_width="131dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
         android:text="@string/se_connecter"
+        android:textAlignment="center"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/AllerInscription"
-        app:layout_constraintHorizontal_bias="0.554"
-        app:layout_constraintStart_toEndOf="@+id/X_Button"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/allerInscription"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toEndOf="@+id/passer"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/AllerInscription"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="12dp"
+        android:text="Near Me"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="normal|italic"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        tools:layout_editor_absoluteX="158dp" />
+
+    <TextView
+        android:id="@+id/allerInscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
         android:text="S'inscrire"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/colorBlack"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/X_Button"
+        android:id="@+id/passer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
         android:background="#00000000"
         android:contentDescription="@string/x_logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/btn_dialog" />
 
-            <TextView
-                android:id="@+id/instruction_1"
-                android:layout_width="369dp"
-                android:layout_height="56dp"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="32dp"
-                android:layout_marginEnd="15dp"
-                android:text="@string/veuillez_saisir_votre_email_d_inscription_et_votre_mot_de_passe"
-                android:textColor="#FFFFFF"
-                android:textSize="14sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="210dp" />
 
-            <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/Log_InputContainer"
-        android:layout_width="380dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="26dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/instruction_1">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/email_ou_nom_d_utilisateur"
-            android:inputType="textPersonName" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/password_InputContainer"
-        android:layout_width="380dp"
-        android:layout_height="47dp"
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="352dp"
+        android:layout_height="48dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Log_InputContainer">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/mot_de_passe"
-            android:inputType="textPassword" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/Mot_de_passe_oublie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="35dp"
-        android:text="@string/mot_de_passe_oubli"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_InputContainer" />
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="******"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="@+id/inputEmail"
+        app:layout_constraintStart_toStartOf="@+id/inputEmail"
+        app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
 
     <Button
-        android:id="@+id/Connexion"
-        android:layout_width="380dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="30dp"
-        android:background="#FF000000"
+        android:id="@+id/btnConnexion"
+        android:layout_width="351dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_bg"
         android:text="@string/continuer"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Mot_de_passe_oublie" />
+        app:layout_constraintTop_toBottomOf="@+id/MotDePasseOublié" />
 
-    <TextView
-        android:id="@+id/introduction_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:text="@string/ou_via_les_r_seaux_sociaux"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Connexion" />
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="73dp"
+        android:layout_height="59dp"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="67dp" />
 
-    <Button
-        android:id="@+id/apple_button"
-        android:layout_width="380dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="15dp"
-        android:background="#FFFFFF"
-        android:text="@string/connection_avec_apple"
-        android:textColor="#000000"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/introduction_2" />
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintTop_toBottomOf="@+id/instruction_"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="99dp" />
 
-    <Button
-        android:id="@+id/facebook_button"
-        android:layout_width="180dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/facebook"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/apple_button" />
-
-    <Button
-        android:id="@+id/google_button"
-        android:layout_width="180dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="15dp"
-        android:text="@string/google"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/apple_button" />
-
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="63dp"
-                android:layout_height="52dp"
-                android:layout_marginTop="24dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/connexion"
-                app:srcCompat="@drawable/logo" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Near Me"
-                android:textColor="@color/white"
-                android:textSize="30sp"
-                android:textStyle="normal|italic"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </ScrollView>
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintTop_toBottomOf="@+id/instruction_"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteX="287dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
