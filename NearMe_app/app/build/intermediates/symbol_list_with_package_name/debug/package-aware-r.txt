@@ -2525,6 +2525,8 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id AllerConnexion
+id AllerInscription
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -2783,11 +2785,11 @@ id icon_group
 id ifRoom
 id ignore
 id ignoreRequest
-id ignorer
 id image
 id imageCategorie
 id imageView
 id imageView10
+id imageView11
 id imageView2
 id imageView3
 id imageView4
@@ -2827,7 +2829,6 @@ id linearLayout6
 id listMode
 id list_item
 id logo_loading
-id logo_name
 id masked
 id match_constraint
 id match_parent
