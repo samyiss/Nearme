@@ -104,7 +104,6 @@ exports.updateProfile = async(req,res) =>{
     const user = auth.currentUser;
 
     const nom_user = req.body.nom_user
-    const prenom_user = req.body.prenom_user
     const email_user = req.body.email_user
     const date_naissance = req.body.date_naissance
     const rue = req.body.rue
@@ -118,8 +117,7 @@ exports.updateProfile = async(req,res) =>{
     
     // mettre à jour les données de l'utilisateur
     if(user !== null){
-        if(nom_user !== "" && prenom_user !=="" && validate_email(email_user) && date_naissance !=="" || rue !== "" && pays !=="" && employe !=="" &&
-                province !=="" && codePostal !=="" || photoProfil !=="" && validate_password(password) || Tel !==""){
+        if(nom_user !== "" && prenom_user !=="" && validate_email(email_user) && validate_password(password) || Tel !==""){
             const user_data =  {
                 nom_user: nom_user,
                 prenom_user: prenom_user,
@@ -127,9 +125,9 @@ exports.updateProfile = async(req,res) =>{
                 date_naissance: date_naissance,
                 telephone: Tel ? Tel : null,
                 rue: rue ? rue : null,
-                pays: pays,
+                pays: pays? pays:null,
                 employe: employe,
-                province: province,
+                province: province? province:null,
                 codePostal: codePostal,
                 photoProfil: photoProfil? photoProfil : null,
             } 
