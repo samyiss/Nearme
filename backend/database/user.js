@@ -1,6 +1,6 @@
 const { FirebaseError } = require("firebase/app");
 const { getAuth, signInWithEmailAndPassword, sendEmailVerification, createUserWithEmailAndPassword, deleteUser, sendPasswordResetEmail} = require("firebase/auth");
-const { getDatabase, ref, set, get, child, update } = require("firebase/database");
+const { getDatabase, ref, set, get, child, remove } = require("firebase/database");
 
 const { fapp } = require('./firebaseconf');
 
@@ -107,10 +107,10 @@ exports.resetPassword = async(req,res) =>{
             .then(()=>{
                 res.status(200).send({
                     success:true,
-                    message: `le mot de passe a été réinitialisé`,
+                    message: `l'email de réinitialisation a été envoyé`,
                 });
             })
-            .catch(() => {
+            .catch((error) => {
                 res.status(500).send({
                     success: false,
                     message: 'Une erreur est survenue',
@@ -118,24 +118,33 @@ exports.resetPassword = async(req,res) =>{
             })
     }
     else if(email !==""){
-        sendPasswordResetEmail(email)
-            .then(()=>{
-                res.status(200).send({
-                    success:true,
-                    message: `le mot de passe a été réinitialisé`,
-                });
-            })
-            .catch(() => {
-                res.status(500).send({
-                    success: false,
-                    message: 'Une erreur est survenue',
-                });
-            })
-    }
-    else {
-        res.status(400).send({
-            success:false,
-            message:'veuillez remplir tous les champs'
+        sendPasswordResetEmail(auth, email)
+        .then(()=>{
+            res.status(200).send({
+                success:true,
+                message: `l'email de réinitialisation a été envoyé`,
+            });
+        })
+        .catch((error) => {
+            switch(error.code) {
+                case "auth/invalid-email":
+                    res.status(400).json({ 
+                        success: false,
+                        message: "veuillez remplir tous les champs"
+                    });
+                    break;
+                case "auth/user-not-found":
+                    res.status(404).json({ 
+                        success: false,
+                        message: "veuillez verifier votre email"
+                    });
+                    break;
+                default:
+                    res.status(500).json({ 
+                        success: false,
+                        message: 'une erreur est survenue'
+                    });
+                }
         })
     }
 }
@@ -145,28 +154,43 @@ exports.deleteUser = async(req,res) =>{
     const database = ref(getDatabase());
     const auth = getAuth(fapp);
     const user = auth.currentUser;
-
-    update(child(database, `users/${user.uid}`),null)
-    .then(()=>{
-        deleteUser(user)
+    if(user !== null){
+        await remove(child(database, `users/${user.uid}`), null)
         .then(()=>{
-            res.status(200).send({
-                success:true,
-                message: `Utilisateur Supprimé`,
+            deleteUser(user)
+            .then(()=>{
+                res.status(201).send({
+                    success:true,
+                    message: `votre compte a été supprimé`,
+                });
+            })
+            .catch(() => {
+                res.status(500).send({
+                    success:false,
+                    message: "un problème est survenu lors de la supression de l'utilisateur"
+                });
             });
         })
         .catch(() => {
-            res.status(500).send({
-                message: 'Une erreur est survenue',
-            });
+            switch(error.code) {
+                case "auth/user-not-found":
+                    res.status(404).json({ 
+                        success: false,
+                        message: "L'utilisateur n'existe pas veuillez verifier votre email ou créer un compte"
+                    });
+                    break;
+                default:
+                    res.status(500).json({ 
+                        success: false,
+                        message: "un problème est survenu lors de la supression de l'utilisateur"
+                     });
+                }   
         });
-    })
-    .catch(() => {
-        res.status(500).send({
-            message: 'Une erreur est survenue',
+    } else{
+        res.status(401).send({
+            message: 'utilisateur non connecté',
         });
-    });
-
+    }
 }
 
 

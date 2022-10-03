@@ -14,7 +14,6 @@ module.exports = {
           type: "parameter", // type of the object
           description: "Id de l'utilisateur", // param desc.
           in: "path", // location of the param
-          required: true, // Mandatory param
           schema: {
             type: "string", // data type
             example: "rM6hQMDHP9nACbds1XjV", // example of the data
@@ -26,7 +25,6 @@ module.exports = {
           type: "parameter", // type of the object
           description: "Email de l'utilisateur", // param desc.
           in: "path", // location of the param
-          required: true, // Mandatory param
           schema: {
             type: "string", // data type
             example: "e2072931@site.com", // example of the data

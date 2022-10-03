@@ -23,13 +23,13 @@ module.exports = {
     '/validate':{
       ...validation,
     },
-    '/forget-password/:email':{
+    '/forget-password/{email}':{
       ...ForgetPassword,
     },
     '/users':{
       ...getAllUsers,
     },
-    '/user/:id':{
+    '/user/{id}':{
       ...getUser,
     },
     '/user':{
