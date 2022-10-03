@@ -1,5 +1,4 @@
-const { FirebaseError } = require("firebase/app");
-const { getAuth, signInWithEmailAndPassword, sendEmailVerification, createUserWithEmailAndPassword, deleteUser, sendPasswordResetEmail} = require("firebase/auth");
+const { getAuth, signInWithEmailAndPassword, sendEmailVerification, updateEmail, createUserWithEmailAndPassword, deleteUser, sendPasswordResetEmail} = require("firebase/auth");
 const { getDatabase, ref, set, get, child, remove } = require("firebase/database");
 
 const { fapp } = require('./firebaseconf');
@@ -50,7 +49,6 @@ exports.registerUser = async(req,res) =>{
                 province: province,
                 codePostal: codePostal,
                 photoProfil: photoProfil? photoProfil : null,
-                password: password
             } 
             set(child(database, `users/${user.uid}`), user_data)
             .then(()=>{
@@ -60,19 +58,28 @@ exports.registerUser = async(req,res) =>{
                 })
             })
             .catch(() => {
-                res.status(500).send({
-                    success:false,
-                    message: `Erreur lors de la création de l'utilisateur`,
-                })
+                switch(error.code) {
+                    case "auth/email-already-in-use":
+                        res.status(409).json({ 
+                            success: false,
+                            message: "L'utilisateur existe déjà"
+                        });
+                        break;
+                    default:
+                        res.status(500).json({ 
+                            success: false,
+                            message: "Erreur lors de la création de l'utilisateur"
+                         });
+                }   
             })
         })
         .catch((error) => {
             switch(error.code) {
                 case "auth/email-already-in-use":
                     res.status(409).json({ 
-                                            success: false,
-                                            message: "L'utilisateur existe déjà"
-                                        });
+                        success: false,
+                        message: "L'utilisateur existe déjà"
+                    });
                     break;
                 default:
                     res.status(500).json({ 
@@ -95,6 +102,92 @@ exports.updateProfile = async(req,res) =>{
     const database = ref(getDatabase());
     const auth = getAuth(fapp);
     const user = auth.currentUser;
+
+    const nom_user = req.body.nom_user
+    const prenom_user = req.body.prenom_user
+    const email_user = req.body.email_user
+    const date_naissance = req.body.date_naissance
+    const rue = req.body.rue
+    const pays = req.body.pays
+    const employe = req.body.employe
+    const province = req.body.province
+    const codePostal = req.body.codePostal
+    const photoProfil = req.body.photoProfil
+    const password = req.body.password
+    const Tel = req.body.telephone
+    
+    // mettre à jour les données de l'utilisateur
+    if(user !== null){
+        if(nom_user !== "" && prenom_user !=="" && validate_email(email_user) && date_naissance !=="" || rue !== "" && pays !=="" && employe !=="" &&
+                province !=="" && codePostal !=="" || photoProfil !=="" && validate_password(password) || Tel !==""){
+            const user_data =  {
+                nom_user: nom_user,
+                prenom_user: prenom_user,
+                email_user: email_user,
+                date_naissance: date_naissance,
+                telephone: Tel ? Tel : null,
+                rue: rue ? rue : null,
+                pays: pays,
+                employe: employe,
+                province: province,
+                codePostal: codePostal,
+                photoProfil: photoProfil? photoProfil : null,
+            } 
+            set(child(database, `users/${user.uid}`), user_data)
+            .then(()=>{
+                //update email
+                updateEmail(user, email_user)
+                .then(() => {
+                    res.status(201).send({
+                        success:true,
+                        message: `Utilisateur modifié`,
+                    })
+                })
+                .catch((error) => {
+                    switch(error.code) {
+                        case "auth/email-already-in-use":
+                            res.status(409).json({ 
+                                success: false,
+                                message: "L'email existe déjà"
+                            });
+                            break;
+                        default:
+                            res.status(500).json({ 
+                                success: false,
+                                message: "Erreur lors de la mis à jour de l'utilisateur"
+                             });
+                    }   
+                })
+            })
+            .catch((error) => {
+                switch(error.code) {
+                    case "auth/user-not-found":
+                        res.status(404).json({ 
+                            success: false,
+                            message: "L'utilisateur n'existe pas veuillez verifier votre email ou créer un compte"
+                        });
+                        break;
+                    default:
+                        res.status(500).send({ 
+                            success: false,
+                            message: "Erreur lors de la mis à jour de l'utilisateur"
+                        });
+                }
+            })
+        }
+        else{
+            res.status(400).send({
+                success:false,
+                message:'veuillez vérifier ou remplier les champs nécessaires'
+            })
+        }
+    }
+    else{
+        res.status(401).send({
+            success:false,
+            message:'vous n\'êtes pas connecté'
+        })
+    }
 }
 
 exports.resetPassword = async(req,res) =>{

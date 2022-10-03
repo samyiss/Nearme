@@ -75,6 +75,18 @@ module.exports = {
           },
         },
         // response code
+        409: {
+          description: "La réponse si l'email que l'utilisateur donne se trouve déja dans la base de données aka a deja un compte", // response desc.
+          content: {
+            // content-type
+            "application/json": {
+              schema: {
+                $ref: "#/components/schemas/ErrorMessage", // User model
+              },
+            },
+          },
+        },
+        // response code
         500: {
           description: "réponse si le serveur a rencontré une situation qu'il ne sait pas gérer", // response desc.
           content: {
