@@ -20,8 +20,13 @@ class loginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+<<<<<<< HEAD
 
         val AllerInscription = findViewById<TextView>(R.id.)
+=======
+        
+        val AllerInscription = findViewById<TextView>(R.id.allerInscription)
+>>>>>>> FrontEnd
         val AllerInscription = findViewById<TextView>(R.id.AllerInscription)
         val url = "http://192.168.0.133:3000/auth/token"
         val queue = Volley.newRequestQueue(this)
