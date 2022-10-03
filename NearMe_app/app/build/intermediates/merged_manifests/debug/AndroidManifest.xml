@@ -9,6 +9,7 @@
         android:targetSdkVersion="32" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +23,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.NearMe_app" >
+        android:theme="@style/Theme.NearMe_app"
+        android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.nearme_app.InscriptionActivity"
             android:exported="true" >
@@ -32,8 +34,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-            android:name=".ProfileGuestActivity"
-            android:exported="false" />
+        <activity
+            android:name="com.example.nearme_app.ProfileGuestActivity"
+            android:exported="false" >
+        </activity>
         <activity
             android:name="com.example.nearme_app.loginActivity"
             android:exported="true" >

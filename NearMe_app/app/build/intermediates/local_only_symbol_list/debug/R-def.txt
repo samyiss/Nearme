@@ -47,6 +47,7 @@ id connexion
 id constraintLayout
 id constraintLayout2
 id constraintLayout3
+id email
 id facebookLogo
 id facebook_button
 id general
@@ -81,6 +82,7 @@ id me
 id modeVendeur
 id navbar
 id nomCategorie
+id password
 id password_InputContainer
 id settings
 id switch_online_status
