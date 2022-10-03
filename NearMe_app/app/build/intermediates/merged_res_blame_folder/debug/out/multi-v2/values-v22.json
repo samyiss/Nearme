@@ -4,7 +4,11 @@
             "outputFile": "com.example.nearme_app-mergeDebugResources-28:/values-v22/values-v22.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\mcami\\.gradle\\caches\\transforms-3\\fc1f82018352b0cb2503b51beb61b53f\\transformed\\appcompat-1.5.1\\res\\values-v22\\values-v22.xml",
+=======
+                    "source": "C:\\Java\\caches\\transforms-3\\fc1f82018352b0cb2503b51beb61b53f\\transformed\\appcompat-1.5.1\\res\\values-v22\\values-v22.xml",
+>>>>>>> FrontEnd
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
