@@ -20,14 +20,12 @@ class loginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-<<<<<<< HEAD
 
-        val AllerInscription = findViewById<TextView>(R.id.)
-=======
-        
+
         val AllerInscription = findViewById<TextView>(R.id.allerInscription)
->>>>>>> FrontEnd
-        val AllerInscription = findViewById<TextView>(R.id.AllerInscription)
+
+        
+
         val url = "http://192.168.0.133:3000/auth/token"
         val queue = Volley.newRequestQueue(this)
 
@@ -40,8 +38,8 @@ class loginActivity : AppCompatActivity() {
         val AllerMain = findViewById<Button>(R.id.btnConnexion)
 
         AllerMain.setOnClickListener {
-            var email = this.findViewById<TextInputEditText>(R.id.email).text
-            var password = this.findViewById<TextInputEditText>(R.id.password).text
+            var email = this.findViewById<TextInputEditText>(R.id.inputEmail).text
+            var password = this.findViewById<TextInputEditText>(R.id.inputPassword).text
 
             val body = JSONObject()
             body.put("email", email)
