@@ -8,14 +8,13 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
-import com.android.volley.NetworkResponse
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
 import com.google.android.material.textfield.TextInputEditText
 import org.json.JSONObject
 
-class loginActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,7 +30,7 @@ class loginActivity : AppCompatActivity() {
 
 
         AllerInscription.setOnClickListener {
-            startActivity(Intent(this@loginActivity, InscriptionActivity::class.java))
+            startActivity(Intent(this@LoginActivity, InscriptionActivity::class.java))
 
         }
 

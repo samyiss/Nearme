@@ -43,8 +43,9 @@
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="normal|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        tools:layout_editor_absoluteX="150dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -67,6 +68,8 @@
         android:layout_marginTop="52dp"
         android:background="#00000000"
         android:contentDescription="@string/x_logo"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/btn_dialog" />
@@ -207,9 +210,11 @@
         android:id="@+id/imageView13"
         android:layout_width="73dp"
         android:layout_height="59dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connexion2"
         app:srcCompat="@drawable/logo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="67dp" />
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
