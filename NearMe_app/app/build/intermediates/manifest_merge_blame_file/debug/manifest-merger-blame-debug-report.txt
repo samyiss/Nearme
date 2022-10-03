@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nearme_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:6:5-67
+11-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:8:5-43:19
+14        android:allowBackup="true"
+14-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] C:\Users\Nibba\.gradle\caches\transforms-3\319818de8066db9dee1015fa48896948\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:10:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:11:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.NearMe_app" >
+25-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:16:9-48
+26        <activity
+26-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:18:9-26:20
+27            android:name="com.example.nearme_app.InscriptionActivity"
+27-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:19:13-48
+28            android:exported="true" >
+28-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:20:13-36
+29            <intent-filter>
+29-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:21:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:22:17-69
+30-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:24:17-77
+32-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35            android:name=".ProfileGuestActivity"
+36            android:exported="false" />
+37        <activity
+37-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:29:9-33:20
+38            android:name="com.example.nearme_app.loginActivity"
+38-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:30:13-42
+39            android:exported="true" >
+39-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:31:13-36
+40        </activity>
+41        <activity
+41-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:34:9-36:49
+42            android:name="com.example.nearme_app.LoadingActivity"
+42-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:35:13-44
+43            android:exported="false" />
+43-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:36:13-37
+44        <activity
+44-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:37:9-39:40
+45            android:name="com.example.nearme_app.profileloggedinActivity"
+45-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:38:13-52
+46            android:exported="false" />
+46-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:39:13-37
+47        <activity
+47-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:40:9-42:49
+48            android:name="com.example.nearme_app.MainActivity"
+48-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:41:13-41
+49            android:exported="false" />
+49-->F:\github\Projet3\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:42:13-37
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nibba\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nibba\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.example.nearme_app.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nibba\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nibba\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nibba\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nibba\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nibba\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nibba\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nibba\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nibba\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
