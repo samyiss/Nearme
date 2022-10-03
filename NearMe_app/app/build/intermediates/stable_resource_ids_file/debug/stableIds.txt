@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.Year = 0x7f0f03e9
 com.example.nearme_app:styleable/Chip = 0x7f10001d
 com.example.nearme_app:style/TextAppearance.AppCompat.Title.Inverse = 0x7f0f019b
@@ -34,6 +35,39 @@ com.example.nearme_app:style/Widget.Material3.Button.Icon = 0x7f0f0328
 com.example.nearme_app:style/Platform.AppCompat = 0x7f0f0124
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.Toolbar.Surface = 0x7f0f02c0
 com.example.nearme_app:style/Widget.Material3.FloatingActionButton.Surface = 0x7f0f035d
+=======
+com.example.nearme_app:id/imageView5 = 0x7f08010d
+com.example.nearme_app:styleable/Chip = 0x7f10001d
+com.example.nearme_app:style/Widget.Material3.Chip.Input.Elevated = 0x7f0f033e
+com.example.nearme_app:style/ThemeOverlay.MaterialAlertDialog.Material3.Title.Icon = 0x7f0f0298
+com.example.nearme_app:style/Widget.MaterialComponents.TimePicker.Button = 0x7f0f040f
+com.example.nearme_app:style/Widget.Support.CoordinatorLayout = 0x7f0f041d
+com.example.nearme_app:style/TextAppearance.MaterialComponents.Badge = 0x7f0f01e1
+com.example.nearme_app:style/Theme.Material3.Dark.BottomSheetDialog = 0x7f0f0215
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.Toolbar.Surface = 0x7f0f02c0
+com.example.nearme_app:style/Platform.AppCompat = 0x7f0f0124
+com.example.nearme_app:style/Theme.Material3.DayNight.Dialog.Alert = 0x7f0f021e
+com.example.nearme_app:styleable/ClockHandView = 0x7f100022
+com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.Year = 0x7f0f03e9
+com.example.nearme_app:style/Widget.MaterialComponents.TextInputLayout.OutlinedBox = 0x7f0f0409
+com.example.nearme_app:style/Widget.Material3.TextInputLayout.OutlinedBox.Dense = 0x7f0f0399
+com.example.nearme_app:style/Widget.MaterialComponents.Button.Icon = 0x7f0f03b6
+com.example.nearme_app:styleable/NavigationBarActiveIndicator = 0x7f100068
+com.example.nearme_app:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text = 0x7f0f0139
+com.example.nearme_app:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day = 0x7f0f016f
+com.example.nearme_app:style/Widget.AppCompat.Light.ActionBar.TabText.Inverse = 0x7f0f02e2
+com.example.nearme_app:style/Widget.MaterialComponents.Button.TextButton.Icon = 0x7f0f03bd
+com.example.nearme_app:style/Widget.Material3.FloatingActionButton.Surface = 0x7f0f035d
+com.example.nearme_app:styleable/ActionMenuView = 0x7f100003
+com.example.nearme_app:id/disableHome = 0x7f0800bb
+com.example.nearme_app:id/right_side = 0x7f08019e
+com.example.nearme_app:style/MaterialAlertDialog.Material3.Body.Text.CenterStacked = 0x7f0f0113
+com.example.nearme_app:style/TextAppearance.AppCompat.Title.Inverse = 0x7f0f019b
+com.example.nearme_app:style/Widget.AppCompat.Light.ListView.DropDown = 0x7f0f02ed
+com.example.nearme_app:style/TextAppearance.Test.NoTextSize = 0x7f0f01f2
+com.example.nearme_app:style/Widget.Material3.TextInputEditText.OutlinedBox = 0x7f0f0392
+com.example.nearme_app:style/TextAppearance.M3.Sys.Typescale.TitleMedium = 0x7f0f01cd
+>>>>>>> FrontEnd
 com.example.nearme_app:styleable/MaterialToolbar = 0x7f10005c
 com.example.nearme_app:style/ThemeOverlay.MaterialAlertDialog.Material3.Title.Icon = 0x7f0f0298
 com.example.nearme_app:style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface = 0x7f0f03b2
@@ -41,7 +75,12 @@ com.example.nearme_app:style/Theme.MaterialComponents.DayNight.Dialog.FixedSize.
 com.example.nearme_app:style/Theme.MaterialComponents.DayNight.Bridge = 0x7f0f0232
 com.example.nearme_app:style/Widget.Material3.Chip.Filter.Elevated = 0x7f0f033c
 com.example.nearme_app:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f0f0404
+com.example.nearme_app:style/Widget.AppCompat.ProgressBar.Horizontal = 0x7f0f02fb
+com.example.nearme_app:styleable/MaterialCheckBox = 0x7f100055
+com.example.nearme_app:string/abc_searchview_description_submit = 0x7f0e0016
+com.example.nearme_app:string/mtrl_picker_confirm = 0x7f0e0066
 com.example.nearme_app:styleable/ScrimInsetsFrameLayout = 0x7f100075
+<<<<<<< HEAD
 com.example.nearme_app:drawable/notification_bg = 0x7f070095
 com.example.nearme_app:color/material_dynamic_tertiary0 = 0x7f0501d8
 com.example.nearme_app:style/Widget.MaterialComponents.Button.Icon = 0x7f0f03b6
@@ -130,12 +169,85 @@ com.example.nearme_app:id/material_timepicker_view = 0x7f080145
 com.example.nearme_app:color/design_dark_default_color_error = 0x7f050032
 com.example.nearme_app:id/accessibility_custom_action_7 = 0x7f080037
 com.example.nearme_app:layout/mtrl_calendar_month = 0x7f0b0055
+=======
+com.example.nearme_app:style/Base.V14.Theme.Material3.Dark.Dialog = 0x7f0f0080
+com.example.nearme_app:style/TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f0f01f7
+com.example.nearme_app:style/Widget.Material3.MaterialCalendar.DayTextView = 0x7f0f0367
+com.example.nearme_app:dimen/m3_appbar_scrim_height_trigger_large = 0x7f0600a9
+com.example.nearme_app:style/Base.Widget.Material3.Chip = 0x7f0f00f0
+com.example.nearme_app:id/outward = 0x7f080184
+com.example.nearme_app:style/TextAppearance.M3.Sys.Typescale.TitleLarge = 0x7f0f01cc
+com.example.nearme_app:style/Widget.Material3.Button.OutlinedButton.Icon = 0x7f0f032b
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.BottomAppBar.Primary = 0x7f0f02a2
+com.example.nearme_app:style/Widget.Material3.Button.TextButton.Snackbar = 0x7f0f0331
+com.example.nearme_app:string/path_password_strike_through = 0x7f0e008a
+com.example.nearme_app:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Secondary = 0x7f0f0350
+com.example.nearme_app:id/search_src_text = 0x7f0801b3
+com.example.nearme_app:style/ShapeAppearance.Material3.Corner.Full = 0x7f0f0150
+com.example.nearme_app:style/Base.Widget.AppCompat.ListPopupWindow = 0x7f0f00d6
+com.example.nearme_app:styleable/FloatingActionButton = 0x7f100034
+com.example.nearme_app:styleable/ConstraintSet = 0x7f10002c
+com.example.nearme_app:id/staticLayout = 0x7f0801d8
+com.example.nearme_app:style/Widget.Material3.Button.IconButton = 0x7f0f0329
+com.example.nearme_app:id/linearLayout5 = 0x7f08012c
+com.example.nearme_app:style/Widget.AppCompat.ButtonBar = 0x7f0f02d3
+com.example.nearme_app:style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored = 0x7f0f0037
+com.example.nearme_app:styleable/MaterialButtonToggleGroup = 0x7f100051
+com.example.nearme_app:styleable/View = 0x7f100090
+com.example.nearme_app:string/near_me = 0x7f0e0083
+com.example.nearme_app:style/Base.Theme.Material3.Dark.Dialog = 0x7f0f0057
+com.example.nearme_app:style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f0f0106
+com.example.nearme_app:style/Widget.Material3.MaterialCalendar.YearNavigationButton = 0x7f0f0376
+com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar = 0x7f0f03d6
+com.example.nearme_app:style/ThemeOverlay.Material3.FloatingActionButton.Secondary = 0x7f0f0282
+com.example.nearme_app:style/TestThemeWithLineHeightDisabled = 0x7f0f017f
+com.example.nearme_app:string/abc_activitychooserview_choose_application = 0x7f0e0005
+com.example.nearme_app:id/email = 0x7f080233
+com.example.nearme_app:drawable/m3_appbar_background = 0x7f070077
+com.example.nearme_app:styleable/ConstraintLayout_ReactiveGuide = 0x7f100029
+com.example.nearme_app:style/Platform.V25.AppCompat = 0x7f0f012f
+com.example.nearme_app:id/accessibility_custom_action_2 = 0x7f080026
+com.example.nearme_app:style/Base.Widget.Material3.MaterialCalendar.NavigationButton = 0x7f0f00fa
+com.example.nearme_app:style/Widget.MaterialComponents.BottomAppBar.PrimarySurface = 0x7f0f03af
+com.example.nearme_app:id/cache_measures = 0x7f08007b
+com.example.nearme_app:styleable/ConstraintOverride = 0x7f10002b
+com.example.nearme_app:style/MaterialAlertDialog.Material3 = 0x7f0f0111
+com.example.nearme_app:style/Theme.MaterialComponents.Light.Dialog.FixedSize.Bridge = 0x7f0f0254
+com.example.nearme_app:style/Base.Widget.Material3.ActionMode = 0x7f0f00ee
+com.example.nearme_app:styleable/Tooltip = 0x7f10008c
+com.example.nearme_app:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle = 0x7f0f01a2
+com.example.nearme_app:style/Widget.MaterialComponents.NavigationRailView.PrimarySurface = 0x7f0f03f2
+com.example.nearme_app:style/Widget.Material3.BottomSheet.Modal = 0x7f0f0324
+com.example.nearme_app:style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface = 0x7f0f03b2
+com.example.nearme_app:drawable/design_fab_background = 0x7f070061
+com.example.nearme_app:style/Widget.Material3.NavigationRailView = 0x7f0f0382
+com.example.nearme_app:styleable/ViewStubCompat = 0x7f100093
+com.example.nearme_app:style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense = 0x7f0f0296
+com.example.nearme_app:style/Widget.AppCompat.Light.ActionBar.TabView = 0x7f0f02e3
+com.example.nearme_app:style/Base.Theme.AppCompat.Dialog.Alert = 0x7f0f004a
+com.example.nearme_app:style/Base.Widget.Material3.FloatingActionButton = 0x7f0f00f7
+com.example.nearme_app:style/ShapeAppearance.M3.Sys.Shape.Corner.Full = 0x7f0f0147
+com.example.nearme_app:style/Base.TextAppearance.AppCompat.Display3 = 0x7f0f001a
+com.example.nearme_app:style/Test.Widget.MaterialComponents.MaterialCalendar.Day = 0x7f0f0178
+com.example.nearme_app:style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f0f0044
+com.example.nearme_app:dimen/m3_sys_motion_easing_linear_control_x1 = 0x7f060128
+com.example.nearme_app:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f0f019e
+com.example.nearme_app:color/m3_ref_palette_neutral100 = 0x7f0500e0
+com.example.nearme_app:string/path_password_eye_mask_strike_through = 0x7f0e0088
+com.example.nearme_app:styleable/MaterialCalendar = 0x7f100052
+com.example.nearme_app:style/Widget.MaterialComponents.TabLayout.PrimarySurface = 0x7f0f0400
+com.example.nearme_app:layout/mtrl_calendar_month = 0x7f0b0055
+com.example.nearme_app:id/accessibility_custom_action_7 = 0x7f080037
+com.example.nearme_app:style/Theme.MaterialComponents.DayNight.Bridge = 0x7f0f0232
+com.example.nearme_app:style/Widget.Material3.Chip.Filter.Elevated = 0x7f0f033c
+>>>>>>> FrontEnd
 com.example.nearme_app:style/TextAppearance.AppCompat.Widget.PopupMenu.Small = 0x7f0f01ad
 com.example.nearme_app:style/Platform.ThemeOverlay.AppCompat.Light = 0x7f0f012c
 com.example.nearme_app:styleable/Motion = 0x7f100061
 com.example.nearme_app:styleable/MaterialTextAppearance = 0x7f100059
 com.example.nearme_app:style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f0f0397
 com.example.nearme_app:id/titre_profile_guest = 0x7f08020d
+<<<<<<< HEAD
 com.example.nearme_app:layout/mtrl_calendar_day = 0x7f0b0051
 com.example.nearme_app:dimen/m3_badge_vertical_offset = 0x7f0600b0
 com.example.nearme_app:styleable/ColorStateListItem = 0x7f100025
@@ -149,9 +261,49 @@ com.example.nearme_app:styleable/MockView = 0x7f100060
 com.example.nearme_app:style/ShapeAppearance.M3.Sys.Shape.Corner.Large.Top = 0x7f0f014a
 com.example.nearme_app:id/easeInOut = 0x7f0800cc
 com.example.nearme_app:style/Theme.MaterialComponents.Dialog.Alert.Bridge = 0x7f0f0242
+=======
+com.example.nearme_app:id/password = 0x7f080234
+com.example.nearme_app:layout/mtrl_calendar_day = 0x7f0b0051
+com.example.nearme_app:dimen/m3_badge_vertical_offset = 0x7f0600b0
+com.example.nearme_app:styleable/ColorStateListItem = 0x7f100025
+com.example.nearme_app:style/Theme.AppCompat.Dialog.MinWidth = 0x7f0f0203
+com.example.nearme_app:style/Widget.Material3.Button.ElevatedButton = 0x7f0f0326
+com.example.nearme_app:style/Widget.Material3.Button.TonalButton.Icon = 0x7f0f0333
+com.example.nearme_app:style/Theme.MaterialComponents.DayNight.Dialog.MinWidth = 0x7f0f023b
+com.example.nearme_app:string/m3_ref_typeface_brand_regular = 0x7f0e0039
+com.example.nearme_app:style/ThemeOverlay.Material3.Dialog.Alert.Framework = 0x7f0f027d
+com.example.nearme_app:styleable/KeyFrame = 0x7f100042
+com.example.nearme_app:style/Widget.Material3.ExtendedFloatingActionButton.Primary = 0x7f0f0353
+com.example.nearme_app:style/Widget.AppCompat.DropDownItem.Spinner = 0x7f0f02d9
+com.example.nearme_app:attr/iconEndPadding = 0x7f0301e6
+com.example.nearme_app:id/square = 0x7f0801cf
+com.example.nearme_app:attr/telltales_velocityMode = 0x7f0303b3
+com.example.nearme_app:color/m3_sys_color_dynamic_dark_surface = 0x7f050154
+com.example.nearme_app:id/textSpacerNoTitle = 0x7f0801f9
+com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.DayTextView = 0x7f0f03dc
+com.example.nearme_app:id/mtrl_picker_text_input_range_start = 0x7f080168
+com.example.nearme_app:style/Widget.AppCompat.Spinner.DropDown.ActionBar = 0x7f0f0305
+com.example.nearme_app:layout/material_clockface_view = 0x7f0b0042
+com.example.nearme_app:styleable/OnClick = 0x7f10006c
+com.example.nearme_app:id/mtrl_picker_header_title_and_selection = 0x7f080164
+com.example.nearme_app:style/ShapeAppearance.M3.Sys.Shape.Corner.ExtraSmall.Top = 0x7f0f0146
+com.example.nearme_app:style/ShapeAppearanceOverlay.BottomLeftDifferentCornerSize = 0x7f0f0161
+com.example.nearme_app:style/Widget.AppCompat.ListPopupWindow = 0x7f0f02f3
+com.example.nearme_app:style/TextAppearance.MaterialComponents.Subtitle2 = 0x7f0f01ef
+com.example.nearme_app:style/Widget.MaterialComponents.TabLayout.Colored = 0x7f0f03ff
+com.example.nearme_app:id/title = 0x7f08020a
+com.example.nearme_app:id/easeInOut = 0x7f0800cc
+com.example.nearme_app:style/Theme.MaterialComponents.Dialog.Alert.Bridge = 0x7f0f0242
+com.example.nearme_app:style/ShapeAppearance.M3.Sys.Shape.Corner.Large.Top = 0x7f0f014a
+com.example.nearme_app:styleable/Fragment = 0x7f10003a
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.Toolbar.Popup.Primary = 0x7f0f02be
+com.example.nearme_app:styleable/MockView = 0x7f100060
+com.example.nearme_app:color/mtrl_popupmenu_overlay_color = 0x7f05022b
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Widget.Material3.TabLayout = 0x7f0f038d
 com.example.nearme_app:color/mtrl_popupmenu_overlay_color = 0x7f05022b
 com.example.nearme_app:style/Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge = 0x7f0f0237
+<<<<<<< HEAD
 com.example.nearme_app:styleable/CardView = 0x7f10001a
 com.example.nearme_app:string/se_connecter = 0x7f0e008e
 com.example.nearme_app:style/Widget.AppCompat.PopupMenu = 0x7f0f02f7
@@ -181,6 +333,30 @@ com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.Day.Sele
 com.example.nearme_app:integer/mtrl_view_invisible = 0x7f090031
 com.example.nearme_app:id/textStart = 0x7f0801fa
 com.example.nearme_app:style/Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f0f02d0
+=======
+com.example.nearme_app:style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush = 0x7f0f03bb
+com.example.nearme_app:style/Widget.Material3.TextInputLayout.FilledBox.Dense = 0x7f0f0395
+com.example.nearme_app:style/Widget.AppCompat.PopupMenu = 0x7f0f02f7
+com.example.nearme_app:styleable/CardView = 0x7f10001a
+com.example.nearme_app:string/se_connecter = 0x7f0e008e
+com.example.nearme_app:style/TextAppearance.AppCompat.Caption = 0x7f0f0184
+com.example.nearme_app:style/Widget.AppCompat.Light.ActionBar.TabText = 0x7f0f02e1
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f0f02bd
+com.example.nearme_app:style/Base.ThemeOverlay.Material3.BottomSheetDialog = 0x7f0f0076
+com.example.nearme_app:style/ThemeOverlay.Material3.BottomSheetDialog = 0x7f0f0270
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f0f029f
+com.example.nearme_app:style/Widget.Design.AppBarLayout = 0x7f0f030d
+com.example.nearme_app:id/apple_button = 0x7f08005f
+com.example.nearme_app:styleable/LinearProgressIndicator = 0x7f10004b
+com.example.nearme_app:dimen/design_snackbar_max_width = 0x7f060085
+com.example.nearme_app:style/ThemeOverlay.AppCompat.Dark.ActionBar = 0x7f0f0261
+com.example.nearme_app:style/Theme.AppCompat.Dialog = 0x7f0f0201
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox = 0x7f0f02b7
+com.example.nearme_app:style/Widget.AppCompat.Light.ActionButton.Overflow = 0x7f0f02e7
+com.example.nearme_app:color/mtrl_navigation_item_background_color = 0x7f050224
+com.example.nearme_app:styleable/SwitchCompat = 0x7f100082
+com.example.nearme_app:drawable/avd_show_password = 0x7f070058
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Widget.Material3.MaterialCalendar.Day.Invalid = 0x7f0f0363
 com.example.nearme_app:style/Widget.MaterialComponents.Chip.Choice = 0x7f0f03c4
 com.example.nearme_app:color/material_on_surface_emphasis_medium = 0x7f0501f8
@@ -190,20 +366,42 @@ com.example.nearme_app:styleable/PopupWindow = 0x7f10006e
 com.example.nearme_app:style/Widget.AppCompat.Light.AutoCompleteTextView = 0x7f0f02ea
 com.example.nearme_app:dimen/mtrl_progress_circular_inset = 0x7f0601f6
 com.example.nearme_app:style/Widget.AppCompat.Button.Small = 0x7f0f02d2
+<<<<<<< HEAD
+=======
+com.example.nearme_app:style/Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f0f02d0
+com.example.nearme_app:id/textStart = 0x7f0801fa
+com.example.nearme_app:integer/mtrl_view_invisible = 0x7f090031
+com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.Day.Selected = 0x7f0f03d9
+com.example.nearme_app:style/Widget.MaterialComponents.CircularProgressIndicator.Small = 0x7f0f03cb
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Base.Theme.AppCompat.Dialog = 0x7f0f0049
 com.example.nearme_app:layout/text_view_with_line_height_from_style = 0x7f0b0081
 com.example.nearme_app:style/ThemeOverlay.Material3.ActionBar = 0x7f0f0269
 com.example.nearme_app:style/Base.Theme.AppCompat.Light.Dialog = 0x7f0f0050
+<<<<<<< HEAD
 com.example.nearme_app:style/Widget.MaterialComponents.CircularProgressIndicator.Small = 0x7f0f03cb
 com.example.nearme_app:id/dragStart = 0x7f0800c6
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Widget.Material3.CollapsingToolbar = 0x7f0f0348
+com.example.nearme_app:id/dragStart = 0x7f0800c6
 com.example.nearme_app:style/Widget.AppCompat.Button.Borderless = 0x7f0f02ce
 com.example.nearme_app:style/Widget.Material3.MaterialCalendar.DayOfWeekLabel = 0x7f0f0366
 com.example.nearme_app:styleable/KeyAttribute = 0x7f100040
+com.example.nearme_app:attr/textAppearanceLineHeightEnabled = 0x7f0303cc
 com.example.nearme_app:styleable/BaseProgressIndicator = 0x7f100014
 com.example.nearme_app:id/dragEnd = 0x7f0800c3
 com.example.nearme_app:style/Base.TextAppearance.MaterialComponents.Subtitle2 = 0x7f0f0043
 com.example.nearme_app:style/Widget.Design.Snackbar = 0x7f0f0314
+<<<<<<< HEAD
+=======
+com.example.nearme_app:attr/iconTintMode = 0x7f0301ec
+com.example.nearme_app:style/Base.Theme.MaterialComponents.Light.Dialog.Alert = 0x7f0f0069
+com.example.nearme_app:id/material_timepicker_view = 0x7f080145
+com.example.nearme_app:color/design_dark_default_color_error = 0x7f050032
+com.example.nearme_app:id/accessibility_custom_action_19 = 0x7f080025
+com.example.nearme_app:style/Widget.Material3.MaterialCalendar.HeaderDivider = 0x7f0f036a
+>>>>>>> FrontEnd
 com.example.nearme_app:id/accessibility_custom_action_24 = 0x7f08002b
 com.example.nearme_app:style/Widget.Material3.FloatingActionButton.Large.Tertiary = 0x7f0f035a
 com.example.nearme_app:string/mtrl_picker_text_input_month_abbr = 0x7f0e007b
@@ -218,6 +416,7 @@ com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.DayTextV
 com.example.nearme_app:id/textSpacerNoTitle = 0x7f0801f9
 com.example.nearme_app:color/m3_sys_color_dynamic_dark_surface = 0x7f050154
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.TimePicker = 0x7f0f02bb
+<<<<<<< HEAD
 com.example.nearme_app:color/m3_ref_palette_tertiary99 = 0x7f05011e
 com.example.nearme_app:id/mtrl_calendar_days_of_week = 0x7f080156
 com.example.nearme_app:style/Base.ThemeOverlay.AppCompat = 0x7f0f006e
@@ -225,6 +424,18 @@ com.example.nearme_app:drawable/material_ic_menu_arrow_up_black_24dp = 0x7f07008
 com.example.nearme_app:style/Base.V21.Theme.AppCompat.Light = 0x7f0f0094
 com.example.nearme_app:style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon = 0x7f0f0140
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f0f02ad
+=======
+com.example.nearme_app:id/mtrl_calendar_days_of_week = 0x7f080156
+com.example.nearme_app:style/Base.ThemeOverlay.AppCompat = 0x7f0f006e
+com.example.nearme_app:style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon = 0x7f0f0140
+com.example.nearme_app:style/Base.V21.Theme.AppCompat.Light = 0x7f0f0094
+com.example.nearme_app:drawable/material_ic_menu_arrow_up_black_24dp = 0x7f070088
+com.example.nearme_app:color/material_dynamic_tertiary0 = 0x7f0501d8
+com.example.nearme_app:drawable/notification_bg = 0x7f070095
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f0f02ad
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework = 0x7f0f02ac
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.MaterialCalendar = 0x7f0f02b4
+>>>>>>> FrontEnd
 com.example.nearme_app:string/character_counter_overflowed_content_description = 0x7f0e0023
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework = 0x7f0f02ac
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.MaterialCalendar = 0x7f0f02b4
@@ -248,11 +459,19 @@ com.example.nearme_app:layout/m3_auto_complete_simple_item = 0x7f0b003b
 com.example.nearme_app:style/ThemeOverlay.AppCompat.Dark = 0x7f0f0260
 com.example.nearme_app:color/m3_dynamic_dark_hint_foreground = 0x7f05007b
 com.example.nearme_app:style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton = 0x7f0f0103
+<<<<<<< HEAD
 com.example.nearme_app:style/CardView.Dark = 0x7f0f010e
 com.example.nearme_app:style/Base.V14.Theme.MaterialComponents.Bridge = 0x7f0f0085
 com.example.nearme_app:style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f0f0408
 com.example.nearme_app:style/Theme.MaterialComponents.DayNight.BottomSheetDialog = 0x7f0f0231
 com.example.nearme_app:id/imageView7 = 0x7f08010f
+=======
+com.example.nearme_app:style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f0f0408
+com.example.nearme_app:style/Theme.MaterialComponents.DayNight.BottomSheetDialog = 0x7f0f0231
+com.example.nearme_app:id/imageView7 = 0x7f08010f
+com.example.nearme_app:style/CardView.Dark = 0x7f0f010e
+com.example.nearme_app:style/Base.V14.Theme.MaterialComponents.Bridge = 0x7f0f0085
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Widget.MaterialComponents.ActionBar.Primary = 0x7f0f03a0
 com.example.nearme_app:style/Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f0f024e
 com.example.nearme_app:style/ThemeOverlay.Material3.AutoCompleteTextView.FilledBox = 0x7f0f026b
@@ -263,6 +482,7 @@ com.example.nearme_app:style/ThemeOverlay.AppCompat.Light = 0x7f0f0266
 com.example.nearme_app:style/Base.V7.Theme.AppCompat.Light.Dialog = 0x7f0f00ad
 com.example.nearme_app:style/Theme.MaterialComponents.Light.Dialog.MinWidth.Bridge = 0x7f0f0256
 com.example.nearme_app:style/Theme.Material3.Dark.NoActionBar = 0x7f0f021a
+<<<<<<< HEAD
 com.example.nearme_app:id/checkBox2 = 0x7f080233
 com.example.nearme_app:style/Widget.AppCompat.Light.ListPopupWindow = 0x7f0f02ec
 com.example.nearme_app:dimen/m3_extended_fab_icon_padding = 0x7f0600ea
@@ -279,6 +499,21 @@ com.example.nearme_app:id/center_vertical = 0x7f080084
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.TextInputEditText = 0x7f0f02b6
 com.example.nearme_app:style/Widget.AppCompat.TextView.SpinnerItem = 0x7f0f0308
 com.example.nearme_app:style/TextAppearance.MaterialComponents.Headline4 = 0x7f0f01ea
+=======
+com.example.nearme_app:style/Widget.AppCompat.Light.ListPopupWindow = 0x7f0f02ec
+com.example.nearme_app:dimen/m3_extended_fab_icon_padding = 0x7f0600ea
+com.example.nearme_app:style/Theme.MaterialComponents.Light.NoActionBar = 0x7f0f0259
+com.example.nearme_app:dimen/material_filled_edittext_font_1_3_padding_top = 0x7f060153
+com.example.nearme_app:style/TextAppearance.M3.Sys.Typescale.BodySmall = 0x7f0f01c2
+com.example.nearme_app:styleable/MotionLayout = 0x7f100065
+com.example.nearme_app:style/TextAppearance.Material3.TitleSmall = 0x7f0f01e0
+com.example.nearme_app:style/TextAppearance.MaterialComponents.Headline4 = 0x7f0f01ea
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.TextInputEditText = 0x7f0f02b6
+com.example.nearme_app:style/Widget.AppCompat.TextView.SpinnerItem = 0x7f0f0308
+com.example.nearme_app:animator/design_fab_hide_motion_spec = 0x7f020001
+com.example.nearme_app:id/accessibility_custom_action_0 = 0x7f08001a
+com.example.nearme_app:id/center_vertical = 0x7f080084
+>>>>>>> FrontEnd
 com.example.nearme_app:color/m3_sys_color_dynamic_dark_tertiary = 0x7f050156
 com.example.nearme_app:dimen/material_cursor_width = 0x7f06014c
 com.example.nearme_app:style/Widget.Material3.CircularProgressIndicator = 0x7f0f0344
@@ -294,6 +529,13 @@ com.example.nearme_app:styleable/AppCompatTheme = 0x7f100012
 com.example.nearme_app:style/Theme.MaterialComponents.DayNight.Dialog.Bridge = 0x7f0f0238
 com.example.nearme_app:style/Base.Widget.AppCompat.ButtonBar = 0x7f0f00c3
 com.example.nearme_app:style/Widget.AppCompat.Light.SearchView = 0x7f0f02f0
+<<<<<<< HEAD
+=======
+com.example.nearme_app:id/none = 0x7f08017a
+com.example.nearme_app:attr/materialButtonToggleGroupStyle = 0x7f030295
+com.example.nearme_app:string/bottom_sheet_behavior = 0x7f0e001f
+com.example.nearme_app:color/design_default_color_on_surface = 0x7f050044
+>>>>>>> FrontEnd
 com.example.nearme_app:dimen/m3_appbar_scrim_height_trigger_medium = 0x7f0600aa
 com.example.nearme_app:style/Widget.Material3.MaterialCalendar.Day.Selected = 0x7f0f0364
 com.example.nearme_app:id/mtrl_internal_children_alpha_tag = 0x7f08015f
@@ -313,6 +555,7 @@ com.example.nearme_app:color/material_dynamic_primary99 = 0x7f0501ca
 com.example.nearme_app:dimen/abc_action_bar_icon_vertical_padding_material = 0x7f060006
 com.example.nearme_app:xml/backup_rules = 0x7f110000
 com.example.nearme_app:styleable/FragmentContainerView = 0x7f10003b
+<<<<<<< HEAD
 com.example.nearme_app:style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox = 0x7f0f0295
 com.example.nearme_app:id/parent = 0x7f080188
 com.example.nearme_app:layout/material_clockface_textview = 0x7f0b0041
@@ -320,15 +563,32 @@ com.example.nearme_app:id/material_timepicker_cancel_button = 0x7f080140
 com.example.nearme_app:id/inscrire = 0x7f080116
 com.example.nearme_app:color/abc_background_cache_hint_selector_material_light = 0x7f050001
 com.example.nearme_app:attr/carousel_emptyViewsBehavior = 0x7f03008c
+=======
+com.example.nearme_app:id/parent = 0x7f080188
+com.example.nearme_app:style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox = 0x7f0f0295
+com.example.nearme_app:drawable/m3_tabs_rounded_line_indicator = 0x7f07007d
+com.example.nearme_app:color/abc_background_cache_hint_selector_material_light = 0x7f050001
+com.example.nearme_app:attr/carousel_emptyViewsBehavior = 0x7f03008c
+com.example.nearme_app:id/material_timepicker_cancel_button = 0x7f080140
+com.example.nearme_app:layout/material_clockface_textview = 0x7f0b0041
+com.example.nearme_app:id/inscrire = 0x7f080116
+com.example.nearme_app:id/blocking = 0x7f08006c
+com.example.nearme_app:style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f0f03a9
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Base.TextAppearance.AppCompat.Small.Inverse = 0x7f0f0029
 com.example.nearme_app:id/AllerInscription = 0x7f080002
 com.example.nearme_app:style/Animation.AppCompat.Dialog = 0x7f0f0003
 com.example.nearme_app:dimen/mtrl_bottomappbar_fab_cradle_margin = 0x7f060175
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.Dark.ActionBar = 0x7f0f02a6
+<<<<<<< HEAD
+=======
+com.example.nearme_app:string/post_request = 0x7f0e008c
+>>>>>>> FrontEnd
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.ActionBar.Primary = 0x7f0f029b
 com.example.nearme_app:dimen/abc_control_corner_material = 0x7f060018
 com.example.nearme_app:dimen/m3_navigation_rail_item_padding_bottom = 0x7f060104
-com.example.nearme_app:string/post_request = 0x7f0e008c
+com.example.nearme_app:drawable/notify_panel_notification_icon_bg = 0x7f07009f
+com.example.nearme_app:string/material_timepicker_minute = 0x7f0e0058
 com.example.nearme_app:style/Widget.Material3.MaterialTimePicker.Display = 0x7f0f037c
 com.example.nearme_app:layout/mtrl_picker_header_selection_text = 0x7f0b0063
 com.example.nearme_app:style/Widget.AppCompat.ListView = 0x7f0f02f4
@@ -337,6 +597,7 @@ com.example.nearme_app:style/Theme.Design.Light.BottomSheetDialog = 0x7f0f0211
 com.example.nearme_app:layout/material_timepicker_textinput_display = 0x7f0b0049
 com.example.nearme_app:attr/titleMargins = 0x7f030412
 com.example.nearme_app:style/TextAppearance.AppCompat.SearchResult.Title = 0x7f0f0195
+<<<<<<< HEAD
 com.example.nearme_app:id/expand_activities_button = 0x7f0800d8
 com.example.nearme_app:id/accessibility_custom_action_1 = 0x7f08001b
 com.example.nearme_app:id/guideline = 0x7f0800f8
@@ -365,12 +626,58 @@ com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.DayOfWee
 com.example.nearme_app:id/clip_vertical = 0x7f080094
 com.example.nearme_app:string/material_minute_selection = 0x7f0e004c
 com.example.nearme_app:style/Widget.Material3.PopupMenu.ContextMenu = 0x7f0f0386
+=======
+com.example.nearme_app:id/accessibility_custom_action_1 = 0x7f08001b
+com.example.nearme_app:id/expand_activities_button = 0x7f0800d8
+com.example.nearme_app:string/mtrl_timepicker_confirm = 0x7f0e0081
+com.example.nearme_app:attr/tabPaddingStart = 0x7f0303a7
+com.example.nearme_app:id/guideline = 0x7f0800f8
+com.example.nearme_app:style/Theme.AppCompat.Light.Dialog = 0x7f0f0208
+com.example.nearme_app:string/mtrl_picker_out_of_range = 0x7f0e0070
+com.example.nearme_app:style/Widget.Material3.MaterialTimePicker.Clock = 0x7f0f037b
+com.example.nearme_app:string/mtrl_picker_invalid_format_use = 0x7f0e006d
+com.example.nearme_app:style/Theme.AppCompat.Empty = 0x7f0f0205
+com.example.nearme_app:style/Base.Widget.MaterialComponents.PopupMenu.Overflow = 0x7f0f0107
+com.example.nearme_app:id/filled = 0x7f0800e0
+com.example.nearme_app:style/Base.Widget.AppCompat.EditText = 0x7f0f00cb
+com.example.nearme_app:color/abc_color_highlight_material = 0x7f050004
+com.example.nearme_app:style/Widget.MaterialComponents.Chip.Filter = 0x7f0f03c6
+com.example.nearme_app:dimen/m3_btn_icon_btn_padding_left = 0x7f0600c5
+com.example.nearme_app:dimen/fastscroll_default_thickness = 0x7f060092
+com.example.nearme_app:color/m3_ref_palette_primary90 = 0x7f050102
+com.example.nearme_app:style/Widget.Design.FloatingActionButton = 0x7f0f0311
+com.example.nearme_app:layout/mtrl_calendar_days_of_week = 0x7f0b0053
+com.example.nearme_app:style/Widget.MaterialComponents.NavigationView = 0x7f0f03f3
+com.example.nearme_app:layout/design_navigation_item_separator = 0x7f0b002c
+com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.Year.Today = 0x7f0f03eb
+com.example.nearme_app:id/action_mode_close_button = 0x7f080050
+com.example.nearme_app:style/Widget.AppCompat.Light.ActionBar = 0x7f0f02dc
+com.example.nearme_app:string/material_slider_range_start = 0x7f0e0054
+com.example.nearme_app:style/Base.Widget.MaterialComponents.Snackbar = 0x7f0f0109
+com.example.nearme_app:id/position = 0x7f080193
+com.example.nearme_app:style/Widget.Material3.PopupMenu.ContextMenu = 0x7f0f0386
+com.example.nearme_app:string/material_minute_selection = 0x7f0e004c
+com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.DayOfWeekLabel = 0x7f0f03db
+com.example.nearme_app:id/clip_vertical = 0x7f080094
+com.example.nearme_app:style/Theme.Material3.Light.Dialog.MinWidth = 0x7f0f0229
+>>>>>>> FrontEnd
 com.example.nearme_app:style/ThemeOverlay.Material3.BottomAppBar = 0x7f0f026f
 com.example.nearme_app:style/Widget.Material3.MaterialCalendar.Day = 0x7f0f0362
 com.example.nearme_app:style/TextAppearance.Compat.Notification = 0x7f0f01b0
 com.example.nearme_app:style/Widget.Material3.MaterialCalendar.Item = 0x7f0f0370
+<<<<<<< HEAD
 com.example.nearme_app:id/accessibility_custom_action_22 = 0x7f080029
 com.example.nearme_app:attr/thumbTint = 0x7f0303fe
+=======
+com.example.nearme_app:xml/standalone_badge_gravity_top_start = 0x7f110005
+com.example.nearme_app:style/Theme.Material3.Dark.Dialog.Alert = 0x7f0f0217
+com.example.nearme_app:id/textView2 = 0x7f0801fd
+com.example.nearme_app:style/Widget.Material3.Button.TonalButton = 0x7f0f0332
+com.example.nearme_app:drawable/abc_btn_radio_material_anim = 0x7f070011
+com.example.nearme_app:attr/yearSelectedStyle = 0x7f030454
+com.example.nearme_app:attr/thumbTint = 0x7f0303fe
+com.example.nearme_app:id/accessibility_custom_action_22 = 0x7f080029
+>>>>>>> FrontEnd
 com.example.nearme_app:styleable/AnimatedStateListDrawableItem = 0x7f100008
 com.example.nearme_app:color/material_grey_900 = 0x7f0501eb
 com.example.nearme_app:xml/standalone_badge_gravity_top_start = 0x7f110005
@@ -390,11 +697,19 @@ com.example.nearme_app:dimen/design_navigation_max_width = 0x7f06007d
 com.example.nearme_app:style/Widget.Material3.PopupMenu.Overflow = 0x7f0f0388
 com.example.nearme_app:style/Base.Widget.AppCompat.DrawerArrowToggle = 0x7f0f00c8
 com.example.nearme_app:style/TextAppearance.AppCompat.Body2 = 0x7f0f0182
+<<<<<<< HEAD
 com.example.nearme_app:styleable/ImageFilterView = 0x7f10003e
 com.example.nearme_app:style/Widget.Material3.CompoundButton.CheckBox = 0x7f0f034b
 com.example.nearme_app:id/showHome = 0x7f0801bd
 com.example.nearme_app:styleable/ConstraintLayout_placeholder = 0x7f10002a
 com.example.nearme_app:style/Theme.Material3.DayNight.DialogWhenLarge = 0x7f0f0220
+=======
+com.example.nearme_app:id/showHome = 0x7f0801bd
+com.example.nearme_app:styleable/ImageFilterView = 0x7f10003e
+com.example.nearme_app:style/Widget.Material3.CompoundButton.CheckBox = 0x7f0f034b
+com.example.nearme_app:style/Theme.Material3.DayNight.DialogWhenLarge = 0x7f0f0220
+com.example.nearme_app:styleable/ConstraintLayout_placeholder = 0x7f10002a
+>>>>>>> FrontEnd
 com.example.nearme_app:style/ThemeOverlay.Material3.NavigationView = 0x7f0f0290
 com.example.nearme_app:style/Widget.Material3.Button.TextButton.Icon = 0x7f0f0330
 com.example.nearme_app:string/trouver_des_services = 0x7f0e0094
@@ -403,7 +718,10 @@ com.example.nearme_app:style/Base.Widget.MaterialComponents.AutoCompleteTextView
 com.example.nearme_app:style/Widget.Material3.Chip.Assist = 0x7f0f0339
 com.example.nearme_app:style/Theme.AppCompat.DialogWhenLarge = 0x7f0f0204
 com.example.nearme_app:id/linear = 0x7f080126
+<<<<<<< HEAD
 com.example.nearme_app:color/colorWhite = 0x7f05025d
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year = 0x7f0f0171
 com.example.nearme_app:style/TextAppearance.MaterialComponents.Headline6 = 0x7f0f01ec
 com.example.nearme_app:style/TextAppearance.MaterialComponents.Headline3 = 0x7f0f01e9
@@ -485,7 +803,10 @@ com.example.nearme_app:style/Theme.Material3.Light.BottomSheetDialog = 0x7f0f022
 com.example.nearme_app:id/vertical_only = 0x7f080221
 com.example.nearme_app:style/Widget.MaterialComponents.TextInputEditText.FilledBox.Dense = 0x7f0f0402
 com.example.nearme_app:id/general = 0x7f0800ed
+<<<<<<< HEAD
 com.example.nearme_app:drawable/ic_baseline_email_24 = 0x7f0700a5
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Base.Theme.Material3.Dark.BottomSheetDialog = 0x7f0f0056
 com.example.nearme_app:drawable/abc_dialog_material_background = 0x7f07001a
 com.example.nearme_app:dimen/material_clock_hand_center_dot_radius = 0x7f060141
@@ -510,6 +831,7 @@ com.example.nearme_app:style/Widget.AppCompat.Button.Colored = 0x7f0f02d1
 com.example.nearme_app:style/TextAppearance.Design.Counter = 0x7f0f01b6
 com.example.nearme_app:integer/m3_sys_motion_duration_300 = 0x7f090013
 com.example.nearme_app:style/ShapeAppearanceOverlay.MaterialAlertDialog.Material3 = 0x7f0f016a
+<<<<<<< HEAD
 com.example.nearme_app:style/TextAppearance.AppCompat.Widget.DropDownItem = 0x7f0f01aa
 com.example.nearme_app:style/ShapeAppearanceOverlay.BottomRightCut = 0x7f0f0162
 com.example.nearme_app:styleable/MotionEffect = 0x7f100062
@@ -517,10 +839,17 @@ com.example.nearme_app:style/TextAppearance.AppCompat.Button = 0x7f0f0183
 com.example.nearme_app:style/ShapeAppearance.Material3.SmallComponent = 0x7f0f0158
 com.example.nearme_app:color/m3_popupmenu_overlay_color = 0x7f05008c
 com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.Item = 0x7f0f03e6
+=======
+com.example.nearme_app:style/ShapeAppearance.Material3.SmallComponent = 0x7f0f0158
+com.example.nearme_app:styleable/MotionEffect = 0x7f100062
+com.example.nearme_app:style/TextAppearance.AppCompat.Button = 0x7f0f0183
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Widget.MaterialComponents.TimePicker.ImageButton.ShapeAppearance = 0x7f0f0417
 com.example.nearme_app:style/Base.TextAppearance.AppCompat.Subhead = 0x7f0f002a
 com.example.nearme_app:style/Theme.MaterialComponents.Dialog.FixedSize.Bridge = 0x7f0f0245
 com.example.nearme_app:style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox = 0x7f0f026d
+com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.Item = 0x7f0f03e6
+com.example.nearme_app:color/m3_popupmenu_overlay_color = 0x7f05008c
 com.example.nearme_app:style/ShapeAppearance.Material3.MediumComponent = 0x7f0f0156
 com.example.nearme_app:style/Base.Widget.AppCompat.Spinner.Underlined = 0x7f0f00e7
 com.example.nearme_app:drawable/ic_mtrl_checked_circle = 0x7f070072
@@ -540,24 +869,37 @@ com.example.nearme_app:style/TextAppearance.Design.Error = 0x7f0f01b8
 com.example.nearme_app:dimen/test_navigation_bar_active_text_size = 0x7f06023b
 com.example.nearme_app:id/stretch = 0x7f0801db
 com.example.nearme_app:style/Widget.AppCompat.Spinner = 0x7f0f0303
+<<<<<<< HEAD
 com.example.nearme_app:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface = 0x7f0f0351
 com.example.nearme_app:style/Widget.Material3.MaterialCalendar.HeaderTitle = 0x7f0f036e
 com.example.nearme_app:attr/tabUnboundedRipple = 0x7f0303af
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:attr/contentPaddingEnd = 0x7f030117
 com.example.nearme_app:color/material_dynamic_neutral_variant70 = 0x7f0501b9
 com.example.nearme_app:styleable/MotionHelper = 0x7f100063
 com.example.nearme_app:style/Theme.Material3.Light.Dialog = 0x7f0f0227
+<<<<<<< HEAD
 com.example.nearme_app:drawable/abc_ab_share_pack_mtrl_alpha = 0x7f070007
 com.example.nearme_app:id/unchecked = 0x7f08021c
 com.example.nearme_app:style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon = 0x7f0f03d1
 com.example.nearme_app:color/m3_sys_color_dynamic_dark_on_tertiary = 0x7f05014d
 com.example.nearme_app:color/mtrl_text_btn_text_color_selector = 0x7f050232
 com.example.nearme_app:styleable/MotionTelltales = 0x7f100067
+=======
+com.example.nearme_app:attr/tabUnboundedRipple = 0x7f0303af
+com.example.nearme_app:style/Widget.Material3.MaterialCalendar.HeaderTitle = 0x7f0f036e
+com.example.nearme_app:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface = 0x7f0f0351
+com.example.nearme_app:drawable/abc_ab_share_pack_mtrl_alpha = 0x7f070007
+com.example.nearme_app:integer/m3_card_anim_delay_ms = 0x7f09000b
+com.example.nearme_app:id/material_clock_hand = 0x7f080136
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Widget.MaterialComponents.CircularProgressIndicator.ExtraSmall = 0x7f0f03c9
 com.example.nearme_app:id/material_clock_hand = 0x7f080136
 com.example.nearme_app:attr/springStopThreshold = 0x7f03036d
 com.example.nearme_app:drawable/abc_text_select_handle_right_mtrl = 0x7f07004f
 com.example.nearme_app:dimen/abc_text_size_body_1_material = 0x7f06003f
+<<<<<<< HEAD
 com.example.nearme_app:integer/m3_card_anim_delay_ms = 0x7f09000b
 com.example.nearme_app:style/Widget.Material3.DrawerLayout = 0x7f0f034e
 com.example.nearme_app:color/m3_sys_color_dynamic_dark_on_secondary_container = 0x7f05014a
@@ -571,6 +913,23 @@ com.example.nearme_app:id/titre_profile_guest3 = 0x7f08020f
 com.example.nearme_app:style/Widget.MaterialComponents.Slider = 0x7f0f03fa
 com.example.nearme_app:id/mtrl_calendar_main_pane = 0x7f080158
 com.example.nearme_app:style/Widget.Design.NavigationView = 0x7f0f0312
+=======
+com.example.nearme_app:color/mtrl_text_btn_text_color_selector = 0x7f050232
+com.example.nearme_app:styleable/MotionTelltales = 0x7f100067
+com.example.nearme_app:id/unchecked = 0x7f08021c
+com.example.nearme_app:style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon = 0x7f0f03d1
+com.example.nearme_app:color/m3_sys_color_dynamic_dark_on_tertiary = 0x7f05014d
+com.example.nearme_app:style/ThemeOverlay.Material3.MaterialTimePicker = 0x7f0f028e
+com.example.nearme_app:style/AndroidThemeColorAccentYellow = 0x7f0f0002
+com.example.nearme_app:style/Widget.Material3.DrawerLayout = 0x7f0f034e
+com.example.nearme_app:color/m3_sys_color_dynamic_dark_on_secondary_container = 0x7f05014a
+com.example.nearme_app:style/Base.V21.Theme.MaterialComponents.Dialog = 0x7f0f0097
+com.example.nearme_app:style/Widget.MaterialComponents.Slider = 0x7f0f03fa
+com.example.nearme_app:id/mtrl_calendar_main_pane = 0x7f080158
+com.example.nearme_app:style/Widget.Design.NavigationView = 0x7f0f0312
+com.example.nearme_app:id/titre_profile_guest3 = 0x7f08020f
+com.example.nearme_app:style/Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f0f03f5
+>>>>>>> FrontEnd
 com.example.nearme_app:string/mtrl_picker_toggle_to_text_input_mode = 0x7f0e007f
 com.example.nearme_app:style/Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f0f03f5
 com.example.nearme_app:color/tooltip_background_light = 0x7f050258
@@ -597,17 +956,27 @@ com.example.nearme_app:style/Widget.Material3.Light.ActionBar.Solid = 0x7f0f035f
 com.example.nearme_app:styleable/State = 0x7f10007e
 com.example.nearme_app:style/Animation.AppCompat.DropDownUp = 0x7f0f0004
 com.example.nearme_app:id/beginning = 0x7f08006a
+<<<<<<< HEAD
 com.example.nearme_app:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1 = 0x7f0f013c
 com.example.nearme_app:attr/textBackground = 0x7f0303da
-com.example.nearme_app:style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense = 0x7f0f031e
-com.example.nearme_app:color/m3_navigation_item_ripple_color = 0x7f05008a
+=======
 com.example.nearme_app:style/Widget.AppCompat.Light.ActionBar.TabBar.Inverse = 0x7f0f02e0
-com.example.nearme_app:styleable/AppCompatSeekBar = 0x7f10000f
+>>>>>>> FrontEnd
+com.example.nearme_app:style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense = 0x7f0f031e
+com.example.nearme_app:attr/textBackground = 0x7f0303da
+com.example.nearme_app:color/m3_navigation_item_ripple_color = 0x7f05008a
+com.example.nearme_app:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1 = 0x7f0f013c
 com.example.nearme_app:style/Base.Widget.AppCompat.ActionBar.TabText = 0x7f0f00b5
+<<<<<<< HEAD
+=======
+com.example.nearme_app:styleable/AppCompatSeekBar = 0x7f10000f
+com.example.nearme_app:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut = 0x7f0f0137
+>>>>>>> FrontEnd
 com.example.nearme_app:style/ShapeAppearance.Material3.LargeComponent = 0x7f0f0155
 com.example.nearme_app:style/Base.Widget.AppCompat.Light.ActionBar.TabView = 0x7f0f00d2
 com.example.nearme_app:drawable/abc_list_pressed_holo_dark = 0x7f07002f
 com.example.nearme_app:style/Platform.V25.AppCompat.Light = 0x7f0f0130
+<<<<<<< HEAD
 com.example.nearme_app:xml/standalone_badge_offset = 0x7f110006
 com.example.nearme_app:style/Widget.Material3.Chip.Suggestion = 0x7f0f0341
 com.example.nearme_app:id/path = 0x7f08018e
@@ -619,9 +988,21 @@ com.example.nearme_app:style/Widget.MaterialComponents.Chip.Entry = 0x7f0f03c5
 com.example.nearme_app:dimen/abc_button_padding_vertical_material = 0x7f060015
 com.example.nearme_app:style/Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f0f0091
 com.example.nearme_app:styleable/ConstraintLayout_ReactiveGuide = 0x7f100029
+=======
+com.example.nearme_app:id/path = 0x7f08018e
+com.example.nearme_app:style/Widget.MaterialComponents.Chip.Entry = 0x7f0f03c5
+com.example.nearme_app:dimen/abc_button_padding_vertical_material = 0x7f060015
+com.example.nearme_app:style/Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f0f0091
+com.example.nearme_app:style/ShapeAppearance.MaterialComponents.Tooltip = 0x7f0f015f
+com.example.nearme_app:style/Platform.V21.AppCompat = 0x7f0f012d
+com.example.nearme_app:style/Widget.Material3.FloatingActionButton.Large.Surface = 0x7f0f0359
+com.example.nearme_app:style/Theme.AppCompat.Dialog.Alert = 0x7f0f0202
+com.example.nearme_app:xml/standalone_badge_offset = 0x7f110006
+com.example.nearme_app:style/Widget.Material3.Chip.Suggestion = 0x7f0f0341
+>>>>>>> FrontEnd
 com.example.nearme_app:styleable/ActivityChooserView = 0x7f100005
-com.example.nearme_app:color/mtrl_textinput_focused_box_stroke_color = 0x7f050236
 com.example.nearme_app:attr/titleCollapseMode = 0x7f03040b
+com.example.nearme_app:color/mtrl_textinput_focused_box_stroke_color = 0x7f050236
 com.example.nearme_app:style/Widget.AppCompat.AutoCompleteTextView = 0x7f0f02cc
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox.Dense = 0x7f0f02b8
 com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.HeaderTitle = 0x7f0f03e4
@@ -638,13 +1019,13 @@ com.example.nearme_app:id/onInterceptTouchReturnSwipe = 0x7f080182
 com.example.nearme_app:style/MaterialAlertDialog.MaterialComponents.Picker.Date.Calendar = 0x7f0f011c
 com.example.nearme_app:dimen/design_tab_text_size_2line = 0x7f06008e
 com.example.nearme_app:style/Widget.Material3.MaterialCalendar = 0x7f0f0361
-com.example.nearme_app:style/Base.Widget.Design.TabLayout = 0x7f0f00ec
-com.example.nearme_app:style/Theme.AppCompat.DayNight.Dialog.MinWidth = 0x7f0f01fe
-com.example.nearme_app:styleable/TextInputLayout = 0x7f100089
+com.example.nearme_app:color/m3_ref_palette_neutral10 = 0x7f0500df
 com.example.nearme_app:color/m3_ref_palette_error10 = 0x7f0500d2
+com.example.nearme_app:styleable/TextInputLayout = 0x7f100089
 com.example.nearme_app:style/Widget.Material3.PopupMenu = 0x7f0f0385
 com.example.nearme_app:style/MaterialAlertDialog.Material3.Title.Panel = 0x7f0f0116
-com.example.nearme_app:color/m3_ref_palette_neutral10 = 0x7f0500df
+com.example.nearme_app:style/Base.Widget.Design.TabLayout = 0x7f0f00ec
+com.example.nearme_app:style/Theme.AppCompat.DayNight.Dialog.MinWidth = 0x7f0f01fe
 com.example.nearme_app:style/CardView = 0x7f0f010d
 com.example.nearme_app:layout/test_chip_zero_corner_radius = 0x7f0b0075
 com.example.nearme_app:id/startToEnd = 0x7f0801d6
@@ -703,15 +1084,32 @@ com.example.nearme_app:style/Widget.AppCompat.RatingBar = 0x7f0f02fc
 com.example.nearme_app:dimen/m3_btn_disabled_translation_z = 0x7f0600c2
 com.example.nearme_app:style/Base.Widget.AppCompat.ListView.Menu = 0x7f0f00d9
 com.example.nearme_app:layout/abc_popup_menu_item_layout = 0x7f0b0013
+<<<<<<< HEAD
 com.example.nearme_app:styleable/SearchView = 0x7f100077
 com.example.nearme_app:color/design_dark_default_color_surface = 0x7f05003d
 com.example.nearme_app:attr/onHide = 0x7f0302f4
 com.example.nearme_app:drawable/notification_bg_low = 0x7f070096
+=======
+com.example.nearme_app:style/Theme.AppCompat.DayNight.DialogWhenLarge = 0x7f0f01ff
+com.example.nearme_app:id/linearLayout3 = 0x7f08012a
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Base.V24.Theme.Material3.Light.Dialog = 0x7f0f00a4
 com.example.nearme_app:id/linearLayout3 = 0x7f08012a
 com.example.nearme_app:attr/subheaderInsetStart = 0x7f030384
 com.example.nearme_app:drawable/abc_ic_menu_paste_mtrl_am_alpha = 0x7f070024
+<<<<<<< HEAD
 com.example.nearme_app:style/Theme.AppCompat.DayNight.DialogWhenLarge = 0x7f0f01ff
+=======
+com.example.nearme_app:styleable/SearchView = 0x7f100077
+com.example.nearme_app:color/design_dark_default_color_surface = 0x7f05003d
+com.example.nearme_app:attr/onHide = 0x7f0302f4
+com.example.nearme_app:drawable/notification_bg_low = 0x7f070096
+com.example.nearme_app:dimen/abc_dialog_min_width_major = 0x7f060022
+com.example.nearme_app:drawable/notification_bg_normal = 0x7f070099
+com.example.nearme_app:style/Base.Theme.MaterialComponents.Light = 0x7f0f0064
+com.example.nearme_app:styleable/Transform = 0x7f10008d
+com.example.nearme_app:color/m3_textfield_input_text_color = 0x7f05018f
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse = 0x7f0f00d1
 com.example.nearme_app:style/Platform.Widget.AppCompat.Spinner = 0x7f0f0131
 com.example.nearme_app:id/actionUp = 0x7f080040
@@ -724,14 +1122,17 @@ com.example.nearme_app:style/Widget.MaterialComponents.NavigationRailView.Compac
 com.example.nearme_app:style/Base.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f0f0067
 com.example.nearme_app:style/Base.Widget.AppCompat.ActionMode = 0x7f0f00ba
 com.example.nearme_app:style/Base.Widget.AppCompat.ActionButton.Overflow = 0x7f0f00b9
+com.example.nearme_app:style/Theme.MaterialComponents.Dialog.Bridge = 0x7f0f0243
+com.example.nearme_app:style/Widget.AppCompat.Light.ActionBar.Solid = 0x7f0f02dd
 com.example.nearme_app:style/Widget.MaterialComponents.BottomAppBar.Colored = 0x7f0f03ae
 com.example.nearme_app:style/Theme.MaterialComponents = 0x7f0f022c
-com.example.nearme_app:style/Widget.AppCompat.Light.ActionBar.Solid = 0x7f0f02dd
-com.example.nearme_app:style/Theme.MaterialComponents.Dialog.Bridge = 0x7f0f0243
-com.example.nearme_app:attr/textAppearanceLineHeightEnabled = 0x7f0303cc
 com.example.nearme_app:style/Base.Widget.AppCompat.ActionButton = 0x7f0f00b7
 com.example.nearme_app:style/Base.Widget.AppCompat.ActionBar.TabView = 0x7f0f00b6
 com.example.nearme_app:id/aligned = 0x7f080056
+<<<<<<< HEAD
+=======
+com.example.nearme_app:interpolator/mtrl_fast_out_linear_in = 0x7f0a0007
+>>>>>>> FrontEnd
 com.example.nearme_app:color/m3_sys_color_light_secondary_container = 0x7f050183
 com.example.nearme_app:style/Base.Widget.AppCompat.ProgressBar.Horizontal = 0x7f0f00de
 com.example.nearme_app:style/TextAppearance.MaterialComponents.Button = 0x7f0f01e4
@@ -741,11 +1142,11 @@ com.example.nearme_app:color/design_icon_tint = 0x7f050053
 com.example.nearme_app:style/Base.Theme.AppCompat.Dialog.MinWidth = 0x7f0f004c
 com.example.nearme_app:style/Base.Widget.AppCompat.ListView.DropDown = 0x7f0f00d8
 com.example.nearme_app:style/TextAppearance.M3.Sys.Typescale.LabelMedium = 0x7f0f01ca
-com.example.nearme_app:style/Theme.Design = 0x7f0f020e
-com.example.nearme_app:style/TextAppearance.M3.Sys.Typescale.TitleSmall = 0x7f0f01ce
 com.example.nearme_app:style/Base.V7.Widget.AppCompat.AutoCompleteTextView = 0x7f0f00af
-com.example.nearme_app:dimen/m3_appbar_size_compact = 0x7f0600ab
+com.example.nearme_app:style/TextAppearance.M3.Sys.Typescale.TitleSmall = 0x7f0f01ce
+com.example.nearme_app:style/Theme.Design = 0x7f0f020e
 com.example.nearme_app:styleable/CoordinatorLayout_Layout = 0x7f10002e
+com.example.nearme_app:dimen/m3_appbar_size_compact = 0x7f0600ab
 com.example.nearme_app:style/ThemeOverlay.Material3.HarmonizedColors.Empty = 0x7f0f0286
 com.example.nearme_app:style/Base.V28.Theme.AppCompat.Light = 0x7f0f00a9
 com.example.nearme_app:style/Base.V26.Theme.AppCompat = 0x7f0f00a5
@@ -770,19 +1171,32 @@ com.example.nearme_app:id/included = 0x7f080113
 com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.Day.Invalid = 0x7f0f03d8
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.Dialog.Alert = 0x7f0f02a9
 com.example.nearme_app:style/Base.V14.Theme.Material3.Dark.BottomSheetDialog = 0x7f0f007f
+<<<<<<< HEAD
+=======
+com.example.nearme_app:styleable/KeyTimeCycle = 0x7f100046
+>>>>>>> FrontEnd
 com.example.nearme_app:attr/maxActionInlineWidth = 0x7f0302b3
 com.example.nearme_app:dimen/mtrl_btn_text_btn_icon_padding = 0x7f06018c
 com.example.nearme_app:styleable/KeyFramesAcceleration = 0x7f100043
 com.example.nearme_app:style/Base.ThemeOverlay.AppCompat.Light = 0x7f0f0074
+<<<<<<< HEAD
 com.example.nearme_app:styleable/KeyTimeCycle = 0x7f100046
+=======
+com.example.nearme_app:dimen/mtrl_slider_label_padding = 0x7f060208
+com.example.nearme_app:id/spacer = 0x7f0801c8
+com.example.nearme_app:drawable/m3_selection_control_ripple = 0x7f07007a
+>>>>>>> FrontEnd
 com.example.nearme_app:attr/trackColorActive = 0x7f030425
 com.example.nearme_app:dimen/mtrl_bottomappbar_fab_bottom_margin = 0x7f060174
 com.example.nearme_app:style/Widget.Design.TextInputEditText = 0x7f0f0316
 com.example.nearme_app:dimen/m3_card_stroke_width = 0x7f0600de
 com.example.nearme_app:dimen/m3_btn_text_btn_icon_padding_left = 0x7f0600d2
+<<<<<<< HEAD
 com.example.nearme_app:dimen/mtrl_slider_label_padding = 0x7f060208
 com.example.nearme_app:id/spacer = 0x7f0801c8
 com.example.nearme_app:drawable/m3_selection_control_ripple = 0x7f07007a
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Base.V14.Theme.Material3.Light.Dialog = 0x7f0f0083
 com.example.nearme_app:integer/status_bar_notification_info_maxnum = 0x7f090034
 com.example.nearme_app:style/Theme.Design.Light = 0x7f0f0210
@@ -803,8 +1217,13 @@ com.example.nearme_app:style/Base.ThemeOverlay.AppCompat.ActionBar = 0x7f0f006f
 com.example.nearme_app:layout/activity_profile_guest = 0x7f0b0020
 com.example.nearme_app:id/chip1 = 0x7f08008c
 com.example.nearme_app:dimen/abc_panel_menu_list_width = 0x7f060034
+<<<<<<< HEAD
 com.example.nearme_app:id/contentPanel = 0x7f0800a2
 com.example.nearme_app:style/Widget.Material3.PopupMenu.ListPopupWindow = 0x7f0f0387
+=======
+com.example.nearme_app:style/Widget.Material3.PopupMenu.ListPopupWindow = 0x7f0f0387
+com.example.nearme_app:id/contentPanel = 0x7f0800a2
+>>>>>>> FrontEnd
 com.example.nearme_app:style/ThemeOverlay.Material3.AutoCompleteTextView = 0x7f0f026a
 com.example.nearme_app:style/Base.Theme.MaterialComponents.Light.Dialog.MinWidth = 0x7f0f006c
 com.example.nearme_app:dimen/m3_sys_state_pressed_state_layer_opacity = 0x7f06013b
@@ -846,6 +1265,8 @@ com.example.nearme_app:string/material_clock_display_divider = 0x7f0e0048
 com.example.nearme_app:style/Base.TextAppearance.AppCompat.Widget.Switch = 0x7f0f003e
 com.example.nearme_app:id/linearLayout4 = 0x7f08012b
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen = 0x7f0f02b5
+com.example.nearme_app:styleable/ButtonBarLayout = 0x7f100018
+com.example.nearme_app:id/staticPostLayout = 0x7f0801d9
 com.example.nearme_app:style/TextAppearance.M3.Sys.Typescale.HeadlineSmall = 0x7f0f01c8
 com.example.nearme_app:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large = 0x7f0f003c
 com.example.nearme_app:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Header = 0x7f0f003b
@@ -863,13 +1284,20 @@ com.example.nearme_app:style/Base.TextAppearance.AppCompat.Widget.Button = 0x7f0
 com.example.nearme_app:style/Theme.Material3.DynamicColors.DayNight = 0x7f0f0223
 com.example.nearme_app:id/inputPhone = 0x7f080239
 com.example.nearme_app:style/Widget.MaterialComponents.Snackbar = 0x7f0f03fb
+com.example.nearme_app:id/south = 0x7f0801c7
+com.example.nearme_app:style/Theme.MaterialComponents.DialogWhenLarge = 0x7f0f0248
+com.example.nearme_app:drawable/abc_list_selector_holo_dark = 0x7f070035
+com.example.nearme_app:dimen/m3_navigation_rail_item_active_indicator_margin_horizontal = 0x7f060101
 com.example.nearme_app:style/Widget.Material3.AutoCompleteTextView.OutlinedBox = 0x7f0f031d
 com.example.nearme_app:drawable/$avd_show_password__0 = 0x7f070003
 com.example.nearme_app:styleable/Spinner = 0x7f10007d
+<<<<<<< HEAD
 com.example.nearme_app:id/south = 0x7f0801c7
 com.example.nearme_app:dimen/m3_navigation_rail_item_active_indicator_margin_horizontal = 0x7f060101
 com.example.nearme_app:drawable/abc_list_selector_holo_dark = 0x7f070035
 com.example.nearme_app:style/Theme.MaterialComponents.DialogWhenLarge = 0x7f0f0248
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Base.Widget.AppCompat.ActionBar.TabBar = 0x7f0f00b4
 com.example.nearme_app:string/setting = 0x7f0e0090
 com.example.nearme_app:style/EmptyTheme = 0x7f0f0110
@@ -931,9 +1359,16 @@ com.example.nearme_app:string/mtrl_picker_text_input_date_range_start_hint = 0x7
 com.example.nearme_app:style/Widget.Material3.Button.TextButton.Dialog.Icon = 0x7f0f032f
 com.example.nearme_app:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f0f0030
 com.example.nearme_app:string/mtrl_picker_a11y_next_month = 0x7f0e0062
+<<<<<<< HEAD
+=======
+com.example.nearme_app:id/month_navigation_bar = 0x7f08014e
+>>>>>>> FrontEnd
 com.example.nearme_app:attr/materialButtonStyle = 0x7f030294
 com.example.nearme_app:dimen/abc_text_size_body_2_material = 0x7f060040
+<<<<<<< HEAD
 com.example.nearme_app:string/mtrl_picker_save = 0x7f0e0076
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:id/visible = 0x7f080228
 com.example.nearme_app:string/mtrl_picker_invalid_format_example = 0x7f0e006c
 com.example.nearme_app:styleable/AppBarLayout_Layout = 0x7f10000c
@@ -959,11 +1394,11 @@ com.example.nearme_app:id/fixed = 0x7f0800e6
 com.example.nearme_app:style/ThemeOverlay.Material3 = 0x7f0f0268
 com.example.nearme_app:string/mot_de_passe_oubli = 0x7f0e005d
 com.example.nearme_app:style/Base.Theme.MaterialComponents.Dialog = 0x7f0f005e
+com.example.nearme_app:string/x_logo = 0x7f0e0096
+com.example.nearme_app:string/veuillez_saisir_votre_email_d_inscription_et_votre_mot_de_passe = 0x7f0e0095
+com.example.nearme_app:string/mot_de_passe = 0x7f0e005c
 com.example.nearme_app:dimen/notification_media_narrow_margin = 0x7f06022f
 com.example.nearme_app:color/m3_ref_palette_dynamic_tertiary0 = 0x7f0500c4
-com.example.nearme_app:string/mot_de_passe = 0x7f0e005c
-com.example.nearme_app:string/veuillez_saisir_votre_email_d_inscription_et_votre_mot_de_passe = 0x7f0e0095
-com.example.nearme_app:string/x_logo = 0x7f0e0096
 com.example.nearme_app:string/material_timepicker_text_input_mode_description = 0x7f0e005b
 com.example.nearme_app:style/Widget.AppCompat.SearchView.ActionBar = 0x7f0f0300
 com.example.nearme_app:style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox = 0x7f0f03aa
@@ -978,8 +1413,12 @@ com.example.nearme_app:string/m3_sys_motion_easing_standard_decelerate = 0x7f0e0
 com.example.nearme_app:string/m3_sys_motion_easing_legacy_accelerate = 0x7f0e0041
 com.example.nearme_app:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0 = 0x7f0a0000
 com.example.nearme_app:style/Widget.AppCompat.PopupMenu.Overflow = 0x7f0f02f8
-com.example.nearme_app:dimen/abc_search_view_preferred_height = 0x7f060036
 com.example.nearme_app:id/progress_horizontal = 0x7f080196
+com.example.nearme_app:dimen/abc_search_view_preferred_height = 0x7f060036
+<<<<<<< HEAD
+com.example.nearme_app:id/progress_horizontal = 0x7f080196
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:styleable/FontFamily = 0x7f100037
 com.example.nearme_app:string/label = 0x7f0e0036
 com.example.nearme_app:mipmap/ic_launcher = 0x7f0c0000
@@ -1063,8 +1502,8 @@ com.example.nearme_app:string/abc_menu_delete_shortcut_label = 0x7f0e000a
 com.example.nearme_app:style/Theme.Material3.Dark = 0x7f0f0214
 com.example.nearme_app:drawable/dwayne_the_rock_ = 0x7f070066
 com.example.nearme_app:attr/actionModeCopyDrawable = 0x7f030016
-com.example.nearme_app:style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f0f01f5
 com.example.nearme_app:style/Platform.MaterialComponents = 0x7f0f0126
+com.example.nearme_app:style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f0f01f5
 com.example.nearme_app:style/Base.Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f0f006a
 com.example.nearme_app:layout/mtrl_picker_text_input_date = 0x7f0b0066
 com.example.nearme_app:layout/mtrl_picker_header_title_text = 0x7f0b0064
@@ -1119,10 +1558,17 @@ com.example.nearme_app:layout/design_layout_tab_text = 0x7f0b0028
 com.example.nearme_app:id/textinput_prefix_text = 0x7f080207
 com.example.nearme_app:layout/activity_loading = 0x7f0b001d
 com.example.nearme_app:string/abc_searchview_description_voice = 0x7f0e0017
+<<<<<<< HEAD
 com.example.nearme_app:attr/dividerPadding = 0x7f030151
 com.example.nearme_app:attr/tabInlineLabel = 0x7f0303a0
 com.example.nearme_app:dimen/design_navigation_item_horizontal_padding = 0x7f06007a
 com.example.nearme_app:layout/activity_inscription = 0x7f0b001c
+=======
+com.example.nearme_app:layout/activity_inscription = 0x7f0b001c
+com.example.nearme_app:dimen/design_navigation_item_horizontal_padding = 0x7f06007a
+com.example.nearme_app:attr/tabInlineLabel = 0x7f0303a0
+com.example.nearme_app:attr/dividerPadding = 0x7f030151
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection.Fullscreen = 0x7f0f03e3
 com.example.nearme_app:color/black = 0x7f050021
 com.example.nearme_app:layout/abc_search_dropdown_item_icons_2line = 0x7f0b0018
@@ -1132,6 +1578,7 @@ com.example.nearme_app:layout/abc_screen_simple_overlay_action_mode = 0x7f0b0016
 com.example.nearme_app:style/Theme.AppCompat = 0x7f0f01f8
 com.example.nearme_app:layout/abc_screen_simple = 0x7f0b0015
 com.example.nearme_app:layout/abc_popup_menu_header_item_layout = 0x7f0b0012
+<<<<<<< HEAD
 com.example.nearme_app:styleable/MaterialShape = 0x7f100058
 com.example.nearme_app:string/abc_menu_ctrl_shortcut_label = 0x7f0e0009
 com.example.nearme_app:layout/abc_activity_chooser_view = 0x7f0b0006
@@ -1145,6 +1592,22 @@ com.example.nearme_app:layout/test_action_chip = 0x7f0b0074
 com.example.nearme_app:dimen/mtrl_extended_fab_icon_text_spacing = 0x7f0601ce
 com.example.nearme_app:styleable/Variant = 0x7f10008f
 com.example.nearme_app:color/mtrl_card_view_ripple = 0x7f050210
+=======
+com.example.nearme_app:dimen/mtrl_progress_circular_size = 0x7f0601fb
+com.example.nearme_app:layout/abc_activity_chooser_view = 0x7f0b0006
+com.example.nearme_app:string/abc_menu_ctrl_shortcut_label = 0x7f0e0009
+com.example.nearme_app:styleable/MaterialShape = 0x7f100058
+com.example.nearme_app:id/accessibility_custom_action_14 = 0x7f080020
+com.example.nearme_app:styleable/Variant = 0x7f10008f
+com.example.nearme_app:color/mtrl_card_view_ripple = 0x7f050210
+com.example.nearme_app:layout/abc_action_menu_layout = 0x7f0b0003
+com.example.nearme_app:color/purple_200 = 0x7f050242
+com.example.nearme_app:dimen/mtrl_extended_fab_icon_text_spacing = 0x7f0601ce
+com.example.nearme_app:layout/test_action_chip = 0x7f0b0074
+com.example.nearme_app:color/notification_icon_bg_color = 0x7f050239
+com.example.nearme_app:styleable/KeyFramesVelocity = 0x7f100044
+com.example.nearme_app:style/Widget.AppCompat.ActionMode = 0x7f0f02ca
+>>>>>>> FrontEnd
 com.example.nearme_app:styleable/StateListDrawableItem = 0x7f100080
 com.example.nearme_app:style/Widget.AppCompat.ActionMode = 0x7f0f02ca
 com.example.nearme_app:interpolator/mtrl_linear = 0x7f0a0009
@@ -1160,18 +1623,21 @@ com.example.nearme_app:style/Base.TextAppearance.AppCompat.Small = 0x7f0f0028
 com.example.nearme_app:styleable/DrawerLayout = 0x7f100031
 com.example.nearme_app:style/Base.Widget.AppCompat.ButtonBar.AlertDialog = 0x7f0f00c4
 com.example.nearme_app:id/bottom = 0x7f08006d
+<<<<<<< HEAD
 com.example.nearme_app:id/showTitle = 0x7f0801be
 com.example.nearme_app:styleable/ActionBarLayout = 0x7f100001
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:style/ThemeOverlay.Material3.MaterialCalendar = 0x7f0f028b
 com.example.nearme_app:integer/mtrl_calendar_selection_text_lines = 0x7f09002a
 com.example.nearme_app:dimen/mtrl_calendar_header_height = 0x7f0601a1
 com.example.nearme_app:integer/mtrl_calendar_header_orientation = 0x7f090029
-com.example.nearme_app:drawable/$avd_hide_password__1 = 0x7f070001
-com.example.nearme_app:attr/floatingActionButtonStyle = 0x7f0301a7
-com.example.nearme_app:style/Base.V24.Theme.Material3.Dark = 0x7f0f00a1
 com.example.nearme_app:style/Widget.MaterialComponents.AppBarLayout.Surface = 0x7f0f03a7
 com.example.nearme_app:attr/title = 0x7f030409
 com.example.nearme_app:dimen/mtrl_navigation_bar_item_default_icon_size = 0x7f0601e5
+com.example.nearme_app:style/Base.V24.Theme.Material3.Dark = 0x7f0f00a1
+com.example.nearme_app:attr/floatingActionButtonStyle = 0x7f0301a7
+com.example.nearme_app:drawable/$avd_hide_password__1 = 0x7f070001
 com.example.nearme_app:integer/mtrl_btn_anim_delay_ms = 0x7f090027
 com.example.nearme_app:attr/boxBackgroundMode = 0x7f03006b
 com.example.nearme_app:drawable/abc_action_bar_item_background_material = 0x7f070008
@@ -1200,12 +1666,19 @@ com.example.nearme_app:integer/material_motion_duration_medium_1 = 0x7f090021
 com.example.nearme_app:integer/m3_sys_motion_path = 0x7f09001e
 com.example.nearme_app:dimen/mtrl_calendar_header_selection_line_height = 0x7f0601a3
 com.example.nearme_app:style/ShapeAppearanceOverlay.Material3.NavigationView.Item = 0x7f0f0168
+<<<<<<< HEAD
 com.example.nearme_app:layout/design_layout_tab_icon = 0x7f0b0027
 com.example.nearme_app:id/ghost_view = 0x7f0800ee
 com.example.nearme_app:style/TextAppearance.Design.Placeholder = 0x7f0f01bb
 com.example.nearme_app:style/Widget.MaterialComponents.Chip.Action = 0x7f0f03c3
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Base.Widget.MaterialComponents.TextView = 0x7f0f010c
 com.example.nearme_app:color/m3_ref_palette_error95 = 0x7f0500dc
+com.example.nearme_app:style/Widget.MaterialComponents.Chip.Action = 0x7f0f03c3
+com.example.nearme_app:style/TextAppearance.Design.Placeholder = 0x7f0f01bb
+com.example.nearme_app:layout/design_layout_tab_icon = 0x7f0b0027
+com.example.nearme_app:id/ghost_view = 0x7f0800ee
 com.example.nearme_app:color/m3_ref_palette_primary100 = 0x7f0500fa
 com.example.nearme_app:color/m3_sys_color_light_inverse_on_surface = 0x7f050171
 com.example.nearme_app:style/Widget.Material3.Chip.Suggestion.Elevated = 0x7f0f0342
@@ -1226,11 +1699,16 @@ com.example.nearme_app:drawable/abc_btn_radio_to_on_mtrl_015 = 0x7f070013
 com.example.nearme_app:integer/m3_sys_motion_duration_800 = 0x7f09001c
 com.example.nearme_app:color/material_dynamic_neutral_variant90 = 0x7f0501bb
 com.example.nearme_app:string/mtrl_picker_range_header_only_end_selected = 0x7f0e0071
+<<<<<<< HEAD
 com.example.nearme_app:attr/layout_constraintCircleRadius = 0x7f03023b
 com.example.nearme_app:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0 = 0x7f0a0004
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:attr/textAppearanceLabelLarge = 0x7f0303c8
 com.example.nearme_app:color/colorBlack = 0x7f05025a
 com.example.nearme_app:dimen/mtrl_extended_fab_min_height = 0x7f0601cf
+com.example.nearme_app:attr/layout_constraintCircleRadius = 0x7f03023b
+com.example.nearme_app:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0 = 0x7f0a0004
 com.example.nearme_app:style/Widget.MaterialComponents.Button.UnelevatedButton = 0x7f0f03bf
 com.example.nearme_app:style/ThemeOverlay.AppCompat.DayNight = 0x7f0f0262
 com.example.nearme_app:color/m3_calendar_item_stroke_color = 0x7f050068
@@ -1255,8 +1733,11 @@ com.example.nearme_app:drawable/$avd_hide_password__2 = 0x7f070002
 com.example.nearme_app:id/view_transition = 0x7f080223
 com.example.nearme_app:id/view_offset_helper = 0x7f080222
 com.example.nearme_app:id/search_plate = 0x7f0801b2
+<<<<<<< HEAD
 com.example.nearme_app:attr/springStiffness = 0x7f03036c
 com.example.nearme_app:id/allStates = 0x7f080058
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:style/Base.TextAppearance.AppCompat.Title.Inverse = 0x7f0f002d
 com.example.nearme_app:attr/tooltipText = 0x7f03041e
 com.example.nearme_app:id/unlabeled = 0x7f08021e
@@ -1296,9 +1777,15 @@ com.example.nearme_app:styleable/OnSwipe = 0x7f10006d
 com.example.nearme_app:id/text = 0x7f0801f2
 com.example.nearme_app:layout/test_reflow_chipgroup = 0x7f0b007a
 com.example.nearme_app:id/test_checkbox_app_button_tint = 0x7f0801ef
+<<<<<<< HEAD
 com.example.nearme_app:layout/mtrl_calendar_year = 0x7f0b005a
 com.example.nearme_app:string/mtrl_picker_toggle_to_year_selection = 0x7f0e0080
 com.example.nearme_app:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f0f02c8
+=======
+com.example.nearme_app:style/Widget.AppCompat.ActionButton.CloseMode = 0x7f0f02c8
+com.example.nearme_app:layout/mtrl_calendar_year = 0x7f0b005a
+com.example.nearme_app:string/mtrl_picker_toggle_to_year_selection = 0x7f0e0080
+>>>>>>> FrontEnd
 com.example.nearme_app:id/mtrl_picker_text_input_range_end = 0x7f080167
 com.example.nearme_app:id/tag_unhandled_key_event_manager = 0x7f0801eb
 com.example.nearme_app:style/RtlOverlay.DialogWindowTitle.AppCompat = 0x7f0f0132
@@ -1307,6 +1794,7 @@ com.example.nearme_app:id/tag_on_receive_content_mime_types = 0x7f0801e7
 com.example.nearme_app:layout/test_toolbar_custom_background = 0x7f0b007c
 com.example.nearme_app:style/Base.Widget.AppCompat.Light.ActionBar.Solid = 0x7f0f00ce
 com.example.nearme_app:id/submenuarrow = 0x7f0801dc
+<<<<<<< HEAD
 com.example.nearme_app:id/staticPostLayout = 0x7f0801d9
 com.example.nearme_app:styleable/ButtonBarLayout = 0x7f100018
 com.example.nearme_app:drawable/m3_appbar_background = 0x7f070077
@@ -1315,6 +1803,11 @@ com.example.nearme_app:id/standard = 0x7f0801d3
 com.example.nearme_app:id/callMeasure = 0x7f08007c
 com.example.nearme_app:drawable/btn_bg = 0x7f0700a4
 com.example.nearme_app:id/month_navigation_bar = 0x7f08014e
+=======
+com.example.nearme_app:dimen/fastscroll_minimum_range = 0x7f060094
+com.example.nearme_app:id/standard = 0x7f0801d3
+com.example.nearme_app:id/callMeasure = 0x7f08007c
+>>>>>>> FrontEnd
 com.example.nearme_app:id/notification_main_column = 0x7f08017e
 com.example.nearme_app:string/explorer_les_nombreux_services_qu_on_vous_offres = 0x7f0e002b
 com.example.nearme_app:id/text_input_end_icon = 0x7f080200
@@ -1333,10 +1826,16 @@ com.example.nearme_app:id/slide = 0x7f0801c2
 com.example.nearme_app:drawable/abc_btn_check_to_on_mtrl_015 = 0x7f07000d
 com.example.nearme_app:attr/textAppearanceBodySmall = 0x7f0303b9
 com.example.nearme_app:id/skipCollapsed = 0x7f0801c0
+<<<<<<< HEAD
 com.example.nearme_app:style/TextAppearance.MaterialComponents.Subtitle1 = 0x7f0f01ee
 com.example.nearme_app:attr/flow_padding = 0x7f0301b7
 com.example.nearme_app:attr/maxWidth = 0x7f0302ba
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:styleable/include = 0x7f100095
+com.example.nearme_app:attr/maxWidth = 0x7f0302ba
+com.example.nearme_app:attr/flow_padding = 0x7f0301b7
+com.example.nearme_app:style/TextAppearance.MaterialComponents.Subtitle1 = 0x7f0f01ee
 com.example.nearme_app:string/abc_menu_space_shortcut_label = 0x7f0e000f
 com.example.nearme_app:integer/mtrl_badge_max_character_count = 0x7f090026
 com.example.nearme_app:id/selected = 0x7f0801b6
@@ -1351,11 +1850,19 @@ com.example.nearme_app:id/search_button = 0x7f0801ad
 com.example.nearme_app:integer/m3_chip_anim_duration = 0x7f09000d
 com.example.nearme_app:style/Base.Widget.Material3.ExtendedFloatingActionButton.Icon = 0x7f0f00f6
 com.example.nearme_app:id/row_index_key = 0x7f0801a0
+<<<<<<< HEAD
 com.example.nearme_app:style/ThemeOverlay.MaterialComponents.Dark = 0x7f0f02a5
 com.example.nearme_app:id/scrollIndicatorUp = 0x7f0801a8
 com.example.nearme_app:color/m3_ref_palette_tertiary95 = 0x7f05011d
 com.example.nearme_app:interpolator/btn_radio_to_on_mtrl_animation_interpolator_0 = 0x7f0a0005
 com.example.nearme_app:id/disjoint = 0x7f0800bf
+=======
+com.example.nearme_app:id/disjoint = 0x7f0800bf
+com.example.nearme_app:interpolator/btn_radio_to_on_mtrl_animation_interpolator_0 = 0x7f0a0005
+com.example.nearme_app:color/m3_ref_palette_tertiary95 = 0x7f05011d
+com.example.nearme_app:id/scrollIndicatorUp = 0x7f0801a8
+com.example.nearme_app:style/ThemeOverlay.MaterialComponents.Dark = 0x7f0f02a5
+>>>>>>> FrontEnd
 com.example.nearme_app:id/scroll = 0x7f0801a6
 com.example.nearme_app:attr/autoSizeMaxTextSize = 0x7f03003a
 com.example.nearme_app:style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem = 0x7f0f0133
@@ -1409,8 +1916,15 @@ com.example.nearme_app:id/material_timepicker_ok_button = 0x7f080144
 com.example.nearme_app:id/material_timepicker_mode_button = 0x7f080143
 com.example.nearme_app:string/path_password_eye_mask_visible = 0x7f0e0089
 com.example.nearme_app:id/material_timepicker_edit_text = 0x7f080142
+<<<<<<< HEAD
 com.example.nearme_app:id/material_timepicker_container = 0x7f080141
 com.example.nearme_app:attr/motionStagger = 0x7f0302e2
+=======
+com.example.nearme_app:id/allStates = 0x7f080058
+com.example.nearme_app:attr/springStiffness = 0x7f03036c
+com.example.nearme_app:attr/motionStagger = 0x7f0302e2
+com.example.nearme_app:id/material_timepicker_container = 0x7f080141
+>>>>>>> FrontEnd
 com.example.nearme_app:id/material_minute_tv = 0x7f08013e
 com.example.nearme_app:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f0f0020
 com.example.nearme_app:style/Widget.AppCompat.ProgressBar = 0x7f0f02fa
@@ -1481,11 +1995,24 @@ com.example.nearme_app:drawable/abc_tab_indicator_mtrl_alpha = 0x7f07004b
 com.example.nearme_app:style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense = 0x7f0f0406
 com.example.nearme_app:dimen/m3_chip_icon_size = 0x7f0600e5
 com.example.nearme_app:attr/dialogCornerRadius = 0x7f030148
+<<<<<<< HEAD
+=======
+com.example.nearme_app:dimen/mtrl_extended_fab_icon_size = 0x7f0601cd
+com.example.nearme_app:id/google_button = 0x7f0800f2
+com.example.nearme_app:attr/deltaPolarAngle = 0x7f030145
+>>>>>>> FrontEnd
 com.example.nearme_app:color/material_dynamic_neutral50 = 0x7f0501aa
 com.example.nearme_app:attr/deltaPolarAngle = 0x7f030145
 com.example.nearme_app:attr/enforceTextAppearance = 0x7f030178
+<<<<<<< HEAD
 com.example.nearme_app:dimen/mtrl_extended_fab_icon_size = 0x7f0601cd
 com.example.nearme_app:id/google_button = 0x7f0800f2
+=======
+com.example.nearme_app:attr/onCross = 0x7f0302f3
+com.example.nearme_app:style/TextAppearance.AppCompat.Inverse = 0x7f0f018a
+com.example.nearme_app:drawable/abc_tab_indicator_mtrl_alpha = 0x7f07004b
+com.example.nearme_app:style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense = 0x7f0f0406
+>>>>>>> FrontEnd
 com.example.nearme_app:id/notification_main_column_container = 0x7f08017f
 com.example.nearme_app:style/Base.V24.Theme.Material3.Light = 0x7f0f00a3
 com.example.nearme_app:id/header_title = 0x7f0800f9
@@ -1513,11 +2040,19 @@ com.example.nearme_app:dimen/mtrl_btn_text_size = 0x7f06018f
 com.example.nearme_app:id/appleLogo = 0x7f08005e
 com.example.nearme_app:color/mtrl_btn_text_color_disabled = 0x7f05020a
 com.example.nearme_app:attr/layout_constraintHorizontal_chainStyle = 0x7f030248
+<<<<<<< HEAD
 com.example.nearme_app:style/Theme.MaterialComponents.DayNight.DarkActionBar = 0x7f0f0233
 com.example.nearme_app:color/design_fab_stroke_top_outer_color = 0x7f050052
 com.example.nearme_app:layout/activity_login = 0x7f0b001e
 com.example.nearme_app:style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge = 0x7f0f023f
 com.example.nearme_app:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary = 0x7f0f034f
+=======
+com.example.nearme_app:style/Theme.MaterialComponents.DayNight.NoActionBar.Bridge = 0x7f0f023f
+com.example.nearme_app:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary = 0x7f0f034f
+com.example.nearme_app:style/Theme.MaterialComponents.DayNight.DarkActionBar = 0x7f0f0233
+com.example.nearme_app:layout/activity_login = 0x7f0b001e
+com.example.nearme_app:color/design_fab_stroke_top_outer_color = 0x7f050052
+>>>>>>> FrontEnd
 com.example.nearme_app:id/exitUntilCollapsed = 0x7f0800d7
 com.example.nearme_app:dimen/m3_sys_state_hover_state_layer_opacity = 0x7f06013a
 com.example.nearme_app:id/endToStart = 0x7f0800d4
@@ -1547,9 +2082,15 @@ com.example.nearme_app:dimen/mtrl_calendar_month_vertical_padding = 0x7f0601aa
 com.example.nearme_app:id/counterclockwise = 0x7f0800a7
 com.example.nearme_app:color/m3_ref_palette_dynamic_secondary95 = 0x7f0500c2
 com.example.nearme_app:id/coordinator = 0x7f0800a5
+<<<<<<< HEAD
 com.example.nearme_app:attr/textAllCaps = 0x7f0303b4
 com.example.nearme_app:style/Theme.Material3.DayNight = 0x7f0f021b
 com.example.nearme_app:id/inputEmail = 0x7f080237
+=======
+com.example.nearme_app:id/content = 0x7f0800a1
+com.example.nearme_app:attr/textAllCaps = 0x7f0303b4
+com.example.nearme_app:style/Theme.Material3.DayNight = 0x7f0f021b
+>>>>>>> FrontEnd
 com.example.nearme_app:id/container = 0x7f0800a0
 com.example.nearme_app:id/constraintLayout3 = 0x7f08009f
 com.example.nearme_app:xml/standalone_badge_gravity_bottom_start = 0x7f110004
@@ -1571,6 +2112,11 @@ com.example.nearme_app:style/Base.Widget.AppCompat.SeekBar = 0x7f0f00e4
 com.example.nearme_app:layout/material_chip_input_combo = 0x7f0b003c
 com.example.nearme_app:id/checked = 0x7f08008a
 com.example.nearme_app:style/Base.Theme.Material3.Dark = 0x7f0f0055
+<<<<<<< HEAD
+=======
+com.example.nearme_app:styleable/ActionBarLayout = 0x7f100001
+com.example.nearme_app:id/showTitle = 0x7f0801be
+>>>>>>> FrontEnd
 com.example.nearme_app:attr/suffixTextAppearance = 0x7f03038d
 com.example.nearme_app:id/checkbox = 0x7f080089
 com.example.nearme_app:styleable/MotionLabel = 0x7f100064
@@ -1578,11 +2124,16 @@ com.example.nearme_app:id/antiClockwise = 0x7f08005c
 com.example.nearme_app:attr/autoTransition = 0x7f03003f
 com.example.nearme_app:attr/buttonBarNeutralButtonStyle = 0x7f030078
 com.example.nearme_app:style/Base.V7.Theme.AppCompat.Light = 0x7f0f00ac
+com.example.nearme_app:color/material_dynamic_secondary0 = 0x7f0501cb
 com.example.nearme_app:style/TextAppearance.MaterialComponents.Caption = 0x7f0f01e5
-com.example.nearme_app:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0x7f0f0135
+com.example.nearme_app:id/chain = 0x7f080085
 com.example.nearme_app:attr/paddingRightSystemWindowInsets = 0x7f030300
+<<<<<<< HEAD
 com.example.nearme_app:id/chain = 0x7f080085
 com.example.nearme_app:color/material_dynamic_secondary0 = 0x7f0501cb
+=======
+com.example.nearme_app:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0x7f0f0135
+>>>>>>> FrontEnd
 com.example.nearme_app:id/search_go_btn = 0x7f0801b0
 com.example.nearme_app:id/mtrl_calendar_text_input_frame = 0x7f08015b
 com.example.nearme_app:style/Widget.Material3.Chip.Input.Icon.Elevated = 0x7f0f0340
@@ -1595,6 +2146,7 @@ com.example.nearme_app:id/categoriePopulaire = 0x7f08007f
 com.example.nearme_app:style/Widget.Material3.Button.TextButton.Dialog = 0x7f0f032d
 com.example.nearme_app:style/Widget.MaterialComponents.ActionBar.PrimarySurface = 0x7f0f03a1
 com.example.nearme_app:id/cancel_button = 0x7f08007d
+<<<<<<< HEAD
 com.example.nearme_app:id/buying = 0x7f08007a
 com.example.nearme_app:color/material_dynamic_tertiary99 = 0x7f0501e4
 com.example.nearme_app:id/mtrl_picker_header_toggle = 0x7f080165
@@ -1608,6 +2160,21 @@ com.example.nearme_app:id/btn_recherche = 0x7f080077
 com.example.nearme_app:attr/toolbarNavigationButtonStyle = 0x7f030418
 com.example.nearme_app:color/abc_tint_switch_track = 0x7f050018
 com.example.nearme_app:dimen/mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = 0x7f0601b1
+=======
+com.example.nearme_app:id/tag_state_description = 0x7f0801e9
+com.example.nearme_app:id/mtrl_picker_header_toggle = 0x7f080165
+com.example.nearme_app:color/material_dynamic_tertiary99 = 0x7f0501e4
+com.example.nearme_app:id/buying = 0x7f08007a
+com.example.nearme_app:dimen/mtrl_btn_disabled_z = 0x7f06017c
+com.example.nearme_app:id/buttonPanel = 0x7f080079
+com.example.nearme_app:style/Base.Theme.Material3.Light.Dialog = 0x7f0f005a
+com.example.nearme_app:id/up = 0x7f08021f
+com.example.nearme_app:id/design_menu_item_text = 0x7f0800b6
+com.example.nearme_app:id/btn_recherche = 0x7f080077
+com.example.nearme_app:dimen/mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = 0x7f0601b1
+com.example.nearme_app:attr/toolbarNavigationButtonStyle = 0x7f030418
+com.example.nearme_app:color/abc_tint_switch_track = 0x7f050018
+>>>>>>> FrontEnd
 com.example.nearme_app:id/beginOnFirstDraw = 0x7f080069
 com.example.nearme_app:string/material_minute_suffix = 0x7f0e004d
 com.example.nearme_app:id/barrier = 0x7f080067
@@ -1811,7 +2378,10 @@ com.example.nearme_app:id/submit_area = 0x7f0801dd
 com.example.nearme_app:style/TextAppearance.AppCompat.Title = 0x7f0f019a
 com.example.nearme_app:styleable/MotionScene = 0x7f100066
 com.example.nearme_app:style/Widget.MaterialComponents.TimePicker.Display.HelperText = 0x7f0f0413
+<<<<<<< HEAD
 com.example.nearme_app:id/inputPassword = 0x7f080238
+=======
+>>>>>>> FrontEnd
 com.example.nearme_app:id/titleDividerNoCustom = 0x7f08020b
 com.example.nearme_app:drawable/abc_ic_commit_search_api_mtrl_alpha = 0x7f07001f
 com.example.nearme_app:style/Widget.Material3.Button = 0x7f0f0325
@@ -2749,8 +3319,8 @@ com.example.nearme_app:id/bottomAppBar = 0x7f08006e
 com.example.nearme_app:color/m3_ref_palette_error90 = 0x7f0500db
 com.example.nearme_app:dimen/abc_list_item_height_small_material = 0x7f060032
 com.example.nearme_app:attr/tabPaddingTop = 0x7f0303a8
-com.example.nearme_app:style/TextAppearance.Design.HelperText = 0x7f0f01b9
 com.example.nearme_app:attr/textAppearanceBodyMedium = 0x7f0303b8
+com.example.nearme_app:style/TextAppearance.Design.HelperText = 0x7f0f01b9
 com.example.nearme_app:attr/clearsTag = 0x7f0300c4
 com.example.nearme_app:dimen/m3_navigation_rail_item_active_indicator_width = 0x7f060102
 com.example.nearme_app:attr/spinnerStyle = 0x7f030367

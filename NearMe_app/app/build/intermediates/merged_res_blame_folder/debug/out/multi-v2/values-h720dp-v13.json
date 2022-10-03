@@ -4,7 +4,11 @@
             "outputFile": "com.example.nearme_app-mergeDebugResources-28:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\mcami\\.gradle\\caches\\transforms-3\\fc1f82018352b0cb2503b51beb61b53f\\transformed\\appcompat-1.5.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+=======
+                    "source": "C:\\Java\\caches\\transforms-3\\fc1f82018352b0cb2503b51beb61b53f\\transformed\\appcompat-1.5.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+>>>>>>> FrontEnd
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

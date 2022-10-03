@@ -58,6 +58,11 @@ id connexion
 id constraintLayout
 id constraintLayout2
 id constraintLayout3
+<<<<<<< HEAD
+=======
+id email
+id facebookLogo
+>>>>>>> FrontEnd
 id facebook_button
 id general
 id google_button
@@ -95,6 +100,7 @@ id me
 id modeVendeur
 id navbar
 id nomCategorie
+id password
 id password_InputContainer
 id settings
 id switch_online_status
