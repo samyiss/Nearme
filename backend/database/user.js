@@ -198,7 +198,7 @@ exports.resetPassword = async(req,res) =>{
     if(user !== null){
         sendPasswordResetEmail(auth, user.email)
             .then(()=>{
-                res.status(200).send({
+                res.status(201).send({
                     success:true,
                     message: `l'email de réinitialisation a été envoyé`,
                 });
@@ -213,7 +213,7 @@ exports.resetPassword = async(req,res) =>{
     else if(email !==""){
         sendPasswordResetEmail(auth, email)
         .then(()=>{
-            res.status(200).send({
+            res.status(201).send({
                 success:true,
                 message: `l'email de réinitialisation a été envoyé`,
             });
