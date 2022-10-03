@@ -16,6 +16,8 @@ drawable gradient_loading_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
+id AllerConnexion
+id AllerInscription
 id Connexion
 id Deconnexion
 id Log_InputContainer
@@ -51,10 +53,10 @@ id general
 id googleLogo
 id google_button
 id horizontalScrollView
-id ignorer
 id imageCategorie
 id imageView
 id imageView10
+id imageView11
 id imageView2
 id imageView3
 id imageView4
@@ -75,7 +77,6 @@ id linearLayout4
 id linearLayout5
 id linearLayout6
 id logo_loading
-id logo_name
 id me
 id modeVendeur
 id navbar

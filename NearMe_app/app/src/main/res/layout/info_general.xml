@@ -59,7 +59,7 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/AllerConnexion"
             android:layout_width="336dp"
             android:layout_height="25dp"
             android:layout_marginStart="10dp"
@@ -168,7 +168,7 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/AllerConnexion"
             android:layout_width="344dp"
             android:layout_height="25dp"
             android:layout_marginStart="10dp"
