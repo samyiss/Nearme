@@ -31,4 +31,30 @@
     <string name="ou_s_inscrire_avec">ou s\'inscrire avec</string>
     <string name="psswrd">******</string>
     <string name="email">Email</string>
+    <string name="title_activity_mots_de_passe_oublier">MotsDePasseOublierActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="home">Home</string>
+    <string name="recherche">Recherche</string>
+    <string name="plus">Plus</string>
+    <string name="courriel">Courriel</string>
+    <string name="profile">Profile</string>
+    <string name="tout_afficher">Tout afficher</string>
+    <string name="cat_gories_populaires">Catégories Populaires</string>
+    <string name="test">test</string>
+    <string name="envoyer_une_demande_de_changement_de_mot_de_passe">Envoyer une demande de changement de mot de passe</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="se_connecter_avec">Se connecter avec</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="logogoogle">logoGoogle</string>
+    <string name="logofacebook">logofacebook</string>
+    <string name="changer_de_mot_de_passe">Changer de Mot De Passe</string>
+    <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
+    <string name="reecrire_a_nouveau">Reecrire a nouveau</string>
 </resources>
