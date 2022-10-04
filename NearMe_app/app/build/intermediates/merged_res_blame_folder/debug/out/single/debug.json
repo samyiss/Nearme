@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-merged_res-33:\\layout_carte_categorie.xml.flat",
-        "source": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-main-35:\\layout\\carte_categorie.xml"
-    },
-    {
         "merged": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-merged_res-33:\\layout_carte_categorie.xml.flat",
+        "source": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-main-35:\\layout\\carte_categorie.xml"
     },
     {
         "merged": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-merged_res-33:\\layout_loading.xml.flat",
@@ -36,10 +36,6 @@
         "source": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-main-35:\\drawable\\google.png"
     },
     {
-        "merged": "com.example.nearme_app-merged_res-33:/layout_activity_login.xml.flat",
-        "source": "com.example.nearme_app-main-35:/layout/activity_login.xml"
-    },
-    {
         "merged": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -56,12 +52,16 @@
         "source": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-main-35:\\drawable\\ic_email_black_24dp.xml"
     },
     {
+        "merged": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-merged_res-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
         "merged": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-merged_res-33:\\drawable_input_bg.xml.flat",
         "source": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-main-35:\\drawable\\input_bg.xml"
     },
     {
-        "merged": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-merged_res-33:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-main-35:\\xml\\backup_rules.xml"
+        "merged": "com.example.nearme_app-merged_res-33:/layout_activity_inscription.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/activity_inscription.xml"
     },
     {
         "merged": "C:\\Users\\mcami\\.gradle\\daemon\\7.4\\com.example.nearme_app-merged_res-33:\\layout_activity_login.xml.flat",

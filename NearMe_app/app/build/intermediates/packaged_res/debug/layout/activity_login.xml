@@ -118,6 +118,7 @@
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:drawablePadding="10dp"
+        app:endIconMode="password_toggle"
         android:ems="10"
         android:hint="******"
         android:inputType="textPersonName"
