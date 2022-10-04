@@ -29,4 +29,6 @@
     <string name="become_a_seller">Become a seller</string>
     <string name="support">Support</string>
     <string name="ou_s_inscrire_avec">ou s\'inscrire avec</string>
+    <string name="psswrd">******</string>
+    <string name="email">Email</string>
 </resources>

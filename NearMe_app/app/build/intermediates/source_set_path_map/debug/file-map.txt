@@ -1,36 +1,36 @@
-com.example.nearme_app-savedstate-1.2.0-0 C:\Users\mcami\.gradle\caches\transforms-3\02d9a1c992ba142a6f1c7f5d7ffca310\transformed\savedstate-1.2.0\res
-com.example.nearme_app-appcompat-resources-1.5.1-1 C:\Users\mcami\.gradle\caches\transforms-3\04b99c2d3ee38714c14bf3d221b2a08b\transformed\appcompat-resources-1.5.1\res
-com.example.nearme_app-material-1.6.1-2 C:\Users\mcami\.gradle\caches\transforms-3\0700c079a9361c9bc5e6404d34690c50\transformed\material-1.6.1\res
-com.example.nearme_app-emoji2-views-helper-1.2.0-3 C:\Users\mcami\.gradle\caches\transforms-3\0b622ae0009252fd9de3ea6d232488c7\transformed\emoji2-views-helper-1.2.0\res
-com.example.nearme_app-lifecycle-livedata-core-2.5.1-4 C:\Users\mcami\.gradle\caches\transforms-3\0ff8f254ca685ecf1cb4e6f520f40b73\transformed\lifecycle-livedata-core-2.5.1\res
-com.example.nearme_app-firebase-common-20.1.2-5 C:\Users\mcami\.gradle\caches\transforms-3\2a37acc4307f3e1b21d828068566e33e\transformed\firebase-common-20.1.2\res
-com.example.nearme_app-recyclerview-1.1.0-6 C:\Users\mcami\.gradle\caches\transforms-3\4b680873f5535aea704d3a34b63b6935\transformed\recyclerview-1.1.0\res
-com.example.nearme_app-viewpager2-1.0.0-7 C:\Users\mcami\.gradle\caches\transforms-3\4bec0276ba6259360fdac8888ee312fa\transformed\viewpager2-1.0.0\res
-com.example.nearme_app-fragment-1.3.6-8 C:\Users\mcami\.gradle\caches\transforms-3\52a35ffae9473845de56d1ef9f964929\transformed\fragment-1.3.6\res
-com.example.nearme_app-core-ktx-1.9.0-9 C:\Users\mcami\.gradle\caches\transforms-3\606041f92b9988a2a9aa8c49373d4cae\transformed\core-ktx-1.9.0\res
-com.example.nearme_app-appcompat-1.5.1-10 C:\Users\mcami\.gradle\caches\transforms-3\685980b024686d78956b91eec9b43f3b\transformed\appcompat-1.5.1\res
-com.example.nearme_app-activity-1.5.1-11 C:\Users\mcami\.gradle\caches\transforms-3\72aa18d267fcea65a67f1c67469f91b1\transformed\activity-1.5.1\res
-com.example.nearme_app-lifecycle-viewmodel-2.5.1-12 C:\Users\mcami\.gradle\caches\transforms-3\83a8f2ff4fefab06a91b8a5cb0437f5b\transformed\lifecycle-viewmodel-2.5.1\res
-com.example.nearme_app-emoji2-1.2.0-13 C:\Users\mcami\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\res
-com.example.nearme_app-drawerlayout-1.1.1-14 C:\Users\mcami\.gradle\caches\transforms-3\89f334ed0aaa1263b47c6d75629cdccc\transformed\drawerlayout-1.1.1\res
-com.example.nearme_app-annotation-experimental-1.3.0-15 C:\Users\mcami\.gradle\caches\transforms-3\92ea4c83570acad78d5bdafbde5f30d9\transformed\annotation-experimental-1.3.0\res
-com.example.nearme_app-constraintlayout-2.1.4-16 C:\Users\mcami\.gradle\caches\transforms-3\9827ec6617366e82ed5e7c7a909d86e6\transformed\constraintlayout-2.1.4\res
-com.example.nearme_app-core-1.9.0-17 C:\Users\mcami\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\res
-com.example.nearme_app-lifecycle-process-2.4.1-18 C:\Users\mcami\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\res
-com.example.nearme_app-lifecycle-runtime-2.5.1-19 C:\Users\mcami\.gradle\caches\transforms-3\b1625850bd12ed5a169353107cc1dd79\transformed\lifecycle-runtime-2.5.1\res
-com.example.nearme_app-startup-runtime-1.1.1-20 C:\Users\mcami\.gradle\caches\transforms-3\baef32cd3c953915a0114f73cc9cca3f\transformed\startup-runtime-1.1.1\res
-com.example.nearme_app-browser-1.4.0-21 C:\Users\mcami\.gradle\caches\transforms-3\d296f81a8928e1e2b356abd0156df644\transformed\browser-1.4.0\res
-com.example.nearme_app-play-services-base-18.0.1-22 C:\Users\mcami\.gradle\caches\transforms-3\d81e92b27a6af5ec6c33078d341a9ab0\transformed\play-services-base-18.0.1\res
-com.example.nearme_app-transition-1.2.0-23 C:\Users\mcami\.gradle\caches\transforms-3\d9ab7ff9bc4a114cf32a2090c5357a01\transformed\transition-1.2.0\res
-com.example.nearme_app-play-services-basement-18.1.0-24 C:\Users\mcami\.gradle\caches\transforms-3\ebb1d6c24939fd05ba84ea01c9967177\transformed\play-services-basement-18.1.0\res
-com.example.nearme_app-cardview-1.0.0-25 C:\Users\mcami\.gradle\caches\transforms-3\ecb62397fcd2d0e31dd8cc20a358496e\transformed\cardview-1.0.0\res
-com.example.nearme_app-lifecycle-viewmodel-savedstate-2.5.1-26 C:\Users\mcami\.gradle\caches\transforms-3\f1c05abca8b731045f6324e39a2dc706\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.example.nearme_app-coordinatorlayout-1.1.0-27 C:\Users\mcami\.gradle\caches\transforms-3\ff339137cecee5be0e91e8f58664aa0c\transformed\coordinatorlayout-1.1.0\res
-com.example.nearme_app-pngs-28 C:\Users\mcami\Desktop\Projet 03\Nearme-master\Nearme.git\frontend\Nearme\NearMe_app\app\build\generated\res\pngs\debug
-com.example.nearme_app-resValues-29 C:\Users\mcami\Desktop\Projet 03\Nearme-master\Nearme.git\frontend\Nearme\NearMe_app\app\build\generated\res\resValues\debug
-com.example.nearme_app-rs-30 C:\Users\mcami\Desktop\Projet 03\Nearme-master\Nearme.git\frontend\Nearme\NearMe_app\app\build\generated\res\rs\debug
-com.example.nearme_app-packageDebugResources-31 C:\Users\mcami\Desktop\Projet 03\Nearme-master\Nearme.git\frontend\Nearme\NearMe_app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.nearme_app-packageDebugResources-32 C:\Users\mcami\Desktop\Projet 03\Nearme-master\Nearme.git\frontend\Nearme\NearMe_app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.nearme_app-merged_res-33 C:\Users\mcami\Desktop\Projet 03\Nearme-master\Nearme.git\frontend\Nearme\NearMe_app\app\build\intermediates\merged_res\debug
-com.example.nearme_app-debug-34 C:\Users\mcami\Desktop\Projet 03\Nearme-master\Nearme.git\frontend\Nearme\NearMe_app\app\src\debug\res
-com.example.nearme_app-main-35 C:\Users\mcami\Desktop\Projet 03\Nearme-master\Nearme.git\frontend\Nearme\NearMe_app\app\src\main\res
+com.example.nearme_app-savedstate-1.2.0-0 C:\Users\hangi\.gradle\caches\transforms-3\02d9a1c992ba142a6f1c7f5d7ffca310\transformed\savedstate-1.2.0\res
+com.example.nearme_app-appcompat-resources-1.5.1-1 C:\Users\hangi\.gradle\caches\transforms-3\04b99c2d3ee38714c14bf3d221b2a08b\transformed\appcompat-resources-1.5.1\res
+com.example.nearme_app-material-1.6.1-2 C:\Users\hangi\.gradle\caches\transforms-3\0700c079a9361c9bc5e6404d34690c50\transformed\material-1.6.1\res
+com.example.nearme_app-emoji2-views-helper-1.2.0-3 C:\Users\hangi\.gradle\caches\transforms-3\0b622ae0009252fd9de3ea6d232488c7\transformed\emoji2-views-helper-1.2.0\res
+com.example.nearme_app-lifecycle-livedata-core-2.5.1-4 C:\Users\hangi\.gradle\caches\transforms-3\0ff8f254ca685ecf1cb4e6f520f40b73\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.nearme_app-firebase-common-20.1.2-5 C:\Users\hangi\.gradle\caches\transforms-3\2a37acc4307f3e1b21d828068566e33e\transformed\firebase-common-20.1.2\res
+com.example.nearme_app-recyclerview-1.1.0-6 C:\Users\hangi\.gradle\caches\transforms-3\4b680873f5535aea704d3a34b63b6935\transformed\recyclerview-1.1.0\res
+com.example.nearme_app-viewpager2-1.0.0-7 C:\Users\hangi\.gradle\caches\transforms-3\4bec0276ba6259360fdac8888ee312fa\transformed\viewpager2-1.0.0\res
+com.example.nearme_app-fragment-1.3.6-8 C:\Users\hangi\.gradle\caches\transforms-3\52a35ffae9473845de56d1ef9f964929\transformed\fragment-1.3.6\res
+com.example.nearme_app-core-ktx-1.9.0-9 C:\Users\hangi\.gradle\caches\transforms-3\606041f92b9988a2a9aa8c49373d4cae\transformed\core-ktx-1.9.0\res
+com.example.nearme_app-appcompat-1.5.1-10 C:\Users\hangi\.gradle\caches\transforms-3\685980b024686d78956b91eec9b43f3b\transformed\appcompat-1.5.1\res
+com.example.nearme_app-activity-1.5.1-11 C:\Users\hangi\.gradle\caches\transforms-3\72aa18d267fcea65a67f1c67469f91b1\transformed\activity-1.5.1\res
+com.example.nearme_app-lifecycle-viewmodel-2.5.1-12 C:\Users\hangi\.gradle\caches\transforms-3\83a8f2ff4fefab06a91b8a5cb0437f5b\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.nearme_app-emoji2-1.2.0-13 C:\Users\hangi\.gradle\caches\transforms-3\848773e611bbde5d3ec0ec3e63d01c98\transformed\emoji2-1.2.0\res
+com.example.nearme_app-drawerlayout-1.1.1-14 C:\Users\hangi\.gradle\caches\transforms-3\89f334ed0aaa1263b47c6d75629cdccc\transformed\drawerlayout-1.1.1\res
+com.example.nearme_app-annotation-experimental-1.3.0-15 C:\Users\hangi\.gradle\caches\transforms-3\92ea4c83570acad78d5bdafbde5f30d9\transformed\annotation-experimental-1.3.0\res
+com.example.nearme_app-constraintlayout-2.1.4-16 C:\Users\hangi\.gradle\caches\transforms-3\9827ec6617366e82ed5e7c7a909d86e6\transformed\constraintlayout-2.1.4\res
+com.example.nearme_app-core-1.9.0-17 C:\Users\hangi\.gradle\caches\transforms-3\9baae2a0a064870b9506522ab355f7bf\transformed\core-1.9.0\res
+com.example.nearme_app-lifecycle-process-2.4.1-18 C:\Users\hangi\.gradle\caches\transforms-3\a4f0fb44e9b56370f8c2ed23c9d5d030\transformed\lifecycle-process-2.4.1\res
+com.example.nearme_app-lifecycle-runtime-2.5.1-19 C:\Users\hangi\.gradle\caches\transforms-3\b1625850bd12ed5a169353107cc1dd79\transformed\lifecycle-runtime-2.5.1\res
+com.example.nearme_app-startup-runtime-1.1.1-20 C:\Users\hangi\.gradle\caches\transforms-3\baef32cd3c953915a0114f73cc9cca3f\transformed\startup-runtime-1.1.1\res
+com.example.nearme_app-browser-1.4.0-21 C:\Users\hangi\.gradle\caches\transforms-3\d296f81a8928e1e2b356abd0156df644\transformed\browser-1.4.0\res
+com.example.nearme_app-play-services-base-18.0.1-22 C:\Users\hangi\.gradle\caches\transforms-3\d81e92b27a6af5ec6c33078d341a9ab0\transformed\play-services-base-18.0.1\res
+com.example.nearme_app-transition-1.2.0-23 C:\Users\hangi\.gradle\caches\transforms-3\d9ab7ff9bc4a114cf32a2090c5357a01\transformed\transition-1.2.0\res
+com.example.nearme_app-play-services-basement-18.1.0-24 C:\Users\hangi\.gradle\caches\transforms-3\ebb1d6c24939fd05ba84ea01c9967177\transformed\play-services-basement-18.1.0\res
+com.example.nearme_app-cardview-1.0.0-25 C:\Users\hangi\.gradle\caches\transforms-3\ecb62397fcd2d0e31dd8cc20a358496e\transformed\cardview-1.0.0\res
+com.example.nearme_app-lifecycle-viewmodel-savedstate-2.5.1-26 C:\Users\hangi\.gradle\caches\transforms-3\f1c05abca8b731045f6324e39a2dc706\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.nearme_app-coordinatorlayout-1.1.0-27 C:\Users\hangi\.gradle\caches\transforms-3\ff339137cecee5be0e91e8f58664aa0c\transformed\coordinatorlayout-1.1.0\res
+com.example.nearme_app-pngs-28 C:\Users\hangi\AndroidStudioDossier\Nearme\NearMe_app\app\build\generated\res\pngs\debug
+com.example.nearme_app-resValues-29 C:\Users\hangi\AndroidStudioDossier\Nearme\NearMe_app\app\build\generated\res\resValues\debug
+com.example.nearme_app-rs-30 C:\Users\hangi\AndroidStudioDossier\Nearme\NearMe_app\app\build\generated\res\rs\debug
+com.example.nearme_app-packageDebugResources-31 C:\Users\hangi\AndroidStudioDossier\Nearme\NearMe_app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.nearme_app-packageDebugResources-32 C:\Users\hangi\AndroidStudioDossier\Nearme\NearMe_app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.nearme_app-merged_res-33 C:\Users\hangi\AndroidStudioDossier\Nearme\NearMe_app\app\build\intermediates\merged_res\debug
+com.example.nearme_app-debug-34 C:\Users\hangi\AndroidStudioDossier\Nearme\NearMe_app\app\src\debug\res
+com.example.nearme_app-main-35 C:\Users\hangi\AndroidStudioDossier\Nearme\NearMe_app\app\src\main\res

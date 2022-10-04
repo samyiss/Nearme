@@ -138,6 +138,7 @@ string ou_via_les_r_seaux_sociaux
 string passer
 string payement
 string post_request
+string psswrd
 string saved_gigs
 string se_connecter
 string setting

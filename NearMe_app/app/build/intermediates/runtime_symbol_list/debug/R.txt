@@ -3510,6 +3510,7 @@ int string path_password_eye_mask_visible 0x7f0f00a0
 int string path_password_strike_through 0x7f0f00a1
 int string payement 0x7f0f00a2
 int string post_request 0x7f0f00a3
+int string psswrd 0x7f0f00ae
 int string saved_gigs 0x7f0f00a4
 int string se_connecter 0x7f0f00a5
 int string search_menu_title 0x7f0f00a6
