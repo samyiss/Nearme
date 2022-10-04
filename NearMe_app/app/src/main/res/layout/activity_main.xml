@@ -7,24 +7,22 @@
     android:background="@drawable/gradient_background"
     tools:context=".MainActivity">
 
-    <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/bottomAppBar"
-        android:layout_width="0dp"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        app:backgroundTint="#000000"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
-        tools:ignore="BottomAppBar" />
+        app:menu="@menu/navbar" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottomAppBar"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginBottom="32dp"
-            android:text="Catégories Populaires"
+            android:text="@string/cat_gories_populaires"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
@@ -85,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="32dp"
-            android:text="Tout afficher"
+            android:text="@string/tout_afficher"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
@@ -106,63 +104,77 @@
             app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageView2test"
                 android:layout_width="72dp"
                 android:layout_height="95dp"
                 tools:layout_editor_absoluteX="9dp"
                 tools:layout_editor_absoluteY="10dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/test" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView3test"
                 android:layout_width="69dp"
                 android:layout_height="62dp"
                 tools:layout_editor_absoluteX="9dp"
                 tools:layout_editor_absoluteY="107dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/test" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/imageView4test"
                 android:layout_width="84dp"
                 android:layout_height="88dp"
                 tools:layout_editor_absoluteX="97dp"
                 tools:layout_editor_absoluteY="10dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/test" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/imageView5test"
                 android:layout_width="69dp"
                 android:layout_height="66dp"
                 tools:layout_editor_absoluteX="270dp"
                 tools:layout_editor_absoluteY="103dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/test" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/imageView6test"
                 android:layout_width="68dp"
                 android:layout_height="59dp"
                 tools:layout_editor_absoluteX="97dp"
                 tools:layout_editor_absoluteY="110dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/test" />
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/imageView7test"
                 android:layout_width="135dp"
                 android:layout_height="61dp"
                 tools:layout_editor_absoluteX="201dp"
                 tools:layout_editor_absoluteY="13dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/test" />
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/imageView8test"
                 android:layout_width="78dp"
                 android:layout_height="58dp"
                 tools:layout_editor_absoluteX="180dp"
                 tools:layout_editor_absoluteY="107dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/test" />
 
             <TextView
-                android:id="@+id/accueil_textView3"
+                android:id="@+id/accueil_textView3test"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
