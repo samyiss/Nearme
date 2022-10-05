@@ -122,7 +122,7 @@ class InscriptionActivity : AppCompatActivity() {
 
     private fun inscription(nom: String, email: String, password: String, telephone: String){
         val queue = Volley.newRequestQueue(this)
-        val url = "http://192.168.0.133:3000/auth/register"
+        val url = url+"auth/register"
 
         val body = JSONObject()
         body.put("email_user", email)

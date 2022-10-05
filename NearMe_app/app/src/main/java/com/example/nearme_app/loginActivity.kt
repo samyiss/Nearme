@@ -33,7 +33,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this@LoginActivity, MotsDePasseOublierActivity::class.java))
         }
 
-        val url = "http://192.168.0.133:3000/auth/token"
+        val url = url+"auth/token"
         val queue = Volley.newRequestQueue(this)
         val AllerMain = findViewById<Button>(R.id.btnConnexion)
         AllerMain.setOnClickListener {

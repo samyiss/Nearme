@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/black"
+        android:background="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -490,29 +490,106 @@
             android:layout_width="0dp"
             android:layout_height="190dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
                 android:id="@+id/textViewClient"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="12dp"
                 android:text="Client"
-                android:textSize="34sp"
-                app:layout_constraintBottom_toBottomOf="@+id/PhotoProfileGuest"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
                 app:layout_constraintStart_toEndOf="@+id/PhotoProfileGuest"
                 app:layout_constraintTop_toTopOf="@+id/PhotoProfileGuest" />
 
             <ImageView
                 android:id="@+id/PhotoProfileGuest"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="8dp"
+                android:layout_width="66dp"
+                android:layout_height="74dp"
+                android:layout_marginStart="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.267"
                 app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="170dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="8dp"
+                android:text="Bienvenue Sur Near Me !"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorWhite"
+                android:textStyle="italic"
+                app:layout_constraintTop_toBottomOf="@+id/textViewClient"
+                tools:layout_editor_absoluteX="94dp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:background="?attr/actionModeBackground"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="146dp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:background="?attr/actionModeBackground"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="116dp" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:background="?attr/actionModeBackground"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_baseline_login_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_baseline_person_add_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="122dp" />
+
+            <TextView
+                android:id="@+id/inscriptionGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S'inscrire sur Near Me"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="121dp" />
+
+            <TextView
+                android:id="@+id/connexionGuest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/se_connecter"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="151dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
