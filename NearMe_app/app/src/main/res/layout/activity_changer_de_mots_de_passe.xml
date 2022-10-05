@@ -102,7 +102,7 @@
         android:autofillHints="" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/send"
         android:layout_width="192dp"
         android:layout_height="41dp"
         android:layout_marginTop="32dp"

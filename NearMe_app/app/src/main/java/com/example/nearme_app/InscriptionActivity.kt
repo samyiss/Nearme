@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.google.android.material.textfield.TextInputEditText
 import org.json.JSONObject
 
 class InscriptionActivity : AppCompatActivity() {
@@ -26,7 +25,7 @@ class InscriptionActivity : AppCompatActivity() {
         val AllerMain = findViewById<Button>(R.id.btnConnexion)
 
         var nom = this.findViewById<EditText>(R.id.inputUsername)
-        var email = this.findViewById<EditText>(R.id.inputEmail)
+        var email = this.findViewById<EditText>(R.id.PasswordEmail)
         var password = this.findViewById<EditText>(R.id.inputPassword)
         var telephone = this.findViewById<EditText>(R.id.inputPhone)
         var ConfirmPassword = this.findViewById<EditText>(R.id.inputConformPassword)
@@ -37,7 +36,7 @@ class InscriptionActivity : AppCompatActivity() {
 
         AllerMain.setOnClickListener {
             var nomTxt = this.findViewById<EditText>(R.id.inputUsername).text.toString()
-            var emailTxt = this.findViewById<EditText>(R.id.inputEmail).text.toString()
+            var emailTxt = this.findViewById<EditText>(R.id.PasswordEmail).text.toString()
             var passwordTxt = this.findViewById<EditText>(R.id.inputPassword).text.toString()
             var telephoneTxt = this.findViewById<EditText>(R.id.inputPhone).text.toString()
             var ConfirmPasswordTxt = this.findViewById<EditText>(R.id.inputConformPassword).text.toString()
@@ -52,12 +51,12 @@ class InscriptionActivity : AppCompatActivity() {
     }
 
     private fun validEmail(emailTxt: String): Boolean? {
-        var email = this.findViewById<EditText>(R.id.inputEmail)
+        var email = this.findViewById<EditText>(R.id.PasswordEmail)
         return if(!Patterns.EMAIL_ADDRESS.matcher(emailTxt).matches()) {
             email.error = "Invalid Email Address"
             false
         } else{
-            this.findViewById<EditText>(R.id.inputEmail).error = null
+            this.findViewById<EditText>(R.id.PasswordEmail).error = null
             true
         }
 
