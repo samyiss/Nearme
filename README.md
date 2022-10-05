@@ -1,6 +1,7 @@
-# Near Me
+# Near Me (Frontend)
 
 Near Me est une application d'achat et de vente de services!
+
 
 ## Configuration
 
@@ -20,6 +21,26 @@ url = "mettre l'ip adresse"
 2. Dans la page d'inscription, mettez les informations dans les champs de texte.
 3. connecter-vous avec votre compte
 4. Bienvenue sur NearMe
+
+# Near Me (Backend)
+
+Near Me est une application d'achat et de vente de services!
+
+
+## Configuration
+
+1. taper la commande npm i dans la console
+
+```bash
+npm i
+```
+2. taper la commande npm run serve dans la console
+
+```bash
+npm run serve
+```
+
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
