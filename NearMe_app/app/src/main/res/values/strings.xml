@@ -58,4 +58,7 @@
     <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
     <string name="reecrire_a_nouveau">Reecrire a nouveau</string>
     <string name="ancien_mot_de_passe">Ancien mot de passe</string>
+    <string name="informations_g_n_rales">Informations générales</string>
+    <string name="image_guest">image Guest</string>
+    <string name="tableau_dimage">Tableau_dimage</string>
 </resources>

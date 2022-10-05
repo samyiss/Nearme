@@ -19,7 +19,7 @@
         app:menu="@menu/navbar" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
+        android:id="@+id/constraintLayoutMain"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
@@ -29,15 +29,40 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="206dp"
+            android:layout_height="80dp"
             android:layout_marginStart="32dp"
-            app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
+            android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:itemCount="1"
-            tools:listitem="@layout/logo_2" />
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView_logo_main"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/logo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView_logo_name_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/near_me"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.019"
+                app:layout_constraintStart_toEndOf="@+id/imageView_logo_main"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView"
@@ -70,143 +95,59 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginBottom="32dp"
+            android:layout_marginTop="16dp"
             android:text="@string/cat_gories_populaires"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
 
         <TextView
             android:id="@+id/accueil_textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="32dp"
             android:text="@string/tout_afficher"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/acceuil_textView1" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/accueil_explorer"
-            android:layout_width="355dp"
-            android:layout_height="185dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="8dp"
+        <EditText
+            android:id="@+id/textInputLayout"
+            android:layout_width="350dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="8dp"
+            android:autofillHints=""
+            android:background="@drawable/input_bg"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/recherche"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="278dp"
+            android:layout_height="197dp"
             android:layout_marginBottom="32dp"
-            android:background="#2D000000"
+            android:contentDescription="@string/tableau_dimage"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
-
-            <ImageView
-                android:id="@+id/imageView2test"
-                android:layout_width="72dp"
-                android:layout_height="95dp"
-                tools:layout_editor_absoluteX="9dp"
-                tools:layout_editor_absoluteY="10dp"
-                tools:srcCompat="@tools:sample/avatars"
-                tools:ignore="MissingConstraints"
-                android:contentDescription="@string/test" />
-
-            <ImageView
-                android:id="@+id/imageView3test"
-                android:layout_width="69dp"
-                android:layout_height="62dp"
-                tools:layout_editor_absoluteX="9dp"
-                tools:layout_editor_absoluteY="107dp"
-                tools:srcCompat="@tools:sample/avatars"
-                tools:ignore="MissingConstraints"
-                android:contentDescription="@string/test" />
-
-            <ImageView
-                android:id="@+id/imageView4test"
-                android:layout_width="84dp"
-                android:layout_height="88dp"
-                tools:layout_editor_absoluteX="97dp"
-                tools:layout_editor_absoluteY="10dp"
-                tools:srcCompat="@tools:sample/avatars"
-                tools:ignore="MissingConstraints"
-                android:contentDescription="@string/test" />
-
-            <ImageView
-                android:id="@+id/imageView5test"
-                android:layout_width="69dp"
-                android:layout_height="66dp"
-                tools:layout_editor_absoluteX="270dp"
-                tools:layout_editor_absoluteY="103dp"
-                tools:srcCompat="@tools:sample/avatars"
-                tools:ignore="MissingConstraints"
-                android:contentDescription="@string/test" />
-
-            <ImageView
-                android:id="@+id/imageView6test"
-                android:layout_width="68dp"
-                android:layout_height="59dp"
-                tools:layout_editor_absoluteX="97dp"
-                tools:layout_editor_absoluteY="110dp"
-                tools:srcCompat="@tools:sample/avatars"
-                tools:ignore="MissingConstraints"
-                android:contentDescription="@string/test" />
-
-            <ImageView
-                android:id="@+id/imageView7test"
-                android:layout_width="135dp"
-                android:layout_height="61dp"
-                tools:layout_editor_absoluteX="201dp"
-                tools:layout_editor_absoluteY="13dp"
-                tools:srcCompat="@tools:sample/avatars"
-                tools:ignore="MissingConstraints"
-                android:contentDescription="@string/test" />
-
-            <ImageView
-                android:id="@+id/imageView8test"
-                android:layout_width="78dp"
-                android:layout_height="58dp"
-                tools:layout_editor_absoluteX="180dp"
-                tools:layout_editor_absoluteY="107dp"
-                tools:srcCompat="@tools:sample/avatars"
-                tools:ignore="MissingConstraints"
-                android:contentDescription="@string/test" />
-
-            <TextView
-                android:id="@+id/accueil_textView3test"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginEnd="32dp"
-                android:text="@string/explorer_les_nombreux_services_qu_on_vous_offres"
-                android:textColor="#2196F3"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="77dp" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout"
-            android:layout_width="369dp"
-            android:layout_height="47dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="114dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#00782626"
-                android:hint="@string/trouver_des_services" />
-
-        </com.google.android.material.textfield.TextInputLayout>
+            app:srcCompat="@drawable/image_tableau_dimages" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
