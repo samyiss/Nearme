@@ -208,6 +208,10 @@
         "source": "com.example.nearme_app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_image_tableau_dimages.png.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/image_tableau_dimages.png"
+    },
+    {
         "merged": "com.example.nearme_app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.nearme_app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
     },

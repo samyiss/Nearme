@@ -21,7 +21,7 @@ class MotsDePasseOublierActivity : AppCompatActivity() {
         setContentView(R.layout.activity_mots_de_passe_oublier)
         var continuer = this.findViewById<Button>(R.id.send)
 
-        val url = "http://192.168.0.133:3000/forget-password/"
+        val url = url+"forget-password/"
         val queue = Volley.newRequestQueue(this)
 
         continuer.setOnClickListener {

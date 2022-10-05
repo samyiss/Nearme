@@ -36,12 +36,7 @@
         android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.nearme_app.InscriptionActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false" >
         </activity>
         <activity
             android:name="com.example.nearme_app.ProfileGuestActivity"
@@ -53,11 +48,12 @@
         </activity>
         <activity
             android:name="com.example.nearme_app.LoadingActivity"
-            android:exported="false" >
-        </activity>
-        <activity
-            android:name="com.example.nearme_app.MotsDePasseOublierActivity"
-            android:exported="false" >
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.example.nearme_app.profileloggedinActivity"
@@ -65,11 +61,6 @@
         <activity
             android:name="com.example.nearme_app.MainActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service

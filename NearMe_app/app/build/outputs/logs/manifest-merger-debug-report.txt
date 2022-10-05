@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Java\caches\transforms-3\ec9386206fb32c4b0f133b4db45ef14f\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Java\caches\transforms-3\04614f8811be566847b06e1adc85b705\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Java\caches\transforms-3\9305625964053a517641971df20975ff\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
@@ -73,22 +73,22 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Java\caches\transforms-3\
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Java\caches\transforms-3\0fcebb5a5ace80f4bfdf2b4b45fb4f74\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Java\caches\transforms-3\678fa8dda6a80d82f6830a37b5b02d59\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Java\caches\transforms-3\802046e3802353f04a3a3b461791423b\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
 		INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:2:11-69
@@ -129,7 +129,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] C:
 	android:name
 		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:8:5-58:19
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:8:5-50:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Java\caches\transforms-3\ec9386206fb32c4b0f133b4db45ef14f\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Java\caches\transforms-3\ec9386206fb32c4b0f133b4db45ef14f\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Java\caches\transforms-3\04614f8811be566847b06e1adc85b705\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -211,57 +211,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Java\cac
 	android:usesCleartextTraffic
 		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:11:9-44
 activity#com.example.nearme_app.InscriptionActivity
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:20:9-23:20
 	android:exported
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
 		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:21:13-48
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:23:13-27:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:24:17-69
-	android:name
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:24:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:26:17-77
-	android:name
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:26:27-74
 activity#com.example.nearme_app.ProfileGuestActivity
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:25:9-28:20
+	android:exported
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:26:13-49
+activity#com.example.nearme_app.LoginActivity
 ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:29:9-32:20
 	android:exported
 		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:30:13-49
-activity#com.example.nearme_app.LoginActivity
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:33:9-36:20
-	android:exported
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:34:13-42
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:30:13-42
 activity#com.example.nearme_app.LoadingActivity
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:38:9-41:20
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:34:9-42:20
 	android:exported
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:39:13-44
-activity#com.example.nearme_app.MotsDePasseOublierActivity
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:42:9-45:20
-	android:exported
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:44:13-37
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:35:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:43:13-55
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:40:27-74
 activity#com.example.nearme_app.profileloggedinActivity
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:46:9-48:40
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:43:9-45:40
 	android:exported
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:48:13-37
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:47:13-52
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:44:13-52
 activity#com.example.nearme_app.MainActivity
-ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:49:9-57:20
+ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:46:9-49:20
 	android:exported
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:51:13-36
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:50:13-41
+		ADDED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml:47:13-41
 uses-sdk
 INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Samy\Desktop\FrontEnd\Nearme\NearMe_app\app\src\main\AndroidManifest.xml
