@@ -10,10 +10,10 @@ import android.util.Patterns
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.google.android.material.textfield.TextInputEditText
 import org.json.JSONObject
 
 class LoginActivity : AppCompatActivity() {
@@ -23,26 +23,16 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-
         val AllerInscription = findViewById<TextView>(R.id.allerInscription)
-        var email = this.findViewById<EditText>(R.id.inputEmail)
-        var password = this.findViewById<EditText>(R.id.inputPassword)
-
-        
+        AllerInscription.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, InscriptionActivity::class.java))
+        }
 
         val url = "http://192.168.0.133:3000/auth/token"
         val queue = Volley.newRequestQueue(this)
-
-
-        AllerInscription.setOnClickListener {
-            startActivity(Intent(this@LoginActivity, InscriptionActivity::class.java))
-
-        }
-
         val AllerMain = findViewById<Button>(R.id.btnConnexion)
-
         AllerMain.setOnClickListener {
-            var emailTxt = this.findViewById<EditText>(R.id.inputEmail).text.toString()
+            var emailTxt = this.findViewById<EditText>(R.id.PasswordEmail).text.toString()
             var passwordTxt = this.findViewById<EditText>(R.id.inputPassword).text.toString()
 
             if (validEmail(emailTxt) == true && validPassword(passwordTxt)==true) {
@@ -54,13 +44,13 @@ class LoginActivity : AppCompatActivity() {
                     url,
                     body,
                     {
-                        Log.d("Jeton :", it.getString("token"))
+                        startActivity(Intent(this@LoginActivity, MainActivity::class.java))
                     },
                     {
                         val response = it.networkResponse
                         val jsonError = String(response.data)
-                        val responseObject = JSONObject(jsonError)
-                        Log.d(TAG, responseObject.getString("message"))
+                        val msg = JSONObject(jsonError).getString("message")
+                        Toast.makeText(applicationContext, msg, Toast.LENGTH_LONG).show()
                     }
                 )
                 queue.add(postRequest)
@@ -72,15 +62,14 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun validEmail(emailTxt: String): Boolean? {
-        var email = this.findViewById<EditText>(R.id.inputEmail)
+        var email = this.findViewById<EditText>(R.id.PasswordEmail)
         return if(!Patterns.EMAIL_ADDRESS.matcher(emailTxt).matches()) {
             email.error = "Invalid Email Address"
             false
         } else{
-            this.findViewById<EditText>(R.id.inputEmail).error = null
+            this.findViewById<EditText>(R.id.PasswordEmail).error = null
             true
         }
-
     }
 
     private fun validPassword(passwordTxt: String): Boolean?
