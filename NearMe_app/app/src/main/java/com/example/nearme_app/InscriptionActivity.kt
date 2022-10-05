@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import com.google.android.material.textfield.TextInputEditText
 import org.json.JSONObject
 
 class InscriptionActivity : AppCompatActivity() {
@@ -24,13 +25,19 @@ class InscriptionActivity : AppCompatActivity() {
         val allerConnexion = findViewById<TextView>(R.id.allerInscription)
         val AllerMain = findViewById<Button>(R.id.btnConnexion)
 
+        var nom = this.findViewById<EditText>(R.id.inputUsername)
+        var email = this.findViewById<EditText>(R.id.inputEmail)
+        var password = this.findViewById<EditText>(R.id.inputPassword)
+        var telephone = this.findViewById<EditText>(R.id.inputPhone)
+        var ConfirmPassword = this.findViewById<EditText>(R.id.inputConformPassword)
+
         allerConnexion.setOnClickListener {
             startActivity(Intent(this@InscriptionActivity, LoginActivity::class.java))
         }
 
         AllerMain.setOnClickListener {
             var nomTxt = this.findViewById<EditText>(R.id.inputUsername).text.toString()
-            var emailTxt = this.findViewById<EditText>(R.id.PasswordEmail).text.toString()
+            var emailTxt = this.findViewById<EditText>(R.id.inputEmail).text.toString()
             var passwordTxt = this.findViewById<EditText>(R.id.inputPassword).text.toString()
             var telephoneTxt = this.findViewById<EditText>(R.id.inputPhone).text.toString()
             var ConfirmPasswordTxt = this.findViewById<EditText>(R.id.inputConformPassword).text.toString()
@@ -45,12 +52,12 @@ class InscriptionActivity : AppCompatActivity() {
     }
 
     private fun validEmail(emailTxt: String): Boolean? {
-        var email = this.findViewById<EditText>(R.id.PasswordEmail)
+        var email = this.findViewById<EditText>(R.id.inputEmail)
         return if(!Patterns.EMAIL_ADDRESS.matcher(emailTxt).matches()) {
             email.error = "Invalid Email Address"
             false
         } else{
-            this.findViewById<EditText>(R.id.PasswordEmail).error = null
+            this.findViewById<EditText>(R.id.inputEmail).error = null
             true
         }
 
@@ -122,32 +129,44 @@ class InscriptionActivity : AppCompatActivity() {
 
     private fun inscription(nom: String, email: String, password: String, telephone: String){
             val queue = Volley.newRequestQueue(this)
-            val url = "http://192.168.0.133:3000/auth/register"
+            val url = "http://localhost:3000/auth/register"
 
             val body = JSONObject()
-            body.put("email_user", email)
+            body.put("email_user", nom)
             body.put("password", password)
-            body.put("telephone", telephone)
-            body.put("nom_user", nom)
+            body.put("Tel", telephone)
+            body.put("nom_user", email)
             val postRequest = JsonObjectRequest(
                 Request.Method.POST,
                 url,
                 body,
                 {
-                    val msg = it.getString("message")
-                    Toast.makeText(applicationContext, msg, Toast.LENGTH_LONG).show()
-                    startActivity(
-                        Intent(
-                            this@InscriptionActivity,
-                            LoginActivity::class.java
-                        )
-                    )
+                    Log.d("=Response :", it.toString())
+
+                    if (it.has("success")) {
+                        val success: String = it.getString("success")
+                        if (success == "true") {
+                            Toast.makeText(this, "Register Success!", Toast.LENGTH_SHORT).show()
+                            startActivity(
+                                Intent(
+                                    this@InscriptionActivity,
+                                    LoginActivity::class.java
+                                )
+                            )
+                        } else {
+                            Toast.makeText(
+                                this,
+                                "Register fail!, Veuillez verifier les champs",
+                                Toast.LENGTH_SHORT
+                            ).show()
+                        }
+                    }
                 },
                 {
                     val response = it.networkResponse
                     val jsonError = String(response.data)
-                    val msg = JSONObject(jsonError).getString("message")
-                    Toast.makeText(applicationContext, msg, Toast.LENGTH_LONG).show()
+                    val responseObject = JSONObject(jsonError)
+                    Log.d(ContentValues.TAG, responseObject.getString("message"))
                 }
             )
             queue.add(postRequest)
