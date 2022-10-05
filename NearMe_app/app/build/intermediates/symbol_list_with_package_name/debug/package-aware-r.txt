@@ -3071,7 +3071,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
-id send
+id sendUpdate
 id sharedValueSet
 id sharedValueUnset
 id shortcut

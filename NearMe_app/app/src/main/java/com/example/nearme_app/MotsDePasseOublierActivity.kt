@@ -7,11 +7,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.AppCompatEditText
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.google.android.material.textfield.TextInputEditText
 import org.json.JSONObject
 
 class MotsDePasseOublierActivity : AppCompatActivity() {
@@ -19,7 +17,7 @@ class MotsDePasseOublierActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mots_de_passe_oublier)
-        var continuer = this.findViewById<Button>(R.id.send)
+        var continuer = this.findViewById<Button>(R.id.sendUpdate)
 
         val url = url+"forget-password/"
         val queue = Volley.newRequestQueue(this)
