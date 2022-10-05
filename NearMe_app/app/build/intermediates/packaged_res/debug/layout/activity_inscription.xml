@@ -45,7 +45,7 @@
         android:textStyle="normal|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -97,7 +97,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/inputPhone"
@@ -112,7 +113,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Telephone"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -135,7 +136,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -146,7 +147,8 @@
         app:layout_constraintEnd_toEndOf="@+id/inputUsername"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/inputUsername"
-        app:layout_constraintTop_toBottomOf="@+id/inputUsername" />
+        app:layout_constraintTop_toBottomOf="@+id/inputUsername"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/inputPassword"
@@ -160,7 +162,7 @@
         android:ems="10"
         android:hint="Password"
         app:endIconMode="password_toggle"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -171,7 +173,8 @@
         app:layout_constraintEnd_toEndOf="@+id/inputEmail"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/inputEmail"
-        app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/inputEmail"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/inputConformPassword"
@@ -184,7 +187,7 @@
         android:ems="10"
         app:endIconMode="password_toggle"
         android:hint="Confirm Password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -195,7 +198,8 @@
         app:layout_constraintEnd_toEndOf="@+id/inputPassword"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/inputPassword"
-        app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btnConnexion"
@@ -210,7 +214,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputConformPassword" />
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/logo"
         android:layout_width="73dp"
         android:layout_height="59dp"
         android:layout_marginTop="10dp"
@@ -218,6 +222,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/connexion2"
         app:srcCompat="@drawable/logo"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

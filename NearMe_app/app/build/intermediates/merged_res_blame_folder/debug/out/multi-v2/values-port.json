@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.nearme_app-mergeDebugResources-31:/values-port/values-port.xml",
+            "outputFile": "com.example.nearme_app-mergeDebugResources-3:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hangi\\.gradle\\caches\\transforms-3\\685980b024686d78956b91eec9b43f3b\\transformed\\appcompat-1.5.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\hangi\\AppData\\Local\\Android\\Sdk\\caches\\transforms-3\\685980b024686d78956b91eec9b43f3b\\transformed\\appcompat-1.5.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

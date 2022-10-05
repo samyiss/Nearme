@@ -57,4 +57,5 @@
     <string name="changer_de_mot_de_passe">Changer de Mot De Passe</string>
     <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
     <string name="reecrire_a_nouveau">Reecrire a nouveau</string>
+    <string name="ancien_mot_de_passe">Ancien mot de passe</string>
 </resources>
