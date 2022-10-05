@@ -121,37 +121,37 @@ class InscriptionActivity : AppCompatActivity() {
     }
 
     private fun inscription(nom: String, email: String, password: String, telephone: String){
-            val queue = Volley.newRequestQueue(this)
-            val url = "http://192.168.0.133:3000/auth/register"
+        val queue = Volley.newRequestQueue(this)
+        val url = "http://192.168.0.133:3000/auth/register"
 
-            val body = JSONObject()
-            body.put("email_user", email)
-            body.put("password", password)
-            body.put("telephone", telephone)
-            body.put("nom_user", nom)
-            val postRequest = JsonObjectRequest(
-                Request.Method.POST,
-                url,
-                body,
-                {
-                    val msg = it.getString("message")
-                    Toast.makeText(applicationContext, msg, Toast.LENGTH_LONG).show()
-                    startActivity(
-                        Intent(
-                            this@InscriptionActivity,
-                            LoginActivity::class.java
-                        )
+        val body = JSONObject()
+        body.put("email_user", email)
+        body.put("password", password)
+        body.put("telephone", telephone)
+        body.put("nom_user", nom)
+        val postRequest = JsonObjectRequest(
+            Request.Method.POST,
+            url,
+            body,
+            {
+                val msg = it.getString("message")
+                Toast.makeText(applicationContext, msg, Toast.LENGTH_LONG).show()
+                startActivity(
+                    Intent(
+                        this@InscriptionActivity,
+                        LoginActivity::class.java
                     )
-                },
-                {
-                    val response = it.networkResponse
-                    val jsonError = String(response.data)
-                    val msg = JSONObject(jsonError).getString("message")
-                    Toast.makeText(applicationContext, msg, Toast.LENGTH_LONG).show()
-                }
-            )
-            queue.add(postRequest)
-        }
+                )
+            },
+            {
+                val response = it.networkResponse
+                val jsonError = String(response.data)
+                val msg = JSONObject(jsonError).getString("message")
+                Toast.makeText(applicationContext, msg, Toast.LENGTH_LONG).show()
+            }
+        )
+        queue.add(postRequest)
     }
+}
 
 
