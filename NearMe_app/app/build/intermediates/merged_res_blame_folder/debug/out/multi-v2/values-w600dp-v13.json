@@ -4,7 +4,7 @@
             "outputFile": "com.example.nearme_app-mergeDebugResources-31:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Samy\\Desktop\\FrontEnd\\Nearme\\NearMe_app\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\Users\\mcami\\Desktop\\Projet 03\\Nearme\\frontend\\NearMe_app\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

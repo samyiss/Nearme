@@ -4,7 +4,7 @@
             "outputFile": "com.example.nearme_app-mergeDebugResources-31:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Java\\caches\\transforms-3\\cedc2e55d7b9e99530437fb5ec36b131\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mcami\\.gradle\\caches\\transforms-3\\cedc2e55d7b9e99530437fb5ec36b131\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Java\\caches\\transforms-3\\86f96b00c7cb73def924c58d74ff7ebd\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mcami\\.gradle\\caches\\transforms-3\\86f96b00c7cb73def924c58d74ff7ebd\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

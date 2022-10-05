@@ -2521,8 +2521,10 @@ drawable ic_baseline_add_24
 drawable ic_baseline_email_24
 drawable ic_baseline_home_24
 drawable ic_baseline_lock_24
+drawable ic_baseline_login_24
 drawable ic_baseline_mail_outline_24
 drawable ic_baseline_person_24
+drawable ic_baseline_person_add_24
 drawable ic_baseline_phone_24
 drawable ic_baseline_phone_android_24
 drawable ic_baseline_search_24
@@ -2747,6 +2749,7 @@ id collapseActionView
 id compress
 id confirm_button
 id connexion2
+id connexionGuest
 id constraint
 id constraintLayout
 id constraintLayout2
@@ -2785,6 +2788,9 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id divider
+id divider2
+id divider3
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2893,8 +2899,10 @@ id imageView2_guest_me_choix_1
 id imageView2_guest_me_choix_2
 id imageView2_guest_me_choix_3
 id imageView3
+id imageView4
 id imageView5
 id imageView6
+id imageView7
 id imageView9
 id imageView_logo_main
 id immediateStop
@@ -2908,6 +2916,7 @@ id inputPassword
 id inputPhone
 id inputUsername
 id inputVerificationPassword
+id inscriptionGuest
 id instruction_
 id invisible
 id inward
@@ -3143,6 +3152,7 @@ id textV
 id textView
 id textView2
 id textView20
+id textView3
 id textView4
 id textViewClient
 id textView_guest_buying_choix_1
