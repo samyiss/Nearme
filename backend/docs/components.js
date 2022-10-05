@@ -191,10 +191,9 @@ module.exports = {
             },
         },
 
-        // modele de input pour le user
-        UserPayload: {
+        UpdateUserPayload: {
           type: "object", // data-type
-          required: ["id_user", "nom_user", "prenom_user", "email_user", "employe", "pays", "prevince", "codePostal", "date_naissance"], // required fields
+          required: ["nom_user", "prenom_user", "telephone", "rue", "email_user", "pays", "prevince", "codePostal", "date_naissance"], // required fields
           properties: {
             nom_user: {
               type: "string", // data-type
@@ -214,7 +213,7 @@ module.exports = {
             password: {
               type: "string", // data-type
             },
-            employe: {
+            rue: {
               type: "string", // data-type
             },
             pays: {
@@ -237,7 +236,7 @@ module.exports = {
                 email_user: "e2072931@site.com", 
                 password: "e2072931",
                 date_naissance: "1999-09-10T20:23",
-                employe: false,
+                rue: "rue de la paix",
                 pays: "CANADA",
                 province: "QUEBEC",
                 codePostal: "H1S1B4", 
@@ -246,10 +245,13 @@ module.exports = {
         },
 
         // modele de input pour le user
-        SellerPayload: {
+        UserPayload: {
           type: "object", // data-type
-          required: ["nom_user", "prenom_user", "email_user", "employe", "rue", "pays", "prevince", "codePostal", "photoProfil", "date_naissance"], // required fields
+          required: ["id_user", "nom_user", "prenom_user", "email_user", "telephone", "password"], // required fields
           properties: {
+            id_user: {
+              type: "string",
+            },
             nom_user: {
               type: "string", // data-type
             },
@@ -259,47 +261,19 @@ module.exports = {
             telephone: {
               type: "string", // data-type
             },
-            date_naissance: {
-              type: "string", // data-type
-            },
             email_user: {
               type: "string", // data-type
             },
             password: {
               type: "string", // data-type
             },
-            employe: {
-              type: "string", // data-type
-            },
-            rue: {
-              type: "string", // data-type
-            },
-            pays: {
-              type: "string", // data-type
-            },
-            province: {
-              type: "string", // data-type
-            },
-            codePostal: {
-              type: "string", // data-type
-            },
-            photoProfil: {
-              type: "string", // data-type
-            },
           },
           example: { 
                 nom_user: "issiakhem", 
                 prenom_user: "samy", 
+                telephone: "0666666666",
                 email_user: "e2072931@site.com", 
-                password: "123456",
-                date_naissance: "1999-09-10T20:23",
-                employe: false,
-                employe: true,
-                rue: "123 rue de la paix",
-                pays: "CANADA",
-                province: "QUEBEC",
-                codePostal: "H1S1B4", 
-                photoProfil: "https://pokemonsapi.herokuapp.com/img/1.png", 
+                password: "e2072931"
             },
         },
 
@@ -360,67 +334,9 @@ module.exports = {
         },
 
         // modele de client
-        SellerResponse: {
-          type: "object", // data-type
-          required: ["id_user", "nom_user", "prenom_user", "email_user", "employe", "rue", "pays", "province", "codePostal", "photoProfil", "date_naissance"], // required fields
-          properties: {
-            id_user: {
-              type: "string", // data-type
-            },
-            nom_user: {
-              type: "string", // data-type
-            },
-            prenom_user: {
-              type: "string", // data-type
-            },
-            telephone: {
-              type: "string", // data-type
-            },
-            date_naissance: {
-              type: "string", // data-type
-            },
-            email_user: {
-              type: "string", // data-type
-            },
-            employe: {
-              type: "string", // data-type
-            },
-            rue: {
-              type: "string", // data-type
-            },
-            pays: {
-              type: "string", // data-type
-            },
-            province: {
-              type: "string", // data-type
-            },
-            codePostal: {
-              type: "string", // data-type
-            },
-            photoProfil: {
-              type: "string", // data-type
-            },
-          },
-          example: { 
-                Id_user: "rM6hQMDHP9nACbds1XjV", 
-                nom_user: "issiakhem", 
-                prenom_user: "samy", 
-                telephone: "0666666666",
-                date_naissance: "1999-09-10T20:23",
-                email_user: "e2072931@site.com",
-                employe: true,
-                rue: "123 rue de la paix",
-                pays: "CANADA",
-                province: "QUEBEC",
-                codePostal: "H1S1B4", 
-                photoProfil: "https://pokemonsapi.herokuapp.com/img/1.png", 
-            },
-        },
-
-        // modele de client
         UserResponse: {
           type: "object", // data-type
-          required: ["id_user", "nom_user", "prenom_user", "email_user", "employe", "pays", "prevince", "codePostal", "date_naissance"], // required fields
+          required: ["id_user", "nom_user", "prenom_user", "email_user", "pays", "prevince", "codePostal", "date_naissance"], // required fields
           properties: {
             id_user: {
               type: "string", // data-type
@@ -433,11 +349,7 @@ module.exports = {
             },
             email_user: {
               type: "string", // data-type
-            },
-            employe: {
-              type: "string", // data-type
-            },
-            pays: {
+            },pays: {
               type: "string", // data-type
             },
             province: {

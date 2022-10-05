@@ -18,14 +18,10 @@ exports.registerUser = async(req,res) =>{
     const database = ref(getDatabase());
     const auth = getAuth(fapp);
 
-    console.log(req.body)
-
     const nom_user = req.body.nom_user
     const email_user = req.body.email_user
     const password = req.body.password
     const Tel = req.body.telephone
-
-    console.log(validate_email(email_user))
 
     if(nom_user && validate_email(email_user) && validate_password(password) && Tel){
         await createUserWithEmailAndPassword(auth, email_user, password)
@@ -96,7 +92,6 @@ exports.updateProfile = async(req,res) =>{
     const date_naissance = req.body.date_naissance
     const rue = req.body.rue
     const pays = req.body.pays
-    const employe = req.body.employe
     const province = req.body.province
     const codePostal = req.body.codePostal
     const photoProfil = req.body.photoProfil
@@ -114,7 +109,6 @@ exports.updateProfile = async(req,res) =>{
                 telephone: Tel ? Tel : null,
                 rue: rue ? rue : null,
                 pays: pays? pays:null,
-                employe: employe,
                 province: province? province:null,
                 codePostal: codePostal,
                 photoProfil: photoProfil? photoProfil : null,

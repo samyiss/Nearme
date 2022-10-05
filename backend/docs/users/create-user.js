@@ -12,12 +12,7 @@ module.exports = {
             schema: {
               $ref: "#/components/schemas/UserPayload", // user data model   
             },
-          }, 
-          "application/json2": {
-            schema: {
-              $ref: "#/components/schemas/SellerPayload", // user data model   
-            },
-          }, 
+          },  
         },
       },
       // expected responses

@@ -26,11 +26,6 @@ module.exports = {
                 $ref: "#/components/schemas/UserResponse", // user data model
               },
             },
-            "application/json2": {
-              schema: {
-                $ref: "#/components/schemas/SellerResponse", // user data model   
-              },
-            }, 
           },
         },
         /*// response code

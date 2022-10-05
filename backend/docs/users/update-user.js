@@ -14,12 +14,7 @@ module.exports = {
         content: {
           "application/json": {
             schema: {
-              $ref: "#/components/schemas/UserPayload", // user data model            
-            },
-          }, 
-          "application/json2": {
-            schema: {
-              $ref: "#/components/schemas/SellerPayload", // user data model   
+              $ref: "#/components/schemas/UpdateUserPayload", // user data model            
             },
           }, 
         },
