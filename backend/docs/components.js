@@ -150,11 +150,8 @@ module.exports = {
         // modele pour service
         ServicePayload: {
           type: "object", // type of the object
-          required: ["id_vendeur", "id_categorie", "nomService", "description", "prix", "photoCouverture"],
+          required: ["id_categorie", "nomService", "description", "prix", "photoCouverture"],
           properties: {
-            id_vendeur: {
-              type: "string",
-            },
             id_categorie: {
               type: "int",
             },
@@ -172,7 +169,6 @@ module.exports = {
             },
           },
           example: { 
-            Id_user: "rM6hQMDHP9nACbds1XjV", 
             Id_categorie : 2, 
             nomService: "jardinier", 
             description: ". . .", 

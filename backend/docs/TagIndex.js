@@ -38,7 +38,9 @@ module.exports = {
     },
     '/service':{
       ...createService,
-      ...getAllService
+    },
+    '/services':{
+      ...getAllService,
     },
     '/service/:id':{
       ...getService,
