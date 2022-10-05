@@ -7,15 +7,29 @@
     android:background="@drawable/gradient_loading_background"
     tools:context=".LoadingActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/logo_loading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:listitem="@layout/logo"
-        tools:itemCount="1"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/textLoading"
+        android:layout_width="383dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="15dp"
+        android:text="Near Me"
+        android:textAlignment="center"
+        android:textColor="#DDDCDC"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@+id/logoLoading" />
 
+    <ImageView
+        android:id="@+id/logoLoading"
+        android:layout_width="155dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

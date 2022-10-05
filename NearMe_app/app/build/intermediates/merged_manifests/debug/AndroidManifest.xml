@@ -36,7 +36,11 @@
         android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.nearme_app.InscriptionActivity"
+<<<<<<< Updated upstream
             android:exported="true" >
+=======
+            android:exported="false" >
+>>>>>>> Stashed changes
         </activity>
         <activity
             android:name="com.example.nearme_app.ProfileGuestActivity"
@@ -48,7 +52,13 @@
         </activity>
         <activity
             android:name="com.example.nearme_app.LoadingActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.example.nearme_app.profileloggedinActivity"
             android:exported="false" />

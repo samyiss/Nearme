@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< Updated upstream
         "merged": "com.example.nearme_app-merged_res-5:/layout_activity_changer_de_mots_de_passe.xml.flat",
         "source": "com.example.nearme_app-main-7:/layout/activity_changer_de_mots_de_passe.xml"
     },
@@ -214,5 +215,229 @@
     {
         "merged": "com.example.nearme_app-merged_res-5:/layout_activity_profile_guest.xml.flat",
         "source": "com.example.nearme_app-main-7:/layout/activity_profile_guest.xml"
+=======
+        "merged": "com.example.nearme_app-merged_res-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.nearme_app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_gradient_loading_background.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/gradient_loading_background.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_loading.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/loading.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_apple_logo.png.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/apple_logo.png"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_activity_inscription.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/activity_inscription.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_img.png.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/img.png"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_activity_profile_guest.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/activity_profile_guest.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_activity_loading.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/activity_loading.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_mail_outline_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_mail_outline_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_phone_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_phone_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_carte_categorie.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/carte_categorie.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/menu_navbar.xml.flat",
+        "source": "com.example.nearme_app-main-35:/menu/navbar.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_email_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_activity_changer_de_mots_de_passe.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/activity_changer_de_mots_de_passe.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_logo_2.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/logo_2.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_info_general.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/info_general.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_gradient_background.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_lock_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_search_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_activity_login.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_account_circle_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_navigateur.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/navigateur.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_google.png.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/google.png"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_profileloggedin.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/profileloggedin.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_phone_android_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_phone_android_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_email_black_24dp.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_email_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_facebook.png.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/anim_top.xml.flat",
+        "source": "com.example.nearme_app-main-35:/anim/top.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/anim_bot.xml.flat",
+        "source": "com.example.nearme_app-main-35:/anim/bot.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_input_bg.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/input_bg.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.nearme_app-pngs-28:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_info_me.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/info_me.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_home_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_add_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_dwayne_the_rock_.jpg.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/dwayne_the_rock_.jpg"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/xml_backup_rules.xml.flat",
+        "source": "com.example.nearme_app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_logo.png.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_info_buying.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/info_buying.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_activity_mots_de_passe_oublier.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/activity_mots_de_passe_oublier.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/drawable_btn_bg.xml.flat",
+        "source": "com.example.nearme_app-main-35:/drawable/btn_bg.xml"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.nearme_app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nearme_app-merged_res-33:/layout_logo.xml.flat",
+        "source": "com.example.nearme_app-main-35:/layout/logo.xml"
+>>>>>>> Stashed changes
     }
 ]

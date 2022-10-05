@@ -1,12 +1,16 @@
+<<<<<<< Updated upstream
 #Tue Oct 04 20:36:46 EDT 2022
+=======
+#Tue Oct 04 20:58:38 EDT 2022
+>>>>>>> Stashed changes
 path.3=classes2.dex
 path.2=14/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=C\:\\Users\\hangi\\AndroidStudioDossier\\Nearme\\NearMe_app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.2=C\:\\Users\\hangi\\AndroidStudioDossier\\Nearme\\NearMe_app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.1=C\:\\Users\\hangi\\AndroidStudioDossier\\Nearme\\NearMe_app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\hangi\\AndroidStudioDossier\\Nearme\\NearMe_app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.3=C\:\\Users\\imran\\AndroidStudioProjects\\gitProjects\\projet3\\NearMe_app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.2=C\:\\Users\\imran\\AndroidStudioProjects\\gitProjects\\projet3\\NearMe_app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.1=C\:\\Users\\imran\\AndroidStudioProjects\\gitProjects\\projet3\\NearMe_app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\imran\\AndroidStudioProjects\\gitProjects\\projet3\\NearMe_app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

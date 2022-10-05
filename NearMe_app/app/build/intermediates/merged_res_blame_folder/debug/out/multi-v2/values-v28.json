@@ -4,7 +4,11 @@
             "outputFile": "com.example.nearme_app-mergeDebugResources-3:/values-v28/values-v28.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\hangi\\AppData\\Local\\Android\\Sdk\\caches\\transforms-3\\0700c079a9361c9bc5e6404d34690c50\\transformed\\material-1.6.1\\res\\values-v28\\values-v28.xml",
+=======
+                    "source": "C:\\Users\\imran\\.gradle\\caches\\transforms-3\\ec9386206fb32c4b0f133b4db45ef14f\\transformed\\material-1.6.1\\res\\values-v28\\values-v28.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +18,11 @@
                     }
                 },
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\hangi\\AppData\\Local\\Android\\Sdk\\caches\\transforms-3\\685980b024686d78956b91eec9b43f3b\\transformed\\appcompat-1.5.1\\res\\values-v28\\values-v28.xml",
+=======
+                    "source": "C:\\Users\\imran\\.gradle\\caches\\transforms-3\\86f96b00c7cb73def924c58d74ff7ebd\\transformed\\appcompat-1.5.1\\res\\values-v28\\values-v28.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

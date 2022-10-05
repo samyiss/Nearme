@@ -4,7 +4,11 @@
             "outputFile": "com.example.nearme_app-mergeDebugResources-3:/values-v25/values-v25.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\hangi\\AppData\\Local\\Android\\Sdk\\caches\\transforms-3\\685980b024686d78956b91eec9b43f3b\\transformed\\appcompat-1.5.1\\res\\values-v25\\values-v25.xml",
+=======
+                    "source": "C:\\Users\\imran\\.gradle\\caches\\transforms-3\\86f96b00c7cb73def924c58d74ff7ebd\\transformed\\appcompat-1.5.1\\res\\values-v25\\values-v25.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

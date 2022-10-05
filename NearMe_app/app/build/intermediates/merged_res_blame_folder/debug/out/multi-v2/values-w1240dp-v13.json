@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "com.example.nearme_app-mergeDebugResources-3:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
@@ -11,6 +12,18 @@
                         "startOffsets": "16",
                         "endColumns": "42",
                         "endOffsets": "54"
+=======
+            "outputFile": "com.example.nearme_app-mergeDebugResources-31:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\imran\\AndroidStudioProjects\\gitProjects\\projet3\\NearMe_app\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "42",
+                        "endOffsets": "55"
+>>>>>>> Stashed changes
                     },
                     "to": {
                         "startLines": "2",

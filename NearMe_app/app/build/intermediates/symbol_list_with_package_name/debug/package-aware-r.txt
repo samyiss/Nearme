@@ -11,6 +11,7 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim bot
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -31,6 +32,7 @@ anim fragment_fast_out_extra_slow_in
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim top
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -2902,7 +2904,11 @@ id linearLayout6
 id listMode
 id list_item
 id logo
+<<<<<<< Updated upstream
 id logo_loading
+=======
+id logoLoading
+>>>>>>> Stashed changes
 id masked
 id match_constraint
 id match_parent
@@ -3101,6 +3107,7 @@ id text2
 id textEnd
 id textInputLayout
 id textInputLayout3
+id textLoading
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart

@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+anim bot
+anim top
 color black
 color colorBlack
 color colorPrimaryDark
@@ -101,7 +103,11 @@ id linearLayout4
 id linearLayout5
 id linearLayout6
 id logo
+<<<<<<< Updated upstream
 id logo_loading
+=======
+id logoLoading
+>>>>>>> Stashed changes
 id me
 id modeVendeur
 id navbar
@@ -111,6 +117,7 @@ id settings
 id switch_online_status
 id textInputLayout
 id textInputLayout3
+id textLoading
 id textView
 id textView2
 id textView4
