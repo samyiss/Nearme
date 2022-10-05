@@ -333,6 +333,24 @@ module.exports = {
             },
         },
 
+        // modele de input pour le mot de passe
+        PasswordPayload: {
+          type: "object", // data-type
+          required: ["password", "new_password"], // required fields
+          properties: {
+            password: {
+              type: "string", // data-type
+            },
+            new_password: {
+              type: "string", // data-type
+            },
+          },
+          example: {
+            password: "e2072931",
+            new_password: "E1234567-89",
+          },
+        },
+
         // modele de client
         UserResponse: {
           type: "object", // data-type

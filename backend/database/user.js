@@ -1,4 +1,4 @@
-const { getAuth, signInWithEmailAndPassword, sendEmailVerification, updateEmail, createUserWithEmailAndPassword, deleteUser, sendPasswordResetEmail} = require("firebase/auth");
+const { getAuth, signInWithEmailAndPassword, sendEmailVerification, updateEmail, createUserWithEmailAndPassword, deleteUser, sendPasswordResetEmail, updatePassword, EmailAuthProvider, reauthenticateWithCredential} = require("firebase/auth");
 const { getDatabase, ref, set, get, child, remove } = require("firebase/database");
 
 const { fapp } = require('./firebaseconf');
@@ -170,32 +170,76 @@ exports.updateProfile = async(req,res) =>{
     }
 }
 
-exports.resetPassword = async(req,res) =>{
+exports.update_Password = async(req,res) =>{
     const auth = getAuth(fapp);
-    const email = req.params.email
-    const user = auth.currentUser
+    const user = auth.currentUser;
+    const password = req.body.password;
+    const new_password = req.body.new_password;
+
+    console.log(user)
 
     if(user !== null){
-        sendPasswordResetEmail(auth, user.email)
+        var credential = EmailAuthProvider.credential(
+                                user.email,
+                                password
+                            );
+        
+        await reauthenticateWithCredential(user, credential).then( async () => {
+            await updatePassword(user, new_password)
             .then(()=>{
                 res.status(201).send({
                     success:true,
-                    message: `l'email de réinitialisation a été envoyé`,
+                    message: `mot de passe mis à jour`,
                 });
             })
             .catch((error) => {
-                res.status(500).send({
-                    success: false,
-                    message: 'Une erreur est survenue',
-                });
+                switch(error.code) {
+                    case "auth/invalid-email":
+                        res.status(400).json({ 
+                            success: false,
+                            message: "veuillez remplir tous les champs"
+                        });
+                        break;
+                    case "auth/user-not-found":
+                        res.status(404).json({ 
+                            success: false,
+                            message: "veuillez verifier votre email"
+                        });
+                        break;
+                    default:
+                        res.status(500).json({ 
+                            success: false,
+                            message: 'une erreur est survenue'
+                        });
+                    }
             })
+        }).catch((error) => {
+            res.status(403).json({
+                success:false,
+                message:error
+                })
+        });
     }
-    else if(email !==""){
-        sendPasswordResetEmail(auth, email)
+    else{
+        res.status(401).send({
+            success:false,
+            message:'vous n\'êtes pas connecté'
+        })
+    }
+}
+
+
+exports.resetPassword = async(req,res) =>{
+    const auth = getAuth(fapp);
+    const email = req.params.email
+    const password = req.body.password
+
+    if(email !==""){
+        sendPasswordResetEmail(auth, password)
         .then(()=>{
             res.status(201).send({
                 success:true,
-                message: `l'email de réinitialisation a été envoyé`,
+                message: `mot de passe mis à jour`,
             });
         })
         .catch((error) => {
@@ -203,7 +247,7 @@ exports.resetPassword = async(req,res) =>{
                 case "auth/invalid-email":
                     res.status(400).json({ 
                         success: false,
-                        message: "veuillez remplir tous les champs"
+                        message: "email invalide"
                     });
                     break;
                 case "auth/user-not-found":
@@ -218,6 +262,12 @@ exports.resetPassword = async(req,res) =>{
                         message: 'une erreur est survenue'
                     });
                 }
+        })
+    }
+    else{
+        res.status(400).send({
+            success:false,
+            message:'veuillez remplir tous les champs'
         })
     }
 }

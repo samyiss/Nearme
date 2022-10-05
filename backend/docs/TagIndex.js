@@ -10,6 +10,7 @@ const getService = require('./services/get-service');
 const getAllService = require('./services/get-Allservice');
 const getServiceByuser = require('./services/get-ServiceByUser');
 const ForgetPassword = require('./users/ForgetPassword');
+const updatePassword = require('./users/updatePassword');
 
 
 module.exports = {
@@ -25,6 +26,9 @@ module.exports = {
     },
     '/forget-password/{email}':{
       ...ForgetPassword,
+    },
+    '/update-password':{
+      ...updatePassword,
     },
     '/users':{
       ...getAllUsers,
