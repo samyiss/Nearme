@@ -34,43 +34,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="180dp"
+                android:layout_marginTop="16dp"
                 android:text="Me"
                 android:textColor="#000000"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/titre_profile_guest2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="336dp"
-                android:text="Buying"
-                android:textColor="#000000"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/titre_profile_guest3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="452dp"
-                android:text="General"
-                android:textColor="#000000"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.049"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -88,41 +58,106 @@
 
             </androidx.recyclerview.widget.RecyclerView>
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/buying"
+            <LinearLayout
+                android:id="@+id/linearLayout"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="52dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/me"
-                tools:itemCount="1"
-                tools:listitem="@layout/info_buying" />
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="1dp">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                tools:layout_editor_absoluteX="1dp">
+
+            </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/general"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="52dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/buying"
                 tools:itemCount="1"
+                tools:layout_editor_absoluteY="295dp"
                 tools:listitem="@layout/info_general" />
 
-            <Switch
-                android:id="@+id/modeVendeur"
-                android:layout_width="381dp"
-                android:layout_height="48dp"
-                android:layout_marginTop="92dp"
-                android:text="Mode Vendeur"
-                android:textSize="18sp"
+            <TextView
+                android:id="@+id/AllerConnexion"
+                android:layout_width="344dp"
+                android:layout_height="25dp"
+                android:clickable="true"
+                android:text="changer de mot de passe"
+                android:textColor="#000000"
+                android:textSize="16sp"
                 android:textStyle="bold"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="238dp" />
+
+            <ImageView
+                android:id="@+id/resetPassword"
+                android:layout_width="33dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="@+id/AllerConnexion"
+                app:layout_constraintStart_toEndOf="@+id/AllerConnexion"
+                app:layout_constraintTop_toTopOf="@+id/AllerConnexion"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="26dp"
+                app:layout_constraintBottom_toBottomOf="@+id/AllerConnexion"
+                app:layout_constraintEnd_toStartOf="@+id/AllerConnexion"
+                app:layout_constraintStart_toStartOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="@+id/AllerConnexion"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="344dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="8dp"
+                android:clickable="true"
+                android:text="mettre à jour le profil"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/AllerConnexion"
+                app:layout_constraintTop_toBottomOf="@+id/me"
+                tools:layout_editor_absoluteX="37dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="202dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/updateProfile"
+                android:layout_width="33dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toTopOf="@+id/AllerConnexion"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                app:layout_constraintTop_toTopOf="@+id/textView2"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@android:drawable/ic_media_play" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -138,38 +173,14 @@
                 android:id="@+id/Profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="72dp"
                 android:text="Profile"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintHorizontal_bias="0.47"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/settings"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:text="Settings"
-                android:textColor="@color/white"
-                app:layout_constraintEnd_toStartOf="@+id/Profile"
-                app:layout_constraintHorizontal_bias="0.213"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/Deconnexion"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:text="Deconnexion"
-                android:textColor="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.731"
-                app:layout_constraintStart_toEndOf="@+id/Profile"
                 app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
