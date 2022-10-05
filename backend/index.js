@@ -3,10 +3,7 @@ const bodyParser = require('body-parser');
 const docs = require('./docs');
 const swaggerUi = require('swagger-ui-express');
 const { registerUser, loginUsers, validate, getUser, getUsers, resetPassword, deleteUser, updateProfile } = require('./database/user');
-const { createService } = require('./database/service');
-
-
-
+const { createService, getAllServices } = require('./database/service');
 
 require("dotenv").config(); 
 
@@ -26,11 +23,11 @@ router.post('/auth/token', loginUsers);
 router.post('/validate', validate);
 router.get('/user/:id', getUser);
 router.get('/users', getUsers);
-router.get('/service', createService);
 router.delete('/user', deleteUser);
 router.put('/user', updateProfile);
 router.post('/forget-password/:email', resetPassword)
-
+router.post('/service', createService)
+router.get('/services', getAllServices)
 
 
 
