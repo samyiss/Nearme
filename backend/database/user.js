@@ -5,12 +5,12 @@ const { fapp } = require('./firebaseconf');
 
 function validate_email(email){
     const expression = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/
-    expression.test(email) ? true : false
+    return expression.test(email) ? true : false
 }
 
 function validate_password(password){
     const regex = /^[a-zA-Z0-9!@#\$%\^\&*\)\(+=._-]{6,}$/g
-    regex.test(password) ? true : false
+    return regex.test(password) ? true : false
 }
 
 exports.registerUser = async(req,res) =>{
@@ -18,37 +18,24 @@ exports.registerUser = async(req,res) =>{
     const database = ref(getDatabase());
     const auth = getAuth(fapp);
 
+    console.log(req.body)
+
     const nom_user = req.body.nom_user
-    const prenom_user = req.body.prenom_user
     const email_user = req.body.email_user
-    const date_naissance = req.body.date_naissance
-    const rue = req.body.rue
-    const pays = req.body.pays
-    const employe = req.body.employe
-    const province = req.body.province
-    const codePostal = req.body.codePostal
-    const photoProfil = req.body.photoProfil
     const password = req.body.password
     const Tel = req.body.telephone
-    
-    if(nom_user !== "" && prenom_user !=="" && validate_email(email_user) && date_naissance !=="" || rue !== "" && pays !=="" && employe !=="" && 
-            province !=="" && codePostal !=="" || photoProfil !=="" && validate_password(password) || Tel !==""){
-        await createUserWithEmailAndPassword(auth, email_user,password)
+
+    console.log(validate_email(email_user))
+
+    if(nom_user && validate_email(email_user) && validate_password(password) && Tel){
+        await createUserWithEmailAndPassword(auth, email_user, password)
         .then(() => {
             const user = auth.currentUser;
             const user_data =  {
                 id_user:user.uid,
                 nom_user: nom_user,
-                prenom_user: prenom_user,
                 email_user: email_user,
-                date_naissance: date_naissance,
-                telephone: Tel ? Tel : null,
-                rue: rue ? rue : null,
-                pays: pays,
-                employe: employe,
-                province: province,
-                codePostal: codePostal,
-                photoProfil: photoProfil? photoProfil : null,
+                telephone: Tel,
             } 
             set(child(database, `users/${user.uid}`), user_data)
             .then(()=>{
@@ -104,6 +91,7 @@ exports.updateProfile = async(req,res) =>{
     const user = auth.currentUser;
 
     const nom_user = req.body.nom_user
+    const prenom_user = req.body.prenom_user
     const email_user = req.body.email_user
     const date_naissance = req.body.date_naissance
     const rue = req.body.rue
