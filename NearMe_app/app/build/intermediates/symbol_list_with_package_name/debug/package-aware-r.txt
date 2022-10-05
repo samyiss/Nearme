@@ -2599,6 +2599,7 @@ id Mail
 id More
 id MotDePasseOublié
 id NO_DEBUG
+id PasswordEmail
 id Profile
 id Recherche
 id SHIFT
@@ -2711,7 +2712,6 @@ id btn_agenda
 id btn_message
 id btn_profil
 id btn_recherche
-id button
 id buttonPanel
 id buying
 id cache_measures
@@ -2872,8 +2872,8 @@ id included
 id info
 id information_general
 id inputConformPassword
-id inputEmail
 id inputNewPassword
+id inputOldPassword
 id inputPassword
 id inputPhone
 id inputUsername
@@ -2904,11 +2904,7 @@ id linearLayout6
 id listMode
 id list_item
 id logo
-<<<<<<< Updated upstream
-id logo_loading
-=======
 id logoLoading
->>>>>>> Stashed changes
 id masked
 id match_constraint
 id match_parent
@@ -3044,6 +3040,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send
 id settings
 id sharedValueSet
 id sharedValueUnset
@@ -3400,6 +3397,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string ancien_mot_de_passe
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior

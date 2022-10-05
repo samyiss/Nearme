@@ -12,6 +12,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
+    <string name="ancien_mot_de_passe">Ancien mot de passe</string>
     <string name="app_name">NearMe_app</string>
     <string name="become_a_seller">Become a seller</string>
     <string name="cat_gories_populaires">Catégories Populaires</string>

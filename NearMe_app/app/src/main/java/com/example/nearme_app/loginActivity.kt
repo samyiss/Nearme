@@ -28,6 +28,11 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this@LoginActivity, InscriptionActivity::class.java))
         }
 
+        val oublie = this.findViewById<TextView>(R.id.MotDePasseOublié)
+        oublie.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, MotsDePasseOublierActivity::class.java))
+        }
+
         val url = "http://192.168.0.133:3000/auth/token"
         val queue = Volley.newRequestQueue(this)
         val AllerMain = findViewById<Button>(R.id.btnConnexion)
@@ -90,7 +95,7 @@ class LoginActivity : AppCompatActivity() {
             password.error = "Must Contain 1 Lower-case Character"
             return false
         }
-        else if(!passwordTxt.matches(".*[@#\$%^&+=].*".toRegex()))
+        else if(!passwordTxt.matches(".*[@#\$%^&+=-_].*".toRegex()))
         {
             password.error = "Must Contain 1 Special Character (@#\$%^&+=)"
             return false

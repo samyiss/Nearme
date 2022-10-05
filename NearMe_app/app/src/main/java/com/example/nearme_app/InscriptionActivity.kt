@@ -24,12 +24,6 @@ class InscriptionActivity : AppCompatActivity() {
         val allerConnexion = findViewById<TextView>(R.id.allerInscription)
         val AllerMain = findViewById<Button>(R.id.btnConnexion)
 
-        var nom = this.findViewById<EditText>(R.id.inputUsername)
-        var email = this.findViewById<EditText>(R.id.PasswordEmail)
-        var password = this.findViewById<EditText>(R.id.inputPassword)
-        var telephone = this.findViewById<EditText>(R.id.inputPhone)
-        var ConfirmPassword = this.findViewById<EditText>(R.id.inputConformPassword)
-
         allerConnexion.setOnClickListener {
             startActivity(Intent(this@InscriptionActivity, LoginActivity::class.java))
         }
@@ -128,44 +122,32 @@ class InscriptionActivity : AppCompatActivity() {
 
     private fun inscription(nom: String, email: String, password: String, telephone: String){
             val queue = Volley.newRequestQueue(this)
-            val url = "http://localhost:3000/auth/register"
+            val url = "http://192.168.0.133:3000/auth/register"
 
             val body = JSONObject()
-            body.put("email_user", nom)
+            body.put("email_user", email)
             body.put("password", password)
-            body.put("Tel", telephone)
-            body.put("nom_user", email)
+            body.put("telephone", telephone)
+            body.put("nom_user", nom)
             val postRequest = JsonObjectRequest(
                 Request.Method.POST,
                 url,
                 body,
                 {
-                    Log.d("=Response :", it.toString())
-
-                    if (it.has("success")) {
-                        val success: String = it.getString("success")
-                        if (success == "true") {
-                            Toast.makeText(this, "Register Success!", Toast.LENGTH_SHORT).show()
-                            startActivity(
-                                Intent(
-                                    this@InscriptionActivity,
-                                    LoginActivity::class.java
-                                )
-                            )
-                        } else {
-                            Toast.makeText(
-                                this,
-                                "Register fail!, Veuillez verifier les champs",
-                                Toast.LENGTH_SHORT
-                            ).show()
-                        }
-                    }
+                    val msg = it.getString("message")
+                    Toast.makeText(applicationContext, msg, Toast.LENGTH_LONG).show()
+                    startActivity(
+                        Intent(
+                            this@InscriptionActivity,
+                            LoginActivity::class.java
+                        )
+                    )
                 },
                 {
                     val response = it.networkResponse
                     val jsonError = String(response.data)
-                    val responseObject = JSONObject(jsonError)
-                    Log.d(ContentValues.TAG, responseObject.getString("message"))
+                    val msg = JSONObject(jsonError).getString("message")
+                    Toast.makeText(applicationContext, msg, Toast.LENGTH_LONG).show()
                 }
             )
             queue.add(postRequest)

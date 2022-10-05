@@ -15,7 +15,7 @@
         android:text="@string/envoyer_une_demande_de_changement_de_mot_de_passe"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/inputEmail"
+        app:layout_constraintBottom_toTopOf="@+id/PasswordEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/inputEmail"
+        android:id="@+id/PasswordEmail"
         android:layout_width="350dp"
         android:layout_height="49dp"
         android:background="@drawable/input_bg"
@@ -48,17 +48,17 @@
         android:autofillHints="" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/send"
         android:layout_width="192dp"
         android:layout_height="41dp"
         android:layout_marginTop="16dp"
         android:background="@color/white"
         android:text="@string/envoyer"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/PasswordEmail"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputEmail"
+        app:layout_constraintStart_toStartOf="@+id/PasswordEmail"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordEmail"
         app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

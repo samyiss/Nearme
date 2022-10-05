@@ -4,8 +4,10 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatEditText
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
@@ -23,7 +25,7 @@ class MotsDePasseOublierActivity : AppCompatActivity() {
         val queue = Volley.newRequestQueue(this)
 
         continuer.setOnClickListener {
-            var email = this.findViewById<TextInputEditText>(R.id.PasswordEmail).text
+            var email = this.findViewById<EditText>(R.id.PasswordEmail).text
 
             val body = JSONObject()
             val postRequest = JsonObjectRequest(

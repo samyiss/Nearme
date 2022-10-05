@@ -44,6 +44,7 @@ id Logo2
 id Mail
 id More
 id MotDePasseOublié
+id PasswordEmail
 id Profile
 id Recherche
 id acceuil_textView1
@@ -58,7 +59,6 @@ id btn_agenda
 id btn_message
 id btn_profil
 id btn_recherche
-id button
 id buying
 id categoriePopulaire
 id checkBox2
@@ -88,8 +88,8 @@ id imageView8test
 id imageView9
 id information_general
 id inputConformPassword
-id inputEmail
 id inputNewPassword
+id inputOldPassword
 id inputPassword
 id inputPhone
 id inputUsername
@@ -103,16 +103,13 @@ id linearLayout4
 id linearLayout5
 id linearLayout6
 id logo
-<<<<<<< Updated upstream
-id logo_loading
-=======
 id logoLoading
->>>>>>> Stashed changes
 id me
 id modeVendeur
 id navbar
 id nomCategorie
 id passer
+id send
 id settings
 id switch_online_status
 id textInputLayout
@@ -143,6 +140,7 @@ layout profileloggedin
 menu navbar
 mipmap ic_launcher
 mipmap ic_launcher_round
+string ancien_mot_de_passe
 string app_name
 string become_a_seller
 string cat_gories_populaires
