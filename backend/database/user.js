@@ -2,6 +2,8 @@ const { getAuth, signInWithEmailAndPassword, sendEmailVerification, updateEmail,
 const { getDatabase, ref, set, get, child, remove } = require("firebase/database");
 
 const { fapp } = require('./firebaseconf');
+const { getServiceByUser } = require("./requeteKnex");
+
 
 function validate_email(email){
     const expression = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/
@@ -228,7 +230,6 @@ exports.update_Password = async(req,res) =>{
     }
 }
 
-
 exports.resetPassword = async(req,res) =>{
     const auth = getAuth(fapp);
     const email = req.params.email
@@ -372,25 +373,23 @@ exports.getUser = async (req, res) => {
     const database = ref(getDatabase());
     const idUser = req.params.id
 
-    get(child(database, `users/${idUser}`)).then((data) => {
+    get(child(database, `users/${idUser}`)).then(async (data) => {
         if (data.exists()) {
             const snapshot = data.val();
-            switch (snapshot.employe) {
-                case false:
-                    res.status(200).send({
-                        Id_user: snapshot.Id_user,
-                        nom_user: snapshot.nom_user,
-                        prenom_user: snapshot.prenom_user,
-                        date_naissance:snapshot.date_naissance,
-                        email_user: snapshot.email_user,
-                        employe: snapshot.employe,
-                        pays: snapshot.pays,
-                        province: snapshot.province,
-                        codePostal: snapshot.codePostal,
-                        photoProfil: snapshot.photoProfil
+            await getServiceByUser(idUser).then((data) => {
+                let datatoDisplay = []
+                if(data !== []) {
+                    data.forEach((service) => {
+                        service = {
+                            Id_service: service.id_service,
+                            nomService: service.nomService,
+                            prix: service.prix,
+                            photoCouverture: service.photoCouverture,
+                            datePublication: service.datePublication,
+                        }
+                        datatoDisplay.push(service);
                     });
-                    break;
-                case true:
+
                     res.status(200).send({
                         Id_user: snapshot.Id_user,
                         nom_user: snapshot.nom_user,
@@ -401,10 +400,13 @@ exports.getUser = async (req, res) => {
                         pays: snapshot.pays,
                         province: snapshot.province,
                         codePostal: snapshot.codePostal,
-                        photoProfil: snapshot.photoProfil
+                        photoProfil: snapshot.photoProfil,
+                        services: datatoDisplay
                     });
-                    break;
-            };
+                } else {
+                    return res.status(404).json({ success: false, message: "aucun service à afficher" });
+                }
+            })
         }
         else{
             res.status(404).send({
@@ -412,10 +414,10 @@ exports.getUser = async (req, res) => {
                 message: "l'utilisateur n'existe pas",
             });
         }
-    }).catch((error) => {
+    }).catch(() => {
         res.status(500).send({
             success: false,
-            message: error,
+            message: "une erreur est survenue lors de la récupération des données de l'utilisateur",
         });
     });
 }
@@ -435,15 +437,15 @@ exports.loginUsers = async (req, res) => {
             switch(error.code) {
                 case "auth/user-not-found":
                     res.status(404).json({ 
-                                            success: false,
-                                            message: "L'utilisateur n'existe pas veuillez verifier votre email ou créer un compte"
-                                        });
+                        success: false,
+                        message: "L'utilisateur n'existe pas veuillez verifier votre email ou créer un compte"
+                    });
                     break;
                 case "auth/wrong-password":
                     res.status(403).json({
-                                            success: false,
-                                            message: "Le mot de passe est incorrect"
-                                        });
+                        success: false,
+                        message: "Le mot de passe est incorrect"
+                    });
                   break;
                 default:
                     res.status(500).json({ 

@@ -12,7 +12,7 @@ module.exports = {
       // expected responses
       parameters: [
         {
-            $ref: '#/components/parameters/IdPayload' // data model of the param
+            $ref: '#/components/parameters/IdUser' // data model of the param
         },
       ], // expected params.
       responses: {

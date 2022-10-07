@@ -9,14 +9,24 @@ module.exports = {
       },
       parameters: {
         // modele pour connexion
-        IdPayload: {
+        IdUser: {
           name: "id", // name of the param
           type: "parameter", // type of the object
           description: "Id de l'utilisateur", // param desc.
           in: "path", // location of the param
           schema: {
             type: "string", // data type
-            example: "rM6hQMDHP9nACbds1XjV", // example of the data
+            example: "xCipnGv4JDQ9oGnmMtgCPWs2FGo2", // example of the data
+          },
+        },
+        IdService: {
+          name: "id", // name of the param
+          type: "parameter", // type of the object
+          description: "Id du service", // param desc.
+          in: "path", // location of the param
+          schema: {
+            type: "int", // data type
+            example: 2, // example of the data
           },
         },
         // modele pour connexion
