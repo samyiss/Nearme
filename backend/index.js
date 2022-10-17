@@ -5,6 +5,7 @@ const swaggerUi = require('swagger-ui-express');
 const { registerUser, loginUsers, validate, getUser, getUsers, resetPassword, deleteUser, updateProfile, update_Password } = require('./database/user');
 const { createService, getAllServices, getService, deleteService, updateService } = require('./database/service');
 const { getAllCategories, getCategorieById } = require('./database/categories');
+const { createAvis, updateAvis, deleteAvis } = require('./database/avis');
 
 require("dotenv").config(); 
 
@@ -35,6 +36,10 @@ router.post('/update-password', update_Password)
 router.delete('/service/:idService', deleteService)
 router.get('/categories', getAllCategories)
 router.get('/categorie/:idCategorie', getCategorieById)
+router.post('/avis/:idService', createAvis)
+router.put('/avis/:idAvis', updateAvis)
+router.delete('/avis/:idAvis', deleteAvis)
+
 
 
 

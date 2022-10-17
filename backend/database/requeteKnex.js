@@ -33,10 +33,11 @@ function getServiceByUser(id) {
 
 // Requete pour delete un service
 async function deleteService(id) {
-    await knex('services').where('id_service', id)
-                        .orWhere('id_user', id).del()
-    const data = await getService(id);
-    if (data.length === 0) {
+    await knex('avis').where('id_service', id).del()
+    await knex('services').where('id_service', id).del()
+    const dataService = await getService(id);
+    const dataAvis = await getAvis(id);
+    if (dataService.length === 0 && dataAvis.length === 0) {
         return true;
     } else {
         return false;
@@ -59,7 +60,27 @@ function getCategorieById(id) {
 
 
 //----------------------------------------------- AVIS -----------------------------------------------//
+function addAvis(avis) {
+    return knex('avis').insert(avis);
+}
 
+function getAvis(id) {
+    return knex('avis').where('id_avis', id).orWhere('id_service', id);
+}
+
+function updateAvis(id, avis) {
+    return knex('avis').where('id_avis', id).update(avis);  
+}
+
+async function deleteAvis(id) {
+    await knex('avis').where('id_avis', id).del();
+    const data = await getAvis(id);
+    if (data.length === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
 
@@ -71,5 +92,9 @@ module.exports = {
     deleteService,
     getAllCategories,
     getCategorieById,
-    updateService
+    updateService,
+    addAvis,
+    getAvis,
+    updateAvis,
+    deleteAvis
 };

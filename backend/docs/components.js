@@ -19,6 +19,16 @@ module.exports = {
             example: "xCipnGv4JDQ9oGnmMtgCPWs2FGo2", // example of the data
           },
         },
+        IdAvis: {
+          name: "idAvis", // name of the param
+          type: "parameter", // type of the object
+          description: "Id de l'avis", // param desc.
+          in: "path", // location of the param
+          schema: {
+            type: "int", // data type
+            example: 2, // example of the data
+          },
+        },
         IdService: {
           name: "idService", // name of the param
           type: "parameter", // type of the object
@@ -116,7 +126,65 @@ module.exports = {
             photos : "liste de type photos" 
           },
         },
-        
+
+        // modele pour avis
+        AvisResponse: {
+          type: "object", // type of the object
+          required: ["IdAvis", "client", "note", "commentaire", "datePublication"],
+          properties: {
+            client: {
+              type: "object",
+              $ref: '#/components/schemas/UserLink',
+            },
+            IdAvis: {
+              type: "int",
+            },
+            note: {
+              type: "int",
+            },
+            commentaire: {
+              type: "string",
+            },
+            datePublication: {
+              type: "date-time",
+            },
+          },
+          example: {
+            client : {
+                        Id_user: "rM6hQMDHP9nACbds1XjV",
+                        nom_user: "issiakhem",
+                        prenom_user: "samy",
+                        photoProfil: "https://pokemonsapi.herokuapp.com/img/1.png"
+                      },
+            IdAvis: 1,
+            note: 5,
+            commentaire: "très bon service",
+            datePublication: "2022-09-10T20:23",
+          },
+        },
+
+        // modele pour avis payload
+        AvisPayload: {
+          type: "object", // type of the object
+          required: ["serviceORuser", "note", "commentaire"],
+          properties: {
+            serviceORuser: {
+              type: "boolean",
+            },
+            note: {
+              type: "int",
+            },
+            commentaire: {
+              type: "string",
+            },
+          },
+          example: {
+            serviceORuser: true,
+            note: 5,
+            commentaire: "très bon service",
+          },
+        },
+               
 
         // modele pour un seul service
         OneServiceResponse: {

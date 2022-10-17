@@ -21,17 +21,19 @@ exports.registerUser = async(req,res) =>{
     const auth = getAuth(fapp);
 
     const nom_user = req.body.nom_user
+    const prenom_user = req.body.prenom_user
     const email_user = req.body.email_user
     const password = req.body.password
     const Tel = req.body.telephone
 
-    if(nom_user && validate_email(email_user) && validate_password(password) && Tel){
+    if(nom_user && prenom_user && validate_email(email_user) && validate_password(password) && Tel){
         await createUserWithEmailAndPassword(auth, email_user, password)
         .then(() => {
             const user = auth.currentUser;
             const user_data =  {
                 id_user:user.uid,
                 nom_user: nom_user,
+                prenom_user: prenom_user,
                 email_user: email_user,
                 telephone: Tel,
             } 
@@ -178,7 +180,6 @@ exports.update_Password = async(req,res) =>{
     const password = req.body.password;
     const new_password = req.body.new_password;
 
-    console.log(user)
 
     if(user !== null){
         var credential = EmailAuthProvider.credential(
@@ -373,7 +374,6 @@ exports.getUser = async (req, res) => {
     const database = ref(getDatabase());
     const idUser = req.params.idUser
 
-    console.log(idUser)
 
     get(child(database, `users/${idUser}`)).then(async (data) => {
         if (data.exists()) {

@@ -14,6 +14,9 @@ const deleteService = require('./services/delete-Service');
 const getAllCategories = require('./categorieService/get-Allcategorie');
 const getCategorieById = require('./categorieService/get-Categorie');
 const updateService = require('./services/update-service');
+const createAvis = require('./avis/create-avis');
+const updateAvis = require('./avis/update-avis');
+const deleteAvis = require('./avis/delete-avis');
 
 
 module.exports = {
@@ -59,6 +62,13 @@ module.exports = {
     },
     '/categorie/{idCategorie}':{
       ...getCategorieById,
-    }
+    },
+    '/avis/{idService}':{
+      ...createAvis,
+    },
+    '/avis/{idAvis}':{
+      ...updateAvis,
+      ...deleteAvis
+    },
   } 
 }

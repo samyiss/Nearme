@@ -7,7 +7,7 @@ module.exports = {
         name: "Services", // name of a tag
       },
       {
-        name: "avis", // name of a tag
+        name: "Avis", // name of a tag
       },
       {
         name: "Categories de services", // name of a tag

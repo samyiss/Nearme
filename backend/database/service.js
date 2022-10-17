@@ -1,7 +1,7 @@
 const { getAuth } = require("firebase/auth");
 
 const { fapp } = require('./firebaseconf');
-const { addService, getServices, getService, deleteService, updateService, getCategorieById } = require("./requeteKnex");
+const { addService, getServices, getService, deleteService, updateService, getCategorieById, getAvis, deleteAvis } = require("./requeteKnex");
 const { get, child, ref, getDatabase } = require("firebase/database");
 
 
@@ -56,7 +56,6 @@ exports.updateService = async(req,res) =>{
 
     if (user !== null && user.uid === id_user) {
         const { Id_categorie, nomService, description, prix, photoCouverture } = req.body;
-        console.log(Id_categorie === undefined && nomService === undefined);
 
         try {
             if (Id_categorie === undefined || nomService === undefined) {
@@ -64,7 +63,7 @@ exports.updateService = async(req,res) =>{
             }
 
             const categorie = await getCategorieById(Id_categorie);
-            console.log(categorie);
+
             if(categorie.length === 0) {
                 return res.status(404).json({ success: false, message: "aucune categorie trouvé, veuillez la verifier" });
             }
@@ -96,11 +95,11 @@ exports.deleteService = async(req,res) =>{
     // get id_user of the service
     const services = await getService(id);
     if(services.length !== 0) {
-        id_user = services[0].Id_user;
+        id_user = services[0].id_user;
     } else {
         res.status(404).json({ success: false, message: "aucun service trouvé" });
     }
-    
+        
     if(user !== null && user.uid === id_user) {
         try {
             const delSuccess = await deleteService(id);
@@ -117,7 +116,6 @@ exports.deleteService = async(req,res) =>{
     }
 }
 
-
 exports.getService = async(req,res) =>{
     const id = req.params.idService;
     const database = ref(getDatabase());
@@ -126,29 +124,59 @@ exports.getService = async(req,res) =>{
         const services = await getService(id);
         if(services.length !== 0) {
             let dataDisplay = [];
-            services.forEach( (service) => {
-                get(child(database, `users/${service.id_user}`)).then((data) => {
+            services.forEach( async (service) => {
+                const avis = await getAvis(service.id_service);
+                let avisToDisplay = [];
+
+                avis.forEach( (a) => {
+                    get(child(database, `users/${a.id_client}`)).then((data) => {
+                        if (data.exists()) {
+                            const snapshot = data.val();
+                            avisToDisplay.push({
+                                id_avis: a.id_avis,                                
+                                client: {
+                                    id_client: a.id_client,
+                                    nomClient: snapshot.nom_user,
+                                    prenomClient: snapshot.prenom_user,
+                                    photoProfil: snapshot.photoProfil? snapshot.photoProfil : 'aucune photo',
+                                },
+                                note: a.note,
+                                commentaire: a.commentaire,
+                                datePublication: a.datePublication,
+                            })
+                        } 
+                        else {
+                            avisToDisplay.push({ message: 'aucun avis trouvé' });
+                        }
+                    })
+                })
+                
+                get(child(database, `users/${service.id_user}`)).then(async (data) => {
                     if (data.exists()) {
                         const snapshot = data.val();
-                        dataDisplay = {
-                            vendeur : {
-                                Id_user: service.id_user,
-                                nom_user: snapshot.nom_user,
-                                prenom_user: snapshot.prenom_user,
-                                photoProfil: snapshot.photoProfil
-                            },
-                            categorie: {
-                                Id_categorie: service.id_categorie[0],
-                                nomCategorie: service.nom_categorie,
-                            },
-                            Id_service: service.id_service,
-                            nomService: service.nomService,
-                            prix: service.prix,
-                            description: service.description,
-                            photoCouverture: service.photoCouverture,
-                            datePublication: service.datePublication,
-                        }
-                        res.status(200).json( dataDisplay );
+
+                            dataDisplay = {
+                                vendeur : {
+                                    Id_user: service.id_user,
+                                    nom_user: snapshot.nom_user,
+                                    prenom_user: snapshot.prenom_user,
+                                    photoProfil: snapshot.photoProfil
+                                },
+                                categorie: {
+                                    Id_categorie: service.id_categorie[0],
+                                    nomCategorie: service.nom_categorie,
+                                },
+                                Id_service: service.id_service,
+                                nomService: service.nomService,
+                                prix: service.prix,
+                                description: service.description,
+                                photoCouverture: service.photoCouverture,
+                                datePublication: service.datePublication,
+                                dateModification: service.dateModification,
+                                avis: avisToDisplay
+                            }
+                            res.status(200).json( dataDisplay );
+                        
                     } else {
                         res.status(404).json({ success: false, message: "aucun utilisateur trouvé pour ce service" });
                     }
@@ -160,7 +188,7 @@ exports.getService = async(req,res) =>{
             res.status(404).json({ success: false, message: "aucun service trouvé" });
         }
     } catch (error) {
-        res.status(500).json({ success: false, message: "une erreur est survenue lors de la récupération des services" });
+        res.status(500).json({ success: false, message: "une erreur lors de la récupération des services" });
     }
 }
 
