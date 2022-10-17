@@ -6,7 +6,7 @@ module.exports = {
       operationId: "getCategorie", // unique operation email
       parameters: [
         {
-            $ref: '#/components/parameters/IdService' // data model of the param
+            $ref: '#/components/parameters/IdCategorie' // data model of the param
         },
       ], // expected params.
       // expected responses

@@ -24,7 +24,7 @@ exports.getAllCategories = async(req,res) =>{
 
 exports.getCategorieById = async(req,res) =>{
     try {
-        const categorie = await getCategorieById(req.params.id);
+        const categorie = await getCategorieById(req.params.idCategorie);
         if(categorie.length !== 0) {
             let data = [];
             categorie.forEach((cat) => {

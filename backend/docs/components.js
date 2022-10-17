@@ -10,7 +10,7 @@ module.exports = {
       parameters: {
         // modele pour connexion
         IdUser: {
-          name: "id", // name of the param
+          name: "idUser", // name of the param
           type: "parameter", // type of the object
           description: "Id de l'utilisateur", // param desc.
           in: "path", // location of the param
@@ -20,13 +20,23 @@ module.exports = {
           },
         },
         IdService: {
-          name: "id", // name of the param
+          name: "idService", // name of the param
           type: "parameter", // type of the object
           description: "Id du service", // param desc.
           in: "path", // location of the param
           schema: {
             type: "int", // data type
-            example: 2, // example of the data
+            example: 6, // example of the data
+          },
+        },
+        IdCategorie: {
+          name: "idCategorie", // name of the param
+          type: "parameter", // type of the object
+          description: "Id de categorie", // param desc.
+          in: "path", // location of the param
+          schema: {
+            type: "int", // data type
+            example: 11, // example of the data
           },
         },
         // modele pour connexion

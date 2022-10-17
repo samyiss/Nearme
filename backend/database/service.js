@@ -1,7 +1,7 @@
 const { getAuth } = require("firebase/auth");
 
 const { fapp } = require('./firebaseconf');
-const { addService, getServices, getService, deleteService } = require("./requeteKnex");
+const { addService, getServices, getService, deleteService, updateService, getCategorieById } = require("./requeteKnex");
 const { get, child, ref, getDatabase } = require("firebase/database");
 
 
@@ -10,7 +10,6 @@ exports.createService = async(req,res) =>{
     const user = auth.currentUser;
 
     if (user !== null) {
-        // choix des infos a envoyer selon la banque de données choisi
         const { Id_categorie, nomService, description, prix, photoCouverture } = req.body;
         try {
             if (Id_categorie === undefined && nomService === undefined)
@@ -40,10 +39,58 @@ exports.createService = async(req,res) =>{
     }
 };
 
+
+exports.updateService = async(req,res) =>{
+    const auth = getAuth(fapp);
+    const user = auth.currentUser;
+    let id_user = '';
+
+    const id = req.params.idService;
+    const data = await getService(id);
+
+    if(data.length === 0) {
+        res.status(404).json({ success: false, message: "aucun service trouvé" });
+    } else {
+        id_user = data[0].id_user;
+    }
+
+    if (user !== null && user.uid === id_user) {
+        const { Id_categorie, nomService, description, prix, photoCouverture } = req.body;
+        console.log(Id_categorie === undefined && nomService === undefined);
+
+        try {
+            if (Id_categorie === undefined || nomService === undefined) {
+                return res.status(400).json({ success : false, message: 'paramètre manquant'});
+            }
+
+            const categorie = await getCategorieById(Id_categorie);
+            console.log(categorie);
+            if(categorie.length === 0) {
+                return res.status(404).json({ success: false, message: "aucune categorie trouvé, veuillez la verifier" });
+            }
+            const DataToSend = {
+                id_categorie: Id_categorie,
+                nomService: nomService,
+                description: description? description : '',
+                prix: prix? prix : 0,
+                photoCouverture: photoCouverture? photoCouverture : '',
+                dateModification: new Date().toLocaleString('fr-FR', 'Canada/Montréal'),
+            };
+            // updte de données
+            await updateService(id, DataToSend)
+            return res.status(201).json({ success : true, message: 'le service a été mis à jour' });
+        } catch (error) {
+            return res.status(500).json({ success: false, message: error });
+        }
+    } else {
+        return res.status(401).json({ success: false, message: 'Vous n\'êtes pas connecté' });
+    }
+};
+
 exports.deleteService = async(req,res) =>{
     const auth = getAuth(fapp);
     const user = auth.currentUser;
-    const id = req.params.id;
+    const id = req.params.idService;
     let id_user = '';
 
     // get id_user of the service
@@ -72,7 +119,7 @@ exports.deleteService = async(req,res) =>{
 
 
 exports.getService = async(req,res) =>{
-    const id = req.params.id;
+    const id = req.params.idService;
     const database = ref(getDatabase());
 
     try {

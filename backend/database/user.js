@@ -371,7 +371,9 @@ exports.getUsers = async (req, res) => {
 
 exports.getUser = async (req, res) => {
     const database = ref(getDatabase());
-    const idUser = req.params.id
+    const idUser = req.params.idUser
+
+    console.log(idUser)
 
     get(child(database, `users/${idUser}`)).then(async (data) => {
         if (data.exists()) {

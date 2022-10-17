@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const docs = require('./docs');
 const swaggerUi = require('swagger-ui-express');
 const { registerUser, loginUsers, validate, getUser, getUsers, resetPassword, deleteUser, updateProfile, update_Password } = require('./database/user');
-const { createService, getAllServices, getService, deleteService } = require('./database/service');
+const { createService, getAllServices, getService, deleteService, updateService } = require('./database/service');
 const { getAllCategories, getCategorieById } = require('./database/categories');
 
 require("dotenv").config(); 
@@ -22,18 +22,19 @@ app.use('/',swaggerUi.serve, swaggerUi.setup(docs));
 router.post('/auth/register', registerUser);
 router.post('/auth/token', loginUsers);
 router.post('/validate', validate);
-router.get('/user/:id', getUser);
+router.get('/user/:idUser', getUser);
 router.get('/users', getUsers);
 router.delete('/user', deleteUser);
 router.put('/user', updateProfile);
+router.put('/service/:idService', updateService);
 router.post('/forget-password/:email', resetPassword)
 router.post('/service', createService)
 router.get('/services', getAllServices)
-router.get('/service/:id', getService)
+router.get('/service/:idService', getService)
 router.post('/update-password', update_Password)
-router.delete('/service/:id', deleteService)
+router.delete('/service/:idService', deleteService)
 router.get('/categories', getAllCategories)
-router.get('/categorie/:id', getCategorieById)
+router.get('/categorie/:idCategorie', getCategorieById)
 
 
 
