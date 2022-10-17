@@ -71,7 +71,7 @@ module.exports = {
             },
             categorie: {
               type: "object",
-              $ref: '#/components/schemas/cartegorieResponse',
+              $ref: '#/components/schemas/categorieResponse',
             },
             IdService: {
               type: "int",
@@ -119,7 +119,7 @@ module.exports = {
             },
             categorie: {
               type: "object",
-              $ref: '#/components/schemas/cartegorieResponse',
+              $ref: '#/components/schemas/categorieResponse',
             },
             IdService: {
               type: "int",
@@ -438,7 +438,7 @@ module.exports = {
             success: false,
           },
         },
-        cartegorieResponse: {
+        categorieResponse: {
           type: "object",
           required: ["idCategorie", "nomCategorie"],
           properties: {

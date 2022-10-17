@@ -11,6 +11,8 @@ const getAllService = require('./services/get-Allservice');
 const ForgetPassword = require('./users/ForgetPassword');
 const updatePassword = require('./users/updatePassword');
 const deleteService = require('./services/delete-Service');
+const getAllCategories = require('./categorieService/get-Allcategorie');
+const getCategorieById = require('./categorieService/get-Categorie');
 
 
 module.exports = {
@@ -50,5 +52,11 @@ module.exports = {
       ...getService,
       ...deleteService
     },
+    '/categories':{
+      ...getAllCategories,
+    },
+    '/categorie/{id}':{
+      ...getCategorieById,
+    }
   } 
 }

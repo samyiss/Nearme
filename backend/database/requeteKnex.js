@@ -9,6 +9,17 @@ function addService(service) {
     
 }
 
+// Requete de test
+function getAllCategories() {
+    return knex('categories');
+}
+
+// Requete de test
+function getCategorieById(id) {
+    return knex('categories')
+                .where('id_categorie', id);;
+}
+
 //get les données de la table services
 function getServices() {
     return knex('services');
@@ -42,5 +53,7 @@ module.exports = {
     getServices,
     getService,
     getServiceByUser,
-    deleteService
+    deleteService,
+    getAllCategories,
+    getCategorieById
 };
