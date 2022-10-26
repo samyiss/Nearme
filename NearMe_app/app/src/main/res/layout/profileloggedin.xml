@@ -17,12 +17,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <androidx.constraintlayout.motion.widget.MotionLayout
             android:id="@+id/information_general"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@color/white"
             android:orientation="vertical"
+            app:layoutDescription="@xml/profileloggedin_xml_information_general_scene"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -136,14 +137,18 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/AllerConnexion"
-                app:layout_constraintTop_toBottomOf="@+id/me"
-                tools:layout_editor_absoluteX="37dp" />
+                app:layout_constraintEnd_toStartOf="@+id/updateProfile"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toBottomOf="@+id/me" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                tools:layout_editor_absoluteX="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/textView2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="202dp"
                 tools:srcCompat="@tools:sample/avatars" />
 
@@ -154,12 +159,13 @@
                 android:layout_weight="1"
                 app:layout_constraintBottom_toTopOf="@+id/AllerConnexion"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textView2"
                 app:layout_constraintTop_toTopOf="@+id/textView2"
                 app:layout_constraintVertical_bias="0.0"
                 app:srcCompat="@android:drawable/ic_media_play" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.motion.widget.MotionLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout2"

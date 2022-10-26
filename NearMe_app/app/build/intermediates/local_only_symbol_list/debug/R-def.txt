@@ -149,7 +149,7 @@ id nomCategorie
 id paramsText
 id passer
 id resetPassword
-id send
+id sendUpdate
 id switch_online_status
 id switch_online_status_guest_general_choix_2
 id textInputLayout
